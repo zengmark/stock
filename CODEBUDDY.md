@@ -66,5 +66,5 @@ stock/
 - GitHub 仓库：git@github.com:zengmark/stock.git
 - 图表工具：TradingView
 - 插图/信息图：infographic-maker（手绘卡通风格，适合知识卡片、产业链概览等场景）
-- 金融数据：stock-analyzer（东方财富，A股/港股/美股基本面+资金面）、neodata-financial-search（自然语言金融数据查询）
+- 金融数据：stock-analyzer（东方财富，A股/港股/美股基本面+资金面）、neodata-financial-search（自然语言金融数据查询）、westock-data（腾讯自选股，K线/财报/资金流向/行业板块行情）
 - ima 知识库：内容同步到 stock 知识库，本地编写 → ima 查看
