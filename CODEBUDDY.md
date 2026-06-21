@@ -10,7 +10,7 @@
 - **货币符号**：默认使用 ¥（人民币），港股辅以 HK$，美股辅以 $
 - **语言**：所有内容使用简体中文，界面文字亦为简体中文
 - **文件格式**：知识内容以 Markdown（.md）为主，数据表可辅以 CSV/XLSX
-- **外部依赖**：使用金融数据相关技能获取实时/历史行情与财务数据；TradingView 用于技术图表
+- **图表/插画**：行业知识卡片、产业链插图等场景使用 `infographic-maker` 技能生成手绘风格信息图；数据图表优先 SVG（`show_widget`）或 TradingView
 
 ## 当前目录结构
 
@@ -53,3 +53,4 @@ stock/
 ## 关联资源
 - GitHub 仓库：git@github.com:zengmark/stock.git
 - 图表工具：TradingView
+- 插图/信息图：infographic-maker（手绘卡通风格，适合知识卡片、产业链概览等场景）
