@@ -5,12 +5,17 @@
 - 远程仓库：`git@github.com:zengmark/stock.git`
 - 分支：main
 
+## 当前模块
+- 01-板块产业链（A股/港股/美股，上中下游全景）
+- 02-板块细分（A股/港股/美股，细分赛道、竞争格局）
+
 ## 约定
 - 颜色规则：涨红跌绿（A 股习惯）
 - 语言：简体中文
 - 内容格式：Markdown 为主
 - 数据技能：ardot-design-assistant
 - 图表工具：TradingView
+- 目录扩展：按需渐进，不预设过多空目录
 
 ## Commit 规范
 格式：`模块名: 简短描述`
