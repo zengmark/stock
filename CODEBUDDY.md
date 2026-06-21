@@ -10,6 +10,7 @@
 - **货币符号**：默认使用 ¥（人民币），港股辅以 HK$，美股辅以 $
 - **语言**：所有内容使用简体中文，界面文字亦为简体中文
 - **文件格式**：知识内容以 Markdown（.md）为主，数据表可辅以 CSV/XLSX
+- **金融数据**：核心财务数据（营收/净利润/增速）必须使用 `stock-analyzer`（东方财富）或 `neodata-financial-search` 技能获取最新准确数据，不得仅依赖 WebSearch 得到的历史数据
 ## 图表 / 插画策略（强制）
 
 **所有可视化内容必须使用实际图片文件，禁止纯文本/ASCII/代码块模拟图表。**
@@ -65,4 +66,5 @@ stock/
 - GitHub 仓库：git@github.com:zengmark/stock.git
 - 图表工具：TradingView
 - 插图/信息图：infographic-maker（手绘卡通风格，适合知识卡片、产业链概览等场景）
+- 金融数据：stock-analyzer（东方财富，A股/港股/美股基本面+资金面）、neodata-financial-search（自然语言金融数据查询）
 - ima 知识库：内容同步到 stock 知识库，本地编写 → ima 查看
