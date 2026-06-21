@@ -58,10 +58,11 @@ stock/
 审查通过后再 commit，不通过则修正后重新审查。
 
 ### 常用工作流
-1. 用户提出某个行业想学习 → 获取数据 → 整理 Markdown → 归档到 `01-板块研究/{行业}/{市场}/` → 审查 Agent 检查 → commit + push
+1. 用户提出某个行业想学习 → 获取数据 → 整理 Markdown → 归档到 `01-板块研究/{行业}/{市场}/` → 审查 Agent 检查 → commit + push → **同步到 ima「stock」知识库**
 2. 学习过程中发现需要新模块 → 讨论后增量扩展，不预设空目录
 
 ## 关联资源
 - GitHub 仓库：git@github.com:zengmark/stock.git
 - 图表工具：TradingView
 - 插图/信息图：infographic-maker（手绘卡通风格，适合知识卡片、产业链概览等场景）
+- ima 知识库：内容同步到 stock 知识库，本地编写 → ima 查看
