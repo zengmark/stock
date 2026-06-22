@@ -1,232 +1,200 @@
-<svg role="img" width="100%" viewBox="0 0 720 545" xmlns="http://www.w3.org/2000/svg">
+<svg role="img" width="100%" viewBox="0 0 800 550" xmlns="http://www.w3.org/2000/svg">
   <title>2.5D and 3D advanced packaging cross-section comparison</title>
-  <desc>Side-by-side cross-sections showing 2.5D silicon interposer packaging and 3D die stacking packaging with labeled layers</desc>
-
-  <defs>
-    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-      <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-    </marker>
-  </defs>
-
+  <desc>Side-by-side cross-sections showing 2.5D silicon interposer packaging and 3D die stacking packaging</desc>
   <style>
     .t  { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 15px; fill: #3C3489; font-weight: 500; }
     .th { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 13px; fill: #3C3489; font-weight: 500; }
     .ts { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 12px; fill: #5F5E5A; font-weight: 400; }
     .tx { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 11px; fill: #5F5E5A; font-weight: 400; }
-    .tl { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 11px; fill: #444441; font-weight: 400; }
+    .note { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 10px; fill: #888780; font-weight: 400; }
   </style>
 
   <!-- Section divider -->
-  <line x1="360" y1="40" x2="360" y2="400" stroke="#D3D1C7" stroke-width="0.5" stroke-dasharray="4 4"/>
+  <line x1="400" y1="35" x2="400" y2="330" stroke="#D3D1C7" stroke-width="0.5" stroke-dasharray="4 4"/>
 
-  <!-- ===== TITLES ===== -->
-  <text class="t" x="175" y="30" text-anchor="middle">2.5D 封装（硅中介层互联）</text>
-  <text class="t" x="545" y="30" text-anchor="middle">3D 封装（芯片垂直堆叠）</text>
+  <!-- Titles -->
+  <text class="t" x="195" y="28" text-anchor="middle">2.5D 封装（硅中介层互联）</text>
+  <text class="t" x="605" y="28" text-anchor="middle">3D 封装（芯片垂直堆叠）</text>
 
-  <!-- ================================================================== -->
-  <!-- 2.5D SIDE - Left Panel (x: 40-320)                                  -->
-  <!-- ================================================================== -->
+  <!-- ========== 2.5D SIDE ========== -->
 
   <!-- Logic Die -->
-  <rect x="50" y="45" width="100" height="50" rx="3" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
-  <text class="th" x="100" y="63" text-anchor="middle" dominant-baseline="central">逻辑芯片</text>
-  <text class="tx" x="100" y="78" text-anchor="middle" dominant-baseline="central">Logic Die</text>
+  <rect x="60" y="40" width="110" height="48" rx="3" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+  <text class="th" x="115" y="57" text-anchor="middle" dominant-baseline="central">逻辑芯片</text>
+  <text class="tx" x="115" y="72" text-anchor="middle" dominant-baseline="central">Logic Die</text>
 
   <!-- HBM DRAM -->
-  <rect x="170" y="45" width="100" height="50" rx="3" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
-  <text class="th" x="220" y="63" text-anchor="middle" dominant-baseline="central">HBM DRAM</text>
-  <text class="tx" x="220" y="78" text-anchor="middle" dominant-baseline="central">4-8层堆叠</text>
-  <!-- DRAM layer lines -->
-  <line x1="175" y1="50" x2="265" y2="50" stroke="#AFA9EC" stroke-width="0.3"/>
-  <line x1="175" y1="54" x2="265" y2="54" stroke="#AFA9EC" stroke-width="0.3"/>
-  <line x1="175" y1="58" x2="265" y2="58" stroke="#AFA9EC" stroke-width="0.3"/>
+  <rect x="190" y="40" width="110" height="48" rx="3" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
+  <text class="th" x="245" y="57" text-anchor="middle" dominant-baseline="central">HBM DRAM</text>
+  <text class="tx" x="245" y="72" text-anchor="middle" dominant-baseline="central">4-8层堆叠</text>
+  <line x1="195" y1="45" x2="295" y2="45" stroke="#AFA9EC" stroke-width="0.3"/>
+  <line x1="195" y1="49" x2="295" y2="49" stroke="#AFA9EC" stroke-width="0.3"/>
+  <line x1="195" y1="53" x2="295" y2="53" stroke="#AFA9EC" stroke-width="0.3"/>
 
-  <!-- Microbumps (below dies) -->
-  <rect x="85" y="96" width="10" height="6" rx="1" fill="#888780" stroke="#5F5E5A" stroke-width="0.3"/>
-  <rect x="105" y="96" width="10" height="6" rx="1" fill="#888780" stroke="#5F5E5A" stroke-width="0.3"/>
-  <rect x="125" y="96" width="10" height="6" rx="1" fill="#888780" stroke="#5F5E5A" stroke-width="0.3"/>
-  <rect x="195" y="96" width="10" height="6" rx="1" fill="#888780" stroke="#5F5E5A" stroke-width="0.3"/>
-  <rect x="215" y="96" width="10" height="6" rx="1" fill="#888780" stroke="#5F5E5A" stroke-width="0.3"/>
-  <rect x="235" y="96" width="10" height="6" rx="1" fill="#888780" stroke="#5F5E5A" stroke-width="0.3"/>
+  <!-- Microbumps -->
+  <rect x="95" y="89" width="10" height="5" rx="1" fill="#888780" stroke="#5F5E5A" stroke-width="0.3"/>
+  <rect x="115" y="89" width="10" height="5" rx="1" fill="#888780" stroke="#5F5E5A" stroke-width="0.3"/>
+  <rect x="135" y="89" width="10" height="5" rx="1" fill="#888780" stroke="#5F5E5A" stroke-width="0.3"/>
+  <rect x="215" y="89" width="10" height="5" rx="1" fill="#888780" stroke="#5F5E5A" stroke-width="0.3"/>
+  <rect x="235" y="89" width="10" height="5" rx="1" fill="#888780" stroke="#5F5E5A" stroke-width="0.3"/>
+  <rect x="255" y="89" width="10" height="5" rx="1" fill="#888780" stroke="#5F5E5A" stroke-width="0.3"/>
 
   <!-- RDL Top -->
-  <rect x="45" y="103" width="230" height="5" rx="1" fill="#F4C0D1" stroke="#993556" stroke-width="0.5"/>
+  <rect x="55" y="95" width="250" height="4" rx="1" fill="#F4C0D1" stroke="#993556" stroke-width="0.5"/>
 
   <!-- Silicon Interposer -->
-  <rect x="40" y="109" width="240" height="75" rx="5" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
-  <text class="th" x="160" y="128" text-anchor="middle" dominant-baseline="central">硅中介层</text>
-  <text class="ts" x="160" y="145" text-anchor="middle" dominant-baseline="central">Silicon Interposer</text>
-  <text class="tx" x="160" y="160" text-anchor="middle" dominant-baseline="central">无源硅基板，含多层金属布线</text>
+  <rect x="50" y="100" width="260" height="70" rx="5" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
+  <text class="th" x="180" y="118" text-anchor="middle" dominant-baseline="central">硅中介层</text>
+  <text class="ts" x="180" y="135" text-anchor="middle" dominant-baseline="central">Silicon Interposer</text>
+  <text class="tx" x="180" y="150" text-anchor="middle" dominant-baseline="central">无源硅基板，含多层金属布线</text>
 
   <!-- TSVs in interposer -->
-  <line x1="100" y1="114" x2="100" y2="179" stroke="#D85A30" stroke-width="2.5" stroke-opacity="0.7"/>
-  <line x1="160" y1="114" x2="160" y2="179" stroke="#D85A30" stroke-width="2.5" stroke-opacity="0.7"/>
-  <line x1="220" y1="114" x2="220" y2="179" stroke="#D85A30" stroke-width="2.5" stroke-opacity="0.7"/>
-  <text class="tx" x="95" y="175" text-anchor="end" fill="#D85A30">TSV</text>
-  <text class="tx" x="155" y="175" text-anchor="end" fill="#D85A30">TSV</text>
-  <text class="tx" x="215" y="175" text-anchor="end" fill="#D85A30">TSV</text>
+  <line x1="115" y1="105" x2="115" y2="165" stroke="#D85A30" stroke-width="2.5" stroke-opacity="0.7"/>
+  <line x1="180" y1="105" x2="180" y2="165" stroke="#D85A30" stroke-width="2.5" stroke-opacity="0.7"/>
+  <line x1="245" y1="105" x2="245" y2="165" stroke="#D85A30" stroke-width="2.5" stroke-opacity="0.7"/>
 
   <!-- RDL Bottom -->
-  <rect x="45" y="185" width="230" height="5" rx="1" fill="#F4C0D1" stroke="#993556" stroke-width="0.5"/>
+  <rect x="55" y="171" width="250" height="4" rx="1" fill="#F4C0D1" stroke="#993556" stroke-width="0.5"/>
 
   <!-- C4 bumps -->
-  <circle cx="75" cy="197" r="4.5" fill="#B4B2A9" stroke="#5F5E5A" stroke-width="0.3"/>
-  <circle cx="105" cy="197" r="4.5" fill="#B4B2A9" stroke="#5F5E5A" stroke-width="0.3"/>
-  <circle cx="135" cy="197" r="4.5" fill="#B4B2A9" stroke="#5F5E5A" stroke-width="0.3"/>
-  <circle cx="165" cy="197" r="4.5" fill="#B4B2A9" stroke="#5F5E5A" stroke-width="0.3"/>
-  <circle cx="195" cy="197" r="4.5" fill="#B4B2A9" stroke="#5F5E5A" stroke-width="0.3"/>
-  <circle cx="225" cy="197" r="4.5" fill="#B4B2A9" stroke="#5F5E5A" stroke-width="0.3"/>
-  <circle cx="255" cy="197" r="4.5" fill="#B4B2A9" stroke="#5F5E5A" stroke-width="0.3"/>
+  <circle cx="85" cy="182" r="4" fill="#B4B2A9" stroke="#5F5E5A" stroke-width="0.3"/>
+  <circle cx="115" cy="182" r="4" fill="#B4B2A9" stroke="#5F5E5A" stroke-width="0.3"/>
+  <circle cx="145" cy="182" r="4" fill="#B4B2A9" stroke="#5F5E5A" stroke-width="0.3"/>
+  <circle cx="180" cy="182" r="4" fill="#B4B2A9" stroke="#5F5E5A" stroke-width="0.3"/>
+  <circle cx="215" cy="182" r="4" fill="#B4B2A9" stroke="#5F5E5A" stroke-width="0.3"/>
+  <circle cx="245" cy="182" r="4" fill="#B4B2A9" stroke="#5F5E5A" stroke-width="0.3"/>
+  <circle cx="275" cy="182" r="4" fill="#B4B2A9" stroke="#5F5E5A" stroke-width="0.3"/>
 
   <!-- Package Substrate -->
-  <rect x="30" y="205" width="260" height="42" rx="4" fill="#FAEEDA" stroke="#854F0B" stroke-width="0.5"/>
-  <text class="th" x="160" y="221" text-anchor="middle" dominant-baseline="central">ABF 封装基板</text>
-  <text class="tx" x="160" y="238" text-anchor="middle" dominant-baseline="central">Package Substrate</text>
+  <rect x="40" y="190" width="280" height="38" rx="4" fill="#FAEEDA" stroke="#854F0B" stroke-width="0.5"/>
+  <text class="th" x="180" y="205" text-anchor="middle" dominant-baseline="central">ABF 封装基板</text>
+  <text class="tx" x="180" y="220" text-anchor="middle" dominant-baseline="central">Package Substrate</text>
 
   <!-- BGA balls -->
-  <circle cx="65" cy="255" r="5" fill="#D3D1C7" stroke="#888780" stroke-width="0.3"/>
-  <circle cx="95" cy="255" r="5" fill="#D3D1C7" stroke="#888780" stroke-width="0.3"/>
-  <circle cx="125" cy="255" r="5" fill="#D3D1C7" stroke="#888780" stroke-width="0.3"/>
-  <circle cx="155" cy="255" r="5" fill="#D3D1C7" stroke="#888780" stroke-width="0.3"/>
-  <circle cx="185" cy="255" r="5" fill="#D3D1C7" stroke="#888780" stroke-width="0.3"/>
-  <circle cx="215" cy="255" r="5" fill="#D3D1C7" stroke="#888780" stroke-width="0.3"/>
-  <circle cx="245" cy="255" r="5" fill="#D3D1C7" stroke="#888780" stroke-width="0.3"/>
+  <circle cx="75" cy="236" r="4.5" fill="#D3D1C7" stroke="#888780" stroke-width="0.3"/>
+  <circle cx="105" cy="236" r="4.5" fill="#D3D1C7" stroke="#888780" stroke-width="0.3"/>
+  <circle cx="135" cy="236" r="4.5" fill="#D3D1C7" stroke="#888780" stroke-width="0.3"/>
+  <circle cx="165" cy="236" r="4.5" fill="#D3D1C7" stroke="#888780" stroke-width="0.3"/>
+  <circle cx="195" cy="236" r="4.5" fill="#D3D1C7" stroke="#888780" stroke-width="0.3"/>
+  <circle cx="225" cy="236" r="4.5" fill="#D3D1C7" stroke="#888780" stroke-width="0.3"/>
+  <circle cx="255" cy="236" r="4.5" fill="#D3D1C7" stroke="#888780" stroke-width="0.3"/>
+  <circle cx="285" cy="236" r="4.5" fill="#D3D1C7" stroke="#888780" stroke-width="0.3"/>
 
   <!-- PCB -->
-  <rect x="20" y="265" width="280" height="20" rx="3" fill="#EAF3DE" stroke="#3B6D11" stroke-width="0.5"/>
-  <text class="tx" x="160" y="278" text-anchor="middle" dominant-baseline="central">PCB / 主板</text>
+  <rect x="30" y="245" width="300" height="18" rx="3" fill="#EAF3DE" stroke="#3B6D11" stroke-width="0.5"/>
+  <text class="tx" x="180" y="257" text-anchor="middle" dominant-baseline="central">PCB / 主板</text>
 
-  <!-- ================================================================== -->
-  <!-- 3D SIDE - Right Panel (x: 400-700)                                  -->
-  <!-- ================================================================== -->
+  <!-- ========== 3D SIDE ========== -->
 
   <!-- Die 4 (top) -->
-  <rect x="410" y="45" width="260" height="35" rx="3" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
-  <text class="th" x="540" y="57" text-anchor="middle" dominant-baseline="central">Die 4 — 存储芯片 (DRAM)</text>
-  <text class="tx" x="540" y="72" text-anchor="middle" dominant-baseline="central">~40μm 厚</text>
+  <rect x="430" y="40" width="220" height="32" rx="3" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
+  <text class="th" x="540" y="53" text-anchor="middle" dominant-baseline="central">Die 4 — DRAM</text>
+  <text class="tx" x="540" y="67" text-anchor="middle" dominant-baseline="central">~40μm</text>
 
   <!-- TSV through Die 4 -->
-  <line x1="460" y1="45" x2="460" y2="80" stroke="#D85A30" stroke-width="2.5" stroke-opacity="0.7"/>
-  <line x1="540" y1="45" x2="540" y2="80" stroke="#D85A30" stroke-width="2.5" stroke-opacity="0.7"/>
-  <line x1="620" y1="45" x2="620" y2="80" stroke="#D85A30" stroke-width="2.5" stroke-opacity="0.7"/>
+  <line x1="480" y1="40" x2="480" y2="72" stroke="#D85A30" stroke-width="2.5" stroke-opacity="0.7"/>
+  <line x1="540" y1="40" x2="540" y2="72" stroke="#D85A30" stroke-width="2.5" stroke-opacity="0.7"/>
+  <line x1="600" y1="40" x2="600" y2="72" stroke="#D85A30" stroke-width="2.5" stroke-opacity="0.7"/>
 
   <!-- Hybrid Bonding 1 -->
-  <rect x="410" y="81" width="260" height="6" rx="1" fill="#F4C0D1" stroke="#993556" stroke-width="0.5"/>
-  <text class="tx" x="540" y="86" text-anchor="middle" dominant-baseline="central">Cu-Cu 混合键合</text>
+  <rect x="430" y="73" width="220" height="5" rx="1" fill="#F4C0D1" stroke="#993556" stroke-width="0.5"/>
 
   <!-- Die 3 -->
-  <rect x="408" y="88" width="264" height="35" rx="3" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
-  <text class="th" x="540" y="100" text-anchor="middle" dominant-baseline="central">Die 3 — 存储芯片 (DRAM)</text>
-  <text class="tx" x="540" y="115" text-anchor="middle" dominant-baseline="central">~50μm 厚</text>
+  <rect x="428" y="79" width="224" height="32" rx="3" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
+  <text class="th" x="540" y="92" text-anchor="middle" dominant-baseline="central">Die 3 — DRAM</text>
+  <text class="tx" x="540" y="106" text-anchor="middle" dominant-baseline="central">~50μm</text>
 
   <!-- TSV through Die 3 -->
-  <line x1="460" y1="88" x2="460" y2="123" stroke="#D85A30" stroke-width="2.5" stroke-opacity="0.7"/>
-  <line x1="540" y1="88" x2="540" y2="123" stroke="#D85A30" stroke-width="2.5" stroke-opacity="0.7"/>
-  <line x1="620" y1="88" x2="620" y2="123" stroke="#D85A30" stroke-width="2.5" stroke-opacity="0.7"/>
+  <line x1="480" y1="79" x2="480" y2="111" stroke="#D85A30" stroke-width="2.5" stroke-opacity="0.7"/>
+  <line x1="540" y1="79" x2="540" y2="111" stroke="#D85A30" stroke-width="2.5" stroke-opacity="0.7"/>
+  <line x1="600" y1="79" x2="600" y2="111" stroke="#D85A30" stroke-width="2.5" stroke-opacity="0.7"/>
 
   <!-- Hybrid Bonding 2 -->
-  <rect x="410" y="124" width="260" height="6" rx="1" fill="#F4C0D1" stroke="#993556" stroke-width="0.5"/>
-  <text class="tx" x="540" y="129" text-anchor="middle" dominant-baseline="central">Cu-Cu 混合键合</text>
+  <rect x="430" y="112" width="220" height="5" rx="1" fill="#F4C0D1" stroke="#993556" stroke-width="0.5"/>
 
   <!-- Die 2 (Logic) -->
-  <rect x="406" y="131" width="268" height="38" rx="3" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
-  <text class="th" x="540" y="145" text-anchor="middle" dominant-baseline="central">Die 2 — 逻辑芯片 (Logic)</text>
-  <text class="tx" x="540" y="162" text-anchor="middle" dominant-baseline="central">~60μm 厚</text>
+  <rect x="426" y="118" width="228" height="35" rx="3" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+  <text class="th" x="540" y="131" text-anchor="middle" dominant-baseline="central">Die 2 — Logic</text>
+  <text class="tx" x="540" y="147" text-anchor="middle" dominant-baseline="central">~60μm</text>
 
   <!-- TSV through Die 2 -->
-  <line x1="460" y1="131" x2="460" y2="169" stroke="#D85A30" stroke-width="2.5" stroke-opacity="0.7"/>
-  <line x1="540" y1="131" x2="540" y2="169" stroke="#D85A30" stroke-width="2.5" stroke-opacity="0.7"/>
-  <line x1="620" y1="131" x2="620" y2="169" stroke="#D85A30" stroke-width="2.5" stroke-opacity="0.7"/>
+  <line x1="480" y1="118" x2="480" y2="153" stroke="#D85A30" stroke-width="2.5" stroke-opacity="0.7"/>
+  <line x1="540" y1="118" x2="540" y2="153" stroke="#D85A30" stroke-width="2.5" stroke-opacity="0.7"/>
+  <line x1="600" y1="118" x2="600" y2="153" stroke="#D85A30" stroke-width="2.5" stroke-opacity="0.7"/>
 
   <!-- Hybrid Bonding 3 -->
-  <rect x="408" y="170" width="264" height="6" rx="1" fill="#F4C0D1" stroke="#993556" stroke-width="0.5"/>
-  <text class="tx" x="540" y="175" text-anchor="middle" dominant-baseline="central">Cu-Cu 混合键合</text>
+  <rect x="428" y="154" width="224" height="5" rx="1" fill="#F4C0D1" stroke="#993556" stroke-width="0.5"/>
 
   <!-- Die 1 (Base) -->
-  <rect x="404" y="177" width="272" height="42" rx="3" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
-  <text class="th" x="540" y="192" text-anchor="middle" dominant-baseline="central">Die 1 — 基础芯片 (Base Die)</text>
-  <text class="tx" x="540" y="210" text-anchor="middle" dominant-baseline="central">含 TSV / 底部金属化 / ~80μm 厚</text>
+  <rect x="424" y="160" width="232" height="38" rx="3" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+  <text class="th" x="540" y="173" text-anchor="middle" dominant-baseline="central">Die 1 — Base Die</text>
+  <text class="tx" x="540" y="190" text-anchor="middle" dominant-baseline="central">含 TSV / ~80μm</text>
 
   <!-- TSV through Die 1 -->
-  <line x1="460" y1="177" x2="460" y2="219" stroke="#D85A30" stroke-width="2.5" stroke-opacity="0.7"/>
-  <line x1="540" y1="177" x2="540" y2="219" stroke="#D85A30" stroke-width="2.5" stroke-opacity="0.7"/>
-  <line x1="620" y1="177" x2="620" y2="219" stroke="#D85A30" stroke-width="2.5" stroke-opacity="0.7"/>
+  <line x1="480" y1="160" x2="480" y2="198" stroke="#D85A30" stroke-width="2.5" stroke-opacity="0.7"/>
+  <line x1="540" y1="160" x2="540" y2="198" stroke="#D85A30" stroke-width="2.5" stroke-opacity="0.7"/>
+  <line x1="600" y1="160" x2="600" y2="198" stroke="#D85A30" stroke-width="2.5" stroke-opacity="0.7"/>
 
   <!-- C4 bumps -->
-  <circle cx="435" cy="225" r="4.5" fill="#B4B2A9" stroke="#5F5E5A" stroke-width="0.3"/>
-  <circle cx="465" cy="225" r="4.5" fill="#B4B2A9" stroke="#5F5E5A" stroke-width="0.3"/>
-  <circle cx="495" cy="225" r="4.5" fill="#B4B2A9" stroke="#5F5E5A" stroke-width="0.3"/>
-  <circle cx="540" cy="225" r="4.5" fill="#B4B2A9" stroke="#5F5E5A" stroke-width="0.3"/>
-  <circle cx="585" cy="225" r="4.5" fill="#B4B2A9" stroke="#5F5E5A" stroke-width="0.3"/>
-  <circle cx="615" cy="225" r="4.5" fill="#B4B2A9" stroke="#5F5E5A" stroke-width="0.3"/>
-  <circle cx="645" cy="225" r="4.5" fill="#B4B2A9" stroke="#5F5E5A" stroke-width="0.3"/>
+  <circle cx="450" cy="204" r="4" fill="#B4B2A9" stroke="#5F5E5A" stroke-width="0.3"/>
+  <circle cx="480" cy="204" r="4" fill="#B4B2A9" stroke="#5F5E5A" stroke-width="0.3"/>
+  <circle cx="510" cy="204" r="4" fill="#B4B2A9" stroke="#5F5E5A" stroke-width="0.3"/>
+  <circle cx="540" cy="204" r="4" fill="#B4B2A9" stroke="#5F5E5A" stroke-width="0.3"/>
+  <circle cx="570" cy="204" r="4" fill="#B4B2A9" stroke="#5F5E5A" stroke-width="0.3"/>
+  <circle cx="600" cy="204" r="4" fill="#B4B2A9" stroke="#5F5E5A" stroke-width="0.3"/>
+  <circle cx="630" cy="204" r="4" fill="#B4B2A9" stroke="#5F5E5A" stroke-width="0.3"/>
 
   <!-- Package Substrate -->
-  <rect x="400" y="233" width="280" height="42" rx="4" fill="#FAEEDA" stroke="#854F0B" stroke-width="0.5"/>
-  <text class="th" x="540" y="249" text-anchor="middle" dominant-baseline="central">ABF 封装基板</text>
-  <text class="tx" x="540" y="266" text-anchor="middle" dominant-baseline="central">Package Substrate</text>
+  <rect x="420" y="212" width="240" height="38" rx="4" fill="#FAEEDA" stroke="#854F0B" stroke-width="0.5"/>
+  <text class="th" x="540" y="227" text-anchor="middle" dominant-baseline="central">ABF 封装基板</text>
+  <text class="tx" x="540" y="242" text-anchor="middle" dominant-baseline="central">Package Substrate</text>
 
   <!-- BGA balls -->
-  <circle cx="430" cy="283" r="5" fill="#D3D1C7" stroke="#888780" stroke-width="0.3"/>
-  <circle cx="460" cy="283" r="5" fill="#D3D1C7" stroke="#888780" stroke-width="0.3"/>
-  <circle cx="490" cy="283" r="5" fill="#D3D1C7" stroke="#888780" stroke-width="0.3"/>
-  <circle cx="520" cy="283" r="5" fill="#D3D1C7" stroke="#888780" stroke-width="0.3"/>
-  <circle cx="540" cy="283" r="5" fill="#D3D1C7" stroke="#888780" stroke-width="0.3"/>
-  <circle cx="560" cy="283" r="5" fill="#D3D1C7" stroke="#888780" stroke-width="0.3"/>
-  <circle cx="590" cy="283" r="5" fill="#D3D1C7" stroke="#888780" stroke-width="0.3"/>
-  <circle cx="620" cy="283" r="5" fill="#D3D1C7" stroke="#888780" stroke-width="0.3"/>
-  <circle cx="650" cy="283" r="5" fill="#D3D1C7" stroke="#888780" stroke-width="0.3"/>
+  <circle cx="445" cy="258" r="4.5" fill="#D3D1C7" stroke="#888780" stroke-width="0.3"/>
+  <circle cx="475" cy="258" r="4.5" fill="#D3D1C7" stroke="#888780" stroke-width="0.3"/>
+  <circle cx="505" cy="258" r="4.5" fill="#D3D1C7" stroke="#888780" stroke-width="0.3"/>
+  <circle cx="535" cy="258" r="4.5" fill="#D3D1C7" stroke="#888780" stroke-width="0.3"/>
+  <circle cx="565" cy="258" r="4.5" fill="#D3D1C7" stroke="#888780" stroke-width="0.3"/>
+  <circle cx="595" cy="258" r="4.5" fill="#D3D1C7" stroke="#888780" stroke-width="0.3"/>
+  <circle cx="625" cy="258" r="4.5" fill="#D3D1C7" stroke="#888780" stroke-width="0.3"/>
+  <circle cx="655" cy="258" r="4.5" fill="#D3D1C7" stroke="#888780" stroke-width="0.3"/>
 
   <!-- PCB -->
-  <rect x="390" y="293" width="300" height="20" rx="3" fill="#EAF3DE" stroke="#3B6D11" stroke-width="0.5"/>
-  <text class="tx" x="540" y="307" text-anchor="middle" dominant-baseline="central">PCB / 主板</text>
+  <rect x="410" y="267" width="260" height="18" rx="3" fill="#EAF3DE" stroke="#3B6D11" stroke-width="0.5"/>
+  <text class="tx" x="540" y="279" text-anchor="middle" dominant-baseline="central">PCB / 主板</text>
 
-  <!-- ================================================================== -->
-  <!-- ANNOTATIONS - Right side labels                                     -->
-  <!-- ================================================================== -->
+  <!-- ========== 3D SIDE ANNOTATIONS (below stack) ========== -->
+  <text class="note" x="430" y="298" text-anchor="start">TSV 贯穿所有芯片层实现垂直互联</text>
+  <text class="note" x="430" y="310" text-anchor="start">层间采用 Cu-Cu 混合键合（间距&lt;10μm）</text>
 
-  <!-- 3D side annotations -->
-  <text class="tx" x="680" y="60" text-anchor="start">TSV 贯穿</text>
-  <text class="tx" x="680" y="130" text-anchor="start">晶圆减薄至 40–80μm</text>
-  <text class="tx" x="680" y="172" text-anchor="start">混合键合</text>
-  <text class="tx" x="680" y="220" text-anchor="start">C4 凸块</text>
-  <text class="tx" x="680" y="288" text-anchor="start">BGA 焊球</text>
+  <!-- ========== LEGEND ========== -->
+  <rect x="20" y="330" width="760" height="200" rx="8" fill="#F9F9F7" stroke="#D3D1C7" stroke-width="0.5"/>
+  <text class="th" x="400" y="355" text-anchor="middle">关键结构与工艺说明</text>
 
-  <!-- ================================================================== -->
-  <!-- LEGEND - Bottom Section                                             -->
-  <!-- ================================================================== -->
+  <!-- Legend row 1 -->
+  <line x1="50" y1="375" x2="90" y2="375" stroke="#D85A30" stroke-width="3" stroke-opacity="0.7"/>
+  <text class="tx" x="95" y="378" text-anchor="start">TSV — 硅通孔 (Through-Silicon Via)，芯片垂直方向的导电通道</text>
 
-  <!-- Legend Box -->
-  <rect x="20" y="330" width="680" height="85" rx="8" fill="#F9F9F7" stroke="#D3D1C7" stroke-width="0.5"/>
+  <rect x="420" y="370" width="18" height="8" rx="1" fill="#F4C0D1" stroke="#993556" stroke-width="0.5"/>
+  <text class="tx" x="443" y="378" text-anchor="start">RDL / 混合键合 — 重布线层，2.5D 中介层布线或 3D 的 Cu-Cu 直接键合</text>
 
-  <text class="th" x="360" y="350" text-anchor="middle">关键结构与工艺说明</text>
+  <!-- Legend row 2 -->
+  <rect x="50" y="395" width="10" height="6" rx="1" fill="#888780" stroke="#5F5E5A" stroke-width="0.3"/>
+  <text class="tx" x="65" y="400" text-anchor="start">μbump — 微凸块，2.5D 芯片与中介层间的连接点</text>
 
-  <!-- Legend items - Row 1 -->
-  <line x1="60" y1="365" x2="100" y2="365" stroke="#D85A30" stroke-width="3" stroke-opacity="0.7"/>
-  <text class="tx" x="105" y="368" text-anchor="start">TSV — 硅通孔（Through-Silicon Via），芯片垂直互联的导电通道</text>
+  <circle cx="430" cy="398" r="4" fill="#B4B2A9" stroke="#5F5E5A" stroke-width="0.3"/>
+  <text class="tx" x="440" y="400" text-anchor="start">C4 凸块 — 芯片与封装基板间的连接点</text>
 
-  <rect x="380" y="360" width="20" height="8" rx="1" fill="#F4C0D1" stroke="#993556" stroke-width="0.5"/>
-  <text class="tx" x="405" y="368" text-anchor="start">RDL / 混合键合 — 重布线层，实现芯片间高密度互联</text>
+  <!-- Legend row 3 -->
+  <circle cx="55" cy="418" r="4" fill="#D3D1C7" stroke="#888780" stroke-width="0.3"/>
+  <text class="tx" x="65" y="420" text-anchor="start">BGA 焊球 — 封装基板与 PCB 主板间的连接点</text>
 
-  <!-- Legend items - Row 2 -->
-  <rect x="65" y="381" width="10" height="6" rx="1" fill="#888780" stroke="#5F5E5A" stroke-width="0.3"/>
-  <text class="tx" x="80" y="388" text-anchor="start">μbump — 微凸块，2.5D 芯片与中介层间的连接点</text>
+  <!-- Comparison -->
+  <rect x="35" y="435" width="730" height="85" rx="6" fill="#EEEDFE" stroke="#AFA9EC" stroke-width="0.5"/>
+  <text class="th" x="400" y="455" text-anchor="middle">2.5D vs 3D 核心差异</text>
 
-  <circle cx="395" cy="385" r="4" fill="#B4B2A9" stroke="#5F5E5A" stroke-width="0.3"/>
-  <text class="tx" x="405" y="388" text-anchor="start">C4 凸块 — 芯片与封装基板间的连接点</text>
+  <text class="tx" x="45" y="475" text-anchor="start"><tspan font-weight="500">2.5D：</tspan>芯片水平排列，依赖硅中介层布线。优势是散热好、工艺成熟；劣势是面积大、中介层成本高。典型应用：英伟达 H100/B200 GPU + HBM。</text>
 
-  <!-- Legend items - Row 3 -->
-  <circle cx="70" cy="405" r="4" fill="#D3D1C7" stroke="#888780" stroke-width="0.3"/>
-  <text class="tx" x="80" y="408" text-anchor="start">BGA 焊球 — 封装基板与 PCB 间的连接点</text>
-
-  <!-- Comparison summary -->
-  <rect x="20" y="425" width="680" height="85" rx="8" fill="#EEEDFE" stroke="#AFA9EC" stroke-width="0.5"/>
-  <text class="th" x="360" y="445" text-anchor="middle">2.5D vs 3D 核心差异</text>
-
-  <text class="tx" x="40" y="468" text-anchor="start"><tspan font-weight="500">2.5D 封装：</tspan>芯片水平排列在同一平面，依赖硅中介层实现高速互联。优势是散热好、工艺成熟；</text>
-  <text class="tx" x="40" y="485" text-anchor="start">劣势是占用面积大，中介层成本高。典型应用：英伟达 H100/B200 GPU + HBM。</text>
-
-  <text class="tx" x="40" y="503" text-anchor="start"><tspan font-weight="500">3D 封装：</tspan>芯片直接垂直堆叠，TSV 贯穿每层芯片实现互联。优势是带宽极高、功耗极低、面积最小；</text>
-  <text class="tx" x="40" y="520" text-anchor="start">劣势是散热困难、工艺复杂、良率挑战大。典型应用：HBM 堆叠、AMD 3D V-Cache。</text>
+  <text class="tx" x="45" y="495" text-anchor="start"><tspan font-weight="500">3D：</tspan>芯片垂直堆叠，TSV 贯穿每层。优势是带宽极高、功耗低、面积最小；劣势是散热困难、工艺复杂。典型应用：HBM 堆叠、AMD 3D V-Cache。</text>
 
 </svg>
