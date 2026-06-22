@@ -1,0 +1,69 @@
+<svg role="img" width="100%" viewBox="0 0 800 360" xmlns="http://www.w3.org/2000/svg">
+  <title>AI supply chain investment map</title>
+  <desc>AI主线投资地图：从算力底座到应用落地，各环节投资逻辑与关系</desc>
+  <style>
+    .t  { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 15px; fill: #3C3489; font-weight: 500; }
+    .th { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 13px; fill: #3C3489; font-weight: 500; }
+    .ts { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 12px; fill: #5F5E5A; font-weight: 400; }
+    .tx { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 11px; fill: #5F5E5A; font-weight: 400; }
+    .tn { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 10px; fill: #888780; font-weight: 400; }
+    .arr { fill: none; stroke: #AFA9EC; stroke-width: 1.2; }
+  </style>
+
+  <!-- Background -->
+  <rect x="20" y="8" width="760" height="345" rx="10" fill="#F9F9F7" stroke="#D3D1C7" stroke-width="0.5"/>
+
+  <!-- Title -->
+  <text class="t" x="400" y="32" text-anchor="middle">AI 主线投资地图</text>
+  <text class="tx" x="400" y="50" text-anchor="middle">从算力底座到应用落地，AI 产业链条上的每一环都是投资机会</text>
+
+  <!-- ===== Layer 5: 应用 ===== -->
+  <text class="tx" x="50" y="78" text-anchor="start">L5 应用层</text>
+  <rect x="140" y="65" width="640" height="40" rx="5" fill="#EEEDFE" stroke="#AFA9EC" stroke-width="0.5"/>
+  <text class="th" x="170" y="83" text-anchor="start" dominant-baseline="central">AI 应用落地：大模型、AI Agent、自动驾驶、机器人、AI终端</text>
+  <text class="tn" x="170" y="97" text-anchor="start" dominant-baseline="central">📋 AI应用板块（计划）</text>
+
+  <!-- ===== Arrow 4→5 ===== -->
+  <line x1="460" y1="105" x2="460" y2="115" stroke="#AFA9EC" stroke-width="1.5"/>
+  <polygon points="455,115 460,122 465,115" fill="#AFA9EC"/>
+  <text class="tn" x="472" y="113" text-anchor="start">需求拉动</text>
+
+  <!-- ===== Layer 4: 互联 ===== -->
+  <text class="tx" x="50" y="138" text-anchor="start">L4 互联层</text>
+  <rect x="140" y="125" width="640" height="40" rx="5" fill="#E6F1FB" stroke="#85B7EB" stroke-width="0.5"/>
+  <text class="th" x="170" y="143" text-anchor="start" dominant-baseline="central">高速互联：光模块 (800G/1.6T)、CPO 共封装光学、数据中心交换机</text>
+  <text class="tn" x="170" y="157" text-anchor="start" dominant-baseline="central">📋 光模块板块（计划）</text>
+
+  <!-- ===== Arrow 3→4 ===== -->
+  <line x1="460" y1="165" x2="460" y2="175" stroke="#AFA9EC" stroke-width="1.5"/>
+  <polygon points="455,175 460,182 465,175" fill="#AFA9EC"/>
+
+  <!-- ===== Layer 3: 封装 ===== -->
+  <text class="tx" x="50" y="198" text-anchor="start">L3 封装层</text>
+  <rect x="140" y="185" width="640" height="40" rx="5" fill="#E1F5EE" stroke="#5DCAA5" stroke-width="0.5"/>
+  <text class="th" x="170" y="203" text-anchor="start" dominant-baseline="central">先进封装：2.5D/3D (CoWoS, SoIC)、FC-BGA、Fan-out、Chiplet</text>
+  <text class="tn" x="170" y="217" text-anchor="start" dominant-baseline="central">✅ 已覆盖 — 先进封装板块</text>
+
+  <!-- ===== Arrow 2→3 ===== -->
+  <line x1="460" y1="225" x2="460" y2="235" stroke="#AFA9EC" stroke-width="1.5"/>
+  <polygon points="455,235 460,242 465,235" fill="#AFA9EC"/>
+
+  <!-- ===== Layer 2: 芯片 ===== -->
+  <text class="tx" x="50" y="258" text-anchor="start">L2 芯片层</text>
+  <rect x="140" y="245" width="640" height="40" rx="5" fill="#FAEEDA" stroke="#EF9F27" stroke-width="0.5"/>
+  <text class="th" x="170" y="263" text-anchor="start" dominant-baseline="central">AI 算力芯片：GPU (英伟达)、ASIC (谷歌/博通)、HBM 内存</text>
+  <text class="tn" x="170" y="277" text-anchor="start" dominant-baseline="central">📋 半导体板块（计划）</text>
+
+  <!-- ===== Arrow 1→2 ===== -->
+  <line x1="460" y1="285" x2="460" y2="295" stroke="#AFA9EC" stroke-width="1.5"/>
+  <polygon points="455,295 460,302 465,295" fill="#AFA9EC"/>
+
+  <!-- ===== Layer 1: 底座 ===== -->
+  <text class="tx" x="50" y="318" text-anchor="start">L1 基底层</text>
+  <rect x="140" y="305" width="640" height="40" rx="5" fill="#FCEBEB" stroke="#E24B4A" stroke-width="0.5"/>
+  <text class="th" x="170" y="323" text-anchor="start" dominant-baseline="central">半导体制造 + 材料 + 设备：晶圆代工、硅片、光刻胶、刻蚀设备</text>
+  <text class="tn" x="170" y="337" text-anchor="start" dominant-baseline="central">📋 半导体板块（计划）</text>
+
+  <!-- Driver arrows on left -->
+  <text class="tx" x="50" y="355" text-anchor="start" fill="#D85A30">底层驱动：AI大模型参数每18个月翻10倍 → 算力需求指数增长 → 全链条受益</text>
+</svg>
