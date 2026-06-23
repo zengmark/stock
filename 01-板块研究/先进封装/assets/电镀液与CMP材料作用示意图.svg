@@ -1,0 +1,139 @@
+<svg role="img" width="100%" viewBox="0 0 800 540" xmlns="http://www.w3.org/2000/svg">
+  <title>电镀液与CMP在TSV工艺中的作用</title>
+  <desc>展示TSV通孔的三步关键工艺：前驱体沉积阻挡层/种子层、电镀液铜填充、CMP平坦化</desc>
+  <style>
+    .t  { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 15px; fill: #3C3489; font-weight: 500; }
+    .th { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 13px; fill: #3C3489; font-weight: 500; }
+    .ts { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 12px; fill: #5F5E5A; font-weight: 400; }
+    .tx { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 11px; fill: #5F5E5A; font-weight: 400; }
+    .tn { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 10px; fill: #888780; font-weight: 400; }
+  </style>
+
+  <rect x="15" y="8" width="770" height="525" rx="10" fill="#F9F9F7" stroke="#D3D1C7" stroke-width="0.5"/>
+
+  <text class="t" x="400" y="32" text-anchor="middle">电镀液与 CMP 抛光液 —— TSV 铜互连的「灌浆」和「打磨」</text>
+  <text class="tx" x="400" y="50" text-anchor="middle">TSV 通孔需要从「挖洞」到「填洞」再到「磨平」的三步材料接力</text>
+
+  <!-- ===== STAGE 1 ===== -->
+  <text class="th" x="135" y="76" text-anchor="middle">阶段一：垒墙（前驱体）</text>
+  <text class="tx" x="135" y="92" text-anchor="middle">沉积阻挡层 + 种子层</text>
+  
+  <rect x="30" y="100" width="210" height="140" rx="3" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
+  <rect x="95" y="130" width="40" height="100" rx="2" fill="#F9F9F7" stroke="#888780" stroke-width="0.5"/>
+  <text class="tn" x="115" y="180" text-anchor="middle">空洞</text>
+
+  <!-- Barrier layer -->
+  <rect x="95" y="130" width="40" height="100" rx="2" fill="none" stroke="#993556" stroke-width="3" opacity="0.7"/>
+  <text class="tx" x="50" y="250" text-anchor="start">◆ 阻挡层(Ta/TaN)</text>
+  <text class="tx" x="50" y="265" text-anchor="start">  防止铜渗入硅衬底</text>
+
+  <!-- Seed layer -->
+  <rect x="98" y="133" width="34" height="94" rx="1" fill="none" stroke="#888780" stroke-width="2" opacity="0.6"/>
+  <text class="tx" x="50" y="283" text-anchor="start">◆ 种子层(Cu)</text>
+  <text class="tx" x="50" y="298" text-anchor="start">  让铜电镀有「落脚点」</text>
+
+  <!-- Arrow 1→2 -->
+  <polygon points="245,170 260,157 260,183" fill="#D3D1C7"/>
+
+  <!-- ===== STAGE 2 ===== -->
+  <text class="th" x="340" y="76" text-anchor="middle">阶段二：灌浆（电镀液）<tspan fill="#D85A30">★</tspan></text>
+  <text class="tx" x="340" y="92" text-anchor="middle">铜电镀填充 TSV 通孔</text>
+
+  <rect x="255" y="100" width="170" height="140" rx="3" fill="#FAEEDA" stroke="#EF9F27" stroke-width="0.5"/>
+  
+  <!-- TSV being filled -->
+  <rect x="300" y="120" width="40" height="100" rx="2" fill="#F9F9F7" stroke="#888780" stroke-width="0.5"/>
+  <rect x="303" y="123" width="34" height="94" rx="1" fill="#888780" opacity="0.7"/>
+  <rect x="305" y="130" width="30" height="80" rx="1" fill="#B4B2A9" opacity="0.5"/>
+  <text class="tn" x="320" y="170" text-anchor="middle" fill="white">铜</text>
+
+  <!-- Electroplating indicators -->
+  <text class="tx" x="305" y="250" text-anchor="start">电镀液：CuSO₄ + 添加剂</text>
+  <text class="tx" x="305" y="265" text-anchor="start">添加剂控制填充方向</text>
+  <text class="tx" x="305" y="283" text-anchor="start">→ 底向上均匀填充</text>
+  <text class="tx" x="305" y="298" text-anchor="start">→ 避免空洞和缝隙</text>
+
+  <!-- Arrow 2→3 -->
+  <polygon points="430,170 445,157 445,183" fill="#D3D1C7"/>
+
+  <!-- ===== STAGE 3 ===== -->
+  <text class="th" x="530" y="76" text-anchor="middle">阶段三：打磨（CMP）<tspan fill="#D85A30">★</tspan></text>
+  <text class="tx" x="530" y="92" text-anchor="middle">化学机械抛光平坦化</text>
+
+  <rect x="460" y="100" width="170" height="140" rx="3" fill="#FCEBEB" stroke="#E24B4A" stroke-width="0.5"/>
+
+  <!-- CMP diagram -->
+  <rect x="490" y="110" width="50" height="120" rx="2" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+  <!-- TSV after CMP -->
+  <rect x="508" y="120" width="14" height="100" rx="1" fill="#888780"/>
+  <!-- CMP pad -->
+  <rect x="490" y="100" width="50" height="12" rx="2" fill="#D3D1C7" stroke="#888780" stroke-width="0.5"/>
+  <text class="tn" x="515" y="108" text-anchor="middle">抛光垫</text>
+  <!-- Slurry droplets -->
+  <circle cx="500" cy="100" r="2" fill="#F4C0D1" opacity="0.8"/>
+  <circle cx="515" cy="98" r="2" fill="#F4C0D1" opacity="0.8"/>
+  <circle cx="530" cy="100" r="2" fill="#F4C0D1" opacity="0.8"/>
+
+  <text class="tx" x="460" y="250" text-anchor="start">CMP 抛光液：含磨料的碱性浆料</text>
+  <text class="tx" x="460" y="265" text-anchor="start">抛光垫：聚氨酯多孔垫</text>
+  <text class="tx" x="460" y="283" text-anchor="start">化学腐蚀 + 机械研磨</text>
+  <text class="tx" x="460" y="298" text-anchor="start">→ 去除多余铜，表面纳米级平坦</text>
+
+  <!-- ===== BOTTOM: Mask & Lithography ===== -->
+  <line x1="65" y1="315" x2="735" y2="315" stroke="#D3D1C7" stroke-width="0.5"/>
+  <text class="th" x="400" y="338" text-anchor="middle">掩膜版与光刻胶 —— RDL 重布线层的「图纸」和「感光涂层」</text>
+  <text class="tx" x="400" y="355" text-anchor="middle">RDL 的每一层金属布线都需要先用掩膜版定义图案，再通过光刻胶转移到晶圆上</text>
+
+  <!-- Lithography process left: Mask -->
+  <text class="tx" x="130" y="378" text-anchor="start">掩膜版（Photomask）</text>
+  <rect x="60" y="385" width="160" height="80" rx="4" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+  <rect x="70" y="395" width="140" height="50" rx="2" fill="#E1F5EE"/>
+  <line x1="85" y1="405" x2="195" y2="405" stroke="#0F6E56" stroke-width="1.5" opacity="0.5"/>
+  <line x1="85" y1="420" x2="195" y2="420" stroke="#0F6E56" stroke-width="1.5" opacity="0.5"/>
+  <rect x="95" y="425" width="50" height="12" rx="1" fill="none" stroke="#0F6E56" stroke-width="0.8"/>
+  <rect x="155" y="425" width="40" height="12" rx="1" fill="none" stroke="#0F6E56" stroke-width="0.8"/>
+  <text class="tn" x="140" y="455" text-anchor="middle">石英玻璃 + 铬图案层</text>
+  <text class="tn" x="140" y="466" text-anchor="middle">定义线路的「负片」</text>
+
+  <!-- Arrow -->
+  <polygon points="225,420 240,408 240,432" fill="#D3D1C7"/>
+
+  <!-- Lithography process middle: photoresist -->
+  <text class="tx" x="350" y="378" text-anchor="start">光刻胶（Photoresist）</text>
+  <rect x="250" y="385" width="200" height="80" rx="4" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
+  
+  <rect x="270" y="395" width="160" height="15" rx="2" fill="#E6F1FB"/>
+  <text class="tn" x="350" y="405" text-anchor="middle">晶圆基板</text>
+  <rect x="270" y="413" width="160" height="18" rx="2" fill="#F4C0D1" opacity="0.7"/>
+  <text class="tn" x="350" y="425" text-anchor="middle">光刻胶涂层</text>
+  
+  <!-- UV exposure arrows -->
+  <line x1="300" y1="413" x2="300" y2="403" stroke="#AFA9EC" stroke-width="1" stroke-dasharray="2 1"/>
+  <line x1="350" y1="413" x2="350" y2="403" stroke="#AFA9EC" stroke-width="1" stroke-dasharray="2 1"/>
+  
+  <text class="tn" x="350" y="455" text-anchor="middle">UV 光透过掩膜版→光刻胶感光</text>
+  <text class="tn" x="350" y="466" text-anchor="middle">显影后留下线路图案</text>
+
+  <!-- Arrow -->
+  <polygon points="455,420 470,408 470,432" fill="#D3D1C7"/>
+
+  <!-- Lithography process right: result -->
+  <text class="tx" x="575" y="378" text-anchor="start">图案化后的晶圆</text>
+  <rect x="490" y="385" width="190" height="80" rx="4" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
+
+  <rect x="510" y="395" width="150" height="15" rx="2" fill="#E6F1FB"/>
+  <text class="tn" x="585" y="405" text-anchor="middle">晶圆基板</text>
+  
+  <rect x="530" y="413" width="40" height="8" rx="1" fill="#F4C0D1" opacity="0.7"/>
+  <rect x="590" y="413" width="40" height="8" rx="1" fill="#F4C0D1" opacity="0.7"/>
+
+  <rect x="535" y="423" width="30" height="6" rx="1" fill="#888780" opacity="0.6"/>
+  <rect x="595" y="423" width="30" height="6" rx="1" fill="#888780" opacity="0.6"/>
+
+  <text class="tn" x="585" y="455" text-anchor="middle">光刻胶图案 = 线路模板</text>
+  <text class="tn" x="585" y="466" text-anchor="middle">电镀后去胶 → 铜线路成型</text>
+
+  <!-- ===== BOTTOM NOTE ===== -->
+  <text class="tx" x="400" y="498" text-anchor="middle" fill="#D85A30">每增加一层 RDL，掩膜版 ×1、光刻胶涂布 ×1、电镀液电镀 ×1、CMP 抛光 ×1 —— 四种材料同步消耗</text>
+  <text class="tn" x="400" y="515" text-anchor="middle">A股对标：安集科技/鼎龙股份(CMP) · 上海新阳(电镀液) · 晶瑞电材(光刻胶) · 清溢光电(掩膜版)</text>
+</svg>

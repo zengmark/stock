@@ -1,0 +1,75 @@
+<svg role="img" width="100%" viewBox="0 0 800 310" xmlns="http://www.w3.org/2000/svg">
+  <title>底部填充胶和环氧塑封料在封装中的作用</title>
+  <desc>展示底部填充胶在FC-BGA封装中如何保护焊点，以及塑封料如何包裹芯片</desc>
+  <style>
+    .t  { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 15px; fill: #3C3489; font-weight: 500; }
+    .th { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 13px; fill: #3C3489; font-weight: 500; }
+    .ts { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 12px; fill: #5F5E5A; font-weight: 400; }
+    .tx { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 11px; fill: #5F5E5A; font-weight: 400; }
+    .tn { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 10px; fill: #888780; font-weight: 400; }
+  </style>
+
+  <rect x="15" y="8" width="770" height="295" rx="10" fill="#F9F9F7" stroke="#D3D1C7" stroke-width="0.5"/>
+
+  <text class="t" x="400" y="32" text-anchor="middle">底部填充胶与塑封料 —— 先进封装的「胶水」和「外壳」</text>
+  <text class="tx" x="400" y="50" text-anchor="middle">没有这两样材料，焊点会断裂、芯片会受潮——保护作用虽不炫酷，但不可或缺</text>
+
+  <!-- ===== LEFT: Underfill ===== -->
+  <text class="th" x="200" y="78" text-anchor="middle">底部填充胶（Underfill）—— 焊点的「钢筋混凝土」</text>
+
+  <!-- Cross section without underfill -->
+  <rect x="80" y="88" width="240" height="40" rx="3" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+  <text class="tx" x="200" y="112" text-anchor="middle">芯片 (Die)</text>
+
+  <circle cx="120" cy="133" r="4" fill="#888780" stroke="#5F5E5A" stroke-width="0.3"/>
+  <circle cx="160" cy="133" r="4" fill="#888780" stroke="#5F5E5A" stroke-width="0.3"/>
+  <circle cx="200" cy="133" r="4" fill="#888780" stroke="#5F5E5A" stroke-width="0.3"/>
+  <circle cx="240" cy="133" r="4" fill="#888780" stroke="#5F5E5A" stroke-width="0.3"/>
+  <circle cx="280" cy="133" r="4" fill="#888780" stroke="#5F5E5A" stroke-width="0.3"/>
+
+  <text class="tn" x="200" y="148" text-anchor="middle">焊球 (C4 Bump) —— 芯片与基板热胀冷缩率不同</text>
+
+  <rect x="70" y="152" width="260" height="30" rx="3" fill="#FAEEDA" stroke="#854F0B" stroke-width="0.5"/>
+  <text class="tn" x="200" y="170" text-anchor="middle">ABF 封装基板</text>
+
+  <!-- Underfill layer -->
+  <rect x="82" y="128" width="236" height="18" rx="2" fill="#FAC775" stroke="#BA7517" stroke-width="0.5" opacity="0.7"/>
+  <text class="tn" x="200" y="140" text-anchor="middle" fill="#633806">Underfill 填充</text>
+
+  <!-- Arrow callout -->
+  <line x1="195" y1="185" x2="195" y2="205" stroke="#BA7517" stroke-width="0.8" stroke-dasharray="3 2"/>
+  <text class="tx" x="200" y="218" text-anchor="middle">热胀冷缩时焊点受力</text>
+  <text class="tx" x="200" y="233" text-anchor="middle">Underfill 把力分散到整个底部</text>
+
+  <!-- Why needed -->
+  <rect x="30" y="242" width="340" height="54" rx="5" fill="#FFF8EC" stroke="#FAC775" stroke-width="0.5"/>
+  <text class="tx" x="200" y="258" text-anchor="middle">为什么需要？芯片（硅）和基板（有机物）热膨胀系数不同</text>
+  <text class="tx" x="200" y="275" text-anchor="middle">温度变化时焊球承受巨大的剪切力 → 没有 Underfill 会断裂</text>
+  <text class="tx" x="200" y="292" text-anchor="middle">Underfill 把焊球包裹起来，把力均匀分散开</text>
+
+  <!-- ===== RIGHT: EMC ===== -->
+  <text class="th" x="590" y="78" text-anchor="middle">环氧塑封料（EMC）—— 芯片的「外壳」</text>
+
+  <!-- Cross section with molding -->
+  <rect x="440" y="88" width="300" height="100" rx="6" fill="#F1EFE8" stroke="#888780" stroke-width="0.5"/>
+  <text class="tn" x="590" y="102" text-anchor="middle" fill="#888780">环氧塑封料 (EMC)</text>
+
+  <rect x="480" y="110" width="120" height="35" rx="3" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+  <text class="tx" x="540" y="130" text-anchor="middle">芯片 Die</text>
+
+  <line x1="495" y1="145" x2="530" y2="155" stroke="#D85A30" stroke-width="0.8"/>
+  <line x1="525" y1="145" x2="540" y2="155" stroke="#D85A30" stroke-width="0.8"/>
+  <line x1="555" y1="145" x2="550" y2="155" stroke="#D85A30" stroke-width="0.8"/>
+  <line x1="585" y1="145" x2="560" y2="155" stroke="#D85A30" stroke-width="0.8"/>
+  <text class="tn" x="540" y="163" text-anchor="middle" fill="#D85A30">引线键合</text>
+
+  <rect x="470" y="168" width="240" height="15" rx="2" fill="#FAEEDA" stroke="#854F0B" stroke-width="0.5"/>
+  <text class="tn" x="590" y="178" text-anchor="middle">引线框架 / 基板</text>
+
+  <!-- EMC functions -->
+  <rect x="410" y="242" width="360" height="54" rx="5" fill="#F0EDFC" stroke="#AFA9EC" stroke-width="0.5"/>
+  <text class="tx" x="590" y="258" text-anchor="middle">EMC 的作用：① 物理保护（防碰撞/防潮/防氧化）</text>
+  <text class="tx" x="590" y="275" text-anchor="middle">② 电气绝缘（防止引脚间漏电）③ 散热（环氧树脂导热）</text>
+  <text class="tx" x="590" y="292" text-anchor="middle">先进封装中用得更多——每颗芯片都要包一层 EMC</text>
+
+</svg>
