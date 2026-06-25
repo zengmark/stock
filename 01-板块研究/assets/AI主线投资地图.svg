@@ -31,7 +31,7 @@
   <text class="tx" x="50" y="147" text-anchor="start">L4 互联层</text>
   <rect x="140" y="132" width="640" height="48" rx="5" fill="#E6F1FB" stroke="#85B7EB" stroke-width="0.5"/>
   <text class="th" x="155" y="152" text-anchor="start" dominant-baseline="central">高速互联：光模块 (800G/1.6T)、CPO 共封装光学、数据中心交换机</text>
-  <text class="tn" x="155" y="170" text-anchor="start" dominant-baseline="central">📋 光模块板块（计划）</text>
+  <text class="tn" x="155" y="170" text-anchor="start" dominant-baseline="central">✅ 已覆盖 — 光模块板块</text>
 
   <!-- Arrow 3→4 -->
   <line x1="460" y1="180" x2="460" y2="188" stroke="#AFA9EC" stroke-width="1.5"/>
