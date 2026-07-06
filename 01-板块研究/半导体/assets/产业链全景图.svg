@@ -1,0 +1,85 @@
+<svg width="100%" viewBox="0 0 680 540" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>半导体产业链全景图</title>
+  <desc>上游设备与材料 → 中游晶圆制造 → 下游终端应用，各环节标注代表公司</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <rect x="40" y="40" width="180" height="36" rx="4" fill="#E6F1FB" stroke="#85B7EB" stroke-width="0.5"/>
+  <text x="130" y="62" text-anchor="middle" font-size="13" font-weight="500" fill="#0C447C" font-family="sans-serif">上游 · 设备与材料</text>
+
+  <rect x="250" y="40" width="180" height="36" rx="4" fill="#EAF3DE" stroke="#97C459" stroke-width="0.5"/>
+  <text x="340" y="62" text-anchor="middle" font-size="13" font-weight="500" fill="#27500A" font-family="sans-serif">中游 · 晶圆制造</text>
+
+  <rect x="460" y="40" width="180" height="36" rx="4" fill="#EEEDFE" stroke="#AFA9EC" stroke-width="0.5"/>
+  <text x="550" y="62" text-anchor="middle" font-size="13" font-weight="500" fill="#3C3489" font-family="sans-serif">下游 · 终端应用</text>
+
+  <path d="M220 58L248 58" fill="none" stroke="#888780" stroke-width="1" marker-end="url(#arrow)"/>
+  <path d="M430 58L458 58" fill="none" stroke="#888780" stroke-width="1" marker-end="url(#arrow)"/>
+
+  <!-- 上游设备 -->
+  <rect x="40" y="100" width="180" height="34" rx="4" fill="white" stroke="#D3D1C7" stroke-width="0.5"/>
+  <text x="130" y="121" text-anchor="middle" font-size="13" font-weight="500" fill="#2C2C2A" font-family="sans-serif">半导体设备</text>
+  <rect x="45" y="146" width="54" height="28" rx="3" fill="#F1EFE8" stroke="#D3D1C7" stroke-width="0.5"/>
+  <text x="72" y="164" text-anchor="middle" font-size="10" fill="#5F5E5A" font-family="sans-serif">北方华创</text>
+  <rect x="103" y="146" width="50" height="28" rx="3" fill="#F1EFE8" stroke="#D3D1C7" stroke-width="0.5"/>
+  <text x="128" y="164" text-anchor="middle" font-size="10" fill="#5F5E5A" font-family="sans-serif">中微公司</text>
+  <rect x="157" y="146" width="58" height="28" rx="3" fill="#F1EFE8" stroke="#D3D1C7" stroke-width="0.5"/>
+  <text x="186" y="164" text-anchor="middle" font-size="10" fill="#5F5E5A" font-family="sans-serif">盛美/拓荆</text>
+
+  <!-- 上游材料 -->
+  <rect x="40" y="196" width="180" height="34" rx="4" fill="white" stroke="#D3D1C7" stroke-width="0.5"/>
+  <text x="130" y="217" text-anchor="middle" font-size="13" font-weight="500" fill="#2C2C2A" font-family="sans-serif">半导体材料</text>
+  <rect x="45" y="242" width="54" height="28" rx="3" fill="#F1EFE8" stroke="#D3D1C7" stroke-width="0.5"/>
+  <text x="72" y="260" text-anchor="middle" font-size="10" fill="#5F5E5A" font-family="sans-serif">沪硅产业</text>
+  <rect x="103" y="242" width="50" height="28" rx="3" fill="#F1EFE8" stroke="#D3D1C7" stroke-width="0.5"/>
+  <text x="128" y="260" text-anchor="middle" font-size="10" fill="#5F5E5A" font-family="sans-serif">鼎龙股份</text>
+  <rect x="157" y="242" width="58" height="28" rx="3" fill="#F1EFE8" stroke="#D3D1C7" stroke-width="0.5"/>
+  <text x="186" y="260" text-anchor="middle" font-size="10" fill="#5F5E5A" font-family="sans-serif">雅克/安集</text>
+
+  <!-- 中游制造 -->
+  <rect x="250" y="100" width="180" height="34" rx="4" fill="white" stroke="#D3D1C7" stroke-width="0.5"/>
+  <text x="340" y="121" text-anchor="middle" font-size="13" font-weight="500" fill="#2C2C2A" font-family="sans-serif">Foundry 代工</text>
+  <rect x="255" y="146" width="56" height="28" rx="3" fill="#E1F5EE" stroke="#9FE1CB" stroke-width="0.5"/>
+  <text x="283" y="164" text-anchor="middle" font-size="10" fill="#085041" font-family="sans-serif">中芯国际</text>
+  <rect x="315" y="146" width="50" height="28" rx="3" fill="#E1F5EE" stroke="#9FE1CB" stroke-width="0.5"/>
+  <text x="340" y="164" text-anchor="middle" font-size="10" fill="#085041" font-family="sans-serif">华虹公司</text>
+  <rect x="369" y="146" width="54" height="28" rx="3" fill="#E1F5EE" stroke="#9FE1CB" stroke-width="0.5"/>
+  <text x="396" y="164" text-anchor="middle" font-size="10" fill="#085041" font-family="sans-serif">晶合集成</text>
+
+  <rect x="250" y="196" width="180" height="34" rx="4" fill="white" stroke="#D3D1C7" stroke-width="0.5"/>
+  <text x="340" y="217" text-anchor="middle" font-size="13" font-weight="500" fill="#2C2C2A" font-family="sans-serif">IDM / Fabless</text>
+  <rect x="255" y="242" width="56" height="28" rx="3" fill="#F1EFE8" stroke="#D3D1C7" stroke-width="0.5"/>
+  <text x="283" y="260" text-anchor="middle" font-size="10" fill="#5F5E5A" font-family="sans-serif">台积电</text>
+  <rect x="315" y="242" width="50" height="28" rx="3" fill="#F1EFE8" stroke="#D3D1C7" stroke-width="0.5"/>
+  <text x="340" y="260" text-anchor="middle" font-size="10" fill="#5F5E5A" font-family="sans-serif">英特尔</text>
+  <rect x="369" y="242" width="54" height="28" rx="3" fill="#F1EFE8" stroke="#D3D1C7" stroke-width="0.5"/>
+  <text x="396" y="260" text-anchor="middle" font-size="10" fill="#5F5E5A" font-family="sans-serif">英伟达</text>
+
+  <!-- 下游应用 -->
+  <rect x="460" y="100" width="180" height="34" rx="4" fill="white" stroke="#D3D1C7" stroke-width="0.5"/>
+  <text x="550" y="121" text-anchor="middle" font-size="13" font-weight="500" fill="#2C2C2A" font-family="sans-serif">AI / 高性能计算</text>
+  <text x="550" y="146" text-anchor="middle" font-size="11" fill="#5F5E5A" font-family="sans-serif">GPU · HBM · ASIC</text>
+
+  <rect x="460" y="176" width="180" height="34" rx="4" fill="white" stroke="#D3D1C7" stroke-width="0.5"/>
+  <text x="550" y="197" text-anchor="middle" font-size="13" font-weight="500" fill="#2C2C2A" font-family="sans-serif">智能手机 / PC</text>
+  <rect x="460" y="242" width="180" height="34" rx="4" fill="white" stroke="#D3D1C7" stroke-width="0.5"/>
+  <text x="550" y="263" text-anchor="middle" font-size="13" font-weight="500" fill="#2C2C2A" font-family="sans-serif">汽车电子</text>
+  <rect x="460" y="308" width="180" height="34" rx="4" fill="white" stroke="#D3D1C7" stroke-width="0.5"/>
+  <text x="550" y="329" text-anchor="middle" font-size="13" font-weight="500" fill="#2C2C2A" font-family="sans-serif">通信 / 数据中心</text>
+
+  <path d="M220 117L248 117" fill="none" stroke="#888780" stroke-width="0.5" marker-end="url(#arrow)"/>
+  <path d="M220 213L248 213" fill="none" stroke="#888780" stroke-width="0.5" marker-end="url(#arrow)"/>
+  <path d="M430 117L458 117" fill="none" stroke="#888780" stroke-width="0.5" marker-end="url(#arrow)"/>
+  <path d="M430 193L458 193" fill="none" stroke="#888780" stroke-width="0.5" marker-end="url(#arrow)"/>
+  <path d="M430 259L458 259" fill="none" stroke="#888780" stroke-width="0.5" marker-end="url(#arrow)"/>
+  <path d="M430 325L458 325" fill="none" stroke="#888780" stroke-width="0.5" marker-end="url(#arrow)"/>
+
+  <rect x="40" y="420" width="600" height="80" rx="6" fill="#F1EFE8" stroke="none"/>
+  <text x="340" y="446" text-anchor="middle" font-size="13" font-weight="500" fill="#2C2C2A" font-family="sans-serif">关键投资逻辑</text>
+  <text x="80" y="476" font-size="12" fill="#5F5E5A" font-family="sans-serif">上游设备 · 卖铲子最确定</text>
+  <text x="290" y="476" font-size="12" fill="#5F5E5A" font-family="sans-serif">中游制造 · 战略核心载体</text>
+  <text x="500" y="476" font-size="12" fill="#5F5E5A" font-family="sans-serif">下游需求 · AI 拉动增量</text>
+</svg>

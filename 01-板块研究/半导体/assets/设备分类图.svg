@@ -1,0 +1,89 @@
+<svg width="100%" viewBox="0 0 680 480" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>半导体设备分类图</title>
+  <desc>按工艺功能分为八大类设备，标注全球格局与 A 股代表公司</desc>
+
+  <text x="40" y="40" font-size="14" font-weight="600" fill="#0C447C" font-family="sans-serif">半导体设备八大类（前道）</text>
+  <text x="40" y="62" font-size="11" fill="#5F5E5A" font-family="sans-serif">红框=国产已突破 / 进入供应链；蓝框=全球垄断环节</text>
+
+  <g font-family="sans-serif">
+    <!-- 1 光刻 -->
+    <rect x="30" y="90" width="150" height="160" rx="6" fill="#EAF3DE" stroke="#97C459" stroke-width="0.8"/>
+    <text x="105" y="114" text-anchor="middle" font-size="13" font-weight="600" fill="#27500A">光刻设备</text>
+    <text x="105" y="138" text-anchor="middle" font-size="10.5" fill="#5F5E5A">把图案「印」到晶圆</text>
+    <line x1="42" y1="150" x2="168" y2="150" stroke="#D3D1C7" stroke-width="0.5"/>
+    <text x="42" y="170" font-size="10" fill="#888780">全球：</text>
+    <text x="42" y="186" font-size="10.5" fill="#2C2C2A">ASML（EUV 独家）</text>
+    <text x="42" y="208" font-size="10" fill="#888780">A股：</text>
+    <text x="42" y="224" font-size="10.5" fill="#C0392B" font-weight="500">上海微电子</text>
+
+    <!-- 2 刻蚀 -->
+    <rect x="195" y="90" width="150" height="160" rx="6" fill="#EAF3DE" stroke="#97C459" stroke-width="0.8"/>
+    <text x="270" y="114" text-anchor="middle" font-size="13" font-weight="600" fill="#27500A">刻蚀设备</text>
+    <text x="270" y="138" text-anchor="middle" font-size="10.5" fill="#5F5E5A">按图案切除材料</text>
+    <line x1="207" y1="150" x2="333" y2="150" stroke="#D3D1C7" stroke-width="0.5"/>
+    <text x="207" y="170" font-size="10" fill="#888780">全球：</text>
+    <text x="207" y="186" font-size="10.5" fill="#2C2C2A">拉姆/应用/东京</text>
+    <text x="207" y="208" font-size="10" fill="#888780">A股：</text>
+    <text x="207" y="224" font-size="10.5" fill="#C0392B" font-weight="500">中微/北方华创</text>
+
+    <!-- 3 沉积 -->
+    <rect x="360" y="90" width="150" height="160" rx="6" fill="#EAF3DE" stroke="#97C459" stroke-width="0.8"/>
+    <text x="435" y="114" text-anchor="middle" font-size="13" font-weight="600" fill="#27500A">薄膜沉积</text>
+    <text x="435" y="138" text-anchor="middle" font-size="10.5" fill="#5F5E5A">镀绝缘/金属膜</text>
+    <line x1="372" y1="150" x2="498" y2="150" stroke="#D3D1C7" stroke-width="0.5"/>
+    <text x="372" y="170" font-size="10" fill="#888780">全球：</text>
+    <text x="372" y="186" font-size="10.5" fill="#2C2C2A">应用/拉姆/东京</text>
+    <text x="372" y="208" font-size="10" fill="#888780">A股：</text>
+    <text x="372" y="224" font-size="10.5" fill="#C0392B" font-weight="500">北方华创/拓荆</text>
+
+    <!-- 4 离子注入 -->
+    <rect x="525" y="90" width="150" height="160" rx="6" fill="#EAF3DE" stroke="#97C459" stroke-width="0.8"/>
+    <text x="600" y="114" text-anchor="middle" font-size="13" font-weight="600" fill="#27500A">离子注入</text>
+    <text x="600" y="138" text-anchor="middle" font-size="10.5" fill="#5F5E5A">打入杂质改导电</text>
+    <line x1="537" y1="150" x2="663" y2="150" stroke="#D3D1C7" stroke-width="0.5"/>
+    <text x="537" y="170" font-size="10" fill="#888780">全球：</text>
+    <text x="537" y="186" font-size="10.5" fill="#2C2C2A">应用材料/Axcelis</text>
+    <text x="537" y="208" font-size="10" fill="#888780">A股：</text>
+    <text x="537" y="224" font-size="10.5" fill="#C0392B" font-weight="500">万业(凯世通)</text>
+
+    <!-- 5 CMP -->
+    <rect x="30" y="280" width="150" height="160" rx="6" fill="#EAF3DE" stroke="#97C459" stroke-width="0.8"/>
+    <text x="105" y="304" text-anchor="middle" font-size="13" font-weight="600" fill="#27500A">CMP 设备</text>
+    <text x="105" y="328" text-anchor="middle" font-size="10.5" fill="#5F5E5A">化学机械抛光</text>
+    <line x1="42" y1="340" x2="168" y2="340" stroke="#D3D1C7" stroke-width="0.5"/>
+    <text x="42" y="360" font-size="10" fill="#888780">全球：</text>
+    <text x="42" y="376" font-size="10.5" fill="#2C2C2A">应用材料/荏原</text>
+    <text x="42" y="398" font-size="10" fill="#888780">A股：</text>
+    <text x="42" y="414" font-size="10.5" fill="#C0392B" font-weight="500">华海清科</text>
+
+    <!-- 6 清洗 -->
+    <rect x="195" y="280" width="150" height="160" rx="6" fill="#EAF3DE" stroke="#97C459" stroke-width="0.8"/>
+    <text x="270" y="304" text-anchor="middle" font-size="13" font-weight="600" fill="#27500A">清洗设备</text>
+    <text x="270" y="328" text-anchor="middle" font-size="10.5" fill="#5F5E5A">每道工序前后清洗</text>
+    <line x1="207" y1="340" x2="333" y2="340" stroke="#D3D1C7" stroke-width="0.5"/>
+    <text x="207" y="360" font-size="10" fill="#888780">全球：</text>
+    <text x="207" y="376" font-size="10.5" fill="#2C2C2A">东京电子/SCREEN</text>
+    <text x="207" y="398" font-size="10" fill="#888780">A股：</text>
+    <text x="207" y="414" font-size="10.5" fill="#C0392B" font-weight="500">盛美上海</text>
+
+    <!-- 7 量测检测 -->
+    <rect x="360" y="280" width="150" height="160" rx="6" fill="#EAF3DE" stroke="#97C459" stroke-width="0.8"/>
+    <text x="435" y="304" text-anchor="middle" font-size="13" font-weight="600" fill="#27500A">量测检测</text>
+    <text x="435" y="328" text-anchor="middle" font-size="10.5" fill="#5F5E5A">缺陷/尺寸检查</text>
+    <line x1="372" y1="340" x2="498" y2="340" stroke="#D3D1C7" stroke-width="0.5"/>
+    <text x="372" y="360" font-size="10" fill="#888780">全球：</text>
+    <text x="372" y="376" font-size="10.5" fill="#2C2C2A">科磊(KLA)>50%</text>
+    <text x="372" y="398" font-size="10" fill="#888780">A股：</text>
+    <text x="372" y="414" font-size="10.5" fill="#C0392B" font-weight="500">中科飞测</text>
+
+    <!-- 8 测试 -->
+    <rect x="525" y="280" width="150" height="160" rx="6" fill="#EAF3DE" stroke="#97C459" stroke-width="0.8"/>
+    <text x="600" y="304" text-anchor="middle" font-size="13" font-weight="600" fill="#27500A">测试设备</text>
+    <text x="600" y="328" text-anchor="middle" font-size="10.5" fill="#5F5E5A">封装前后测良率</text>
+    <line x1="537" y1="340" x2="663" y2="340" stroke="#D3D1C7" stroke-width="0.5"/>
+    <text x="537" y="360" font-size="10" fill="#888780">全球：</text>
+    <text x="537" y="376" font-size="10.5" fill="#2C2C2A">泰瑞达/爱德万</text>
+    <text x="537" y="398" font-size="10" fill="#888780">A股：</text>
+    <text x="537" y="414" font-size="10.5" fill="#C0392B" font-weight="500">长川/华峰测控</text>
+  </g>
+</svg>

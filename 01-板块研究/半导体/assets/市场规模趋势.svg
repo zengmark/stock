@@ -1,0 +1,48 @@
+<svg width="100%" viewBox="0 0 680 380" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>全球半导体市场规模趋势</title>
+  <desc>2022-2025E 全球半导体市场规模（亿美元），2023 年回调、2024 强势复苏</desc>
+
+  <text x="40" y="36" font-size="14" font-weight="600" fill="#0C447C" font-family="sans-serif">全球半导体市场规模（亿美元）</text>
+  <text x="40" y="56" font-size="11" fill="#5F5E5A" font-family="sans-serif">涨（复苏/增长）标红，跌（回调）标绿，符合 A 股习惯</text>
+
+  <!-- 坐标轴 -->
+  <line x1="60" y1="320" x2="640" y2="320" stroke="#9AA0A6" stroke-width="1.5"/>
+  <line x1="60" y1="90" x2="60" y2="320" stroke="#9AA0A6" stroke-width="1.5"/>
+
+  <!-- 网格lines -->
+  <line x1="60" y1="266" x2="640" y2="266" stroke="#E5E5E0" stroke-width="0.6"/>
+  <line x1="60" y1="212" x2="640" y2="212" stroke="#E5E5E0" stroke-width="0.6"/>
+  <line x1="60" y1="158" x2="640" y2="158" stroke="#E5E5E0" stroke-width="0.6"/>
+  <text x="54" y="324" text-anchor="end" font-size="9" fill="#9AA0A6" font-family="sans-serif">0</text>
+  <text x="54" y="270" text-anchor="end" font-size="9" fill="#9AA0A6" font-family="sans-serif">2000</text>
+  <text x="54" y="216" text-anchor="end" font-size="9" fill="#9AA0A6" font-family="sans-serif">4000</text>
+  <text x="54" y="162" text-anchor="end" font-size="9" fill="#9AA0A6" font-family="sans-serif">6000</text>
+
+  <g font-family="sans-serif" text-anchor="middle">
+    <!-- 2022 5740 -->
+    <rect x="100" y="123" width="80" height="197" rx="3" fill="#C0392B"/>
+    <text x="140" y="113" font-size="12" font-weight="600" fill="#C0392B">5740</text>
+    <text x="140" y="340" font-size="11" fill="#2C2C2A">2022</text>
+    <text x="140" y="356" font-size="9.5" fill="#9AA0A6">+3.3%</text>
+
+    <!-- 2023 5270 跌=绿 -->
+    <rect x="240" y="139" width="80" height="181" rx="3" fill="#27AE60"/>
+    <text x="280" y="129" font-size="12" font-weight="600" fill="#27AE60">5270</text>
+    <text x="280" y="340" font-size="11" fill="#2C2C2A">2023</text>
+    <text x="280" y="356" font-size="9.5" fill="#27AE60">-8.2%</text>
+
+    <!-- 2024 6260 -->
+    <rect x="380" y="105" width="80" height="215" rx="3" fill="#C0392B"/>
+    <text x="420" y="95" font-size="12" font-weight="600" fill="#C0392B">6260</text>
+    <text x="420" y="340" font-size="11" fill="#2C2C2A">2024</text>
+    <text x="420" y="356" font-size="9.5" fill="#C0392B">+19.0%</text>
+
+    <!-- 2025E 6970 -->
+    <rect x="520" y="81" width="80" height="239" rx="3" fill="#C0392B" fill-opacity="0.7"/>
+    <text x="560" y="71" font-size="12" font-weight="600" fill="#C0392B">6970</text>
+    <text x="560" y="340" font-size="11" fill="#2C2C2A">2025E</text>
+    <text x="560" y="356" font-size="9.5" fill="#C0392B">+11%</text>
+  </g>
+
+  <text x="350" y="378" text-anchor="middle" font-size="10" fill="#888780" font-family="sans-serif">数据来源：SIA / WSTS（2025E 为预测）</text>
+</svg>

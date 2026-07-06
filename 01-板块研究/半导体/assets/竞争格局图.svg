@@ -1,0 +1,62 @@
+<svg width="100%" viewBox="0 0 680 580" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>半导体竞争格局图</title>
+  <desc>制造、设备、材料三大环节的全球主导者与 A 股国产代表</desc>
+
+  <text x="40" y="36" font-size="14" font-weight="600" fill="#0C447C" font-family="sans-serif">半导体竞争格局：美日荷垄断，国产加速突围</text>
+
+  <g font-family="sans-serif">
+    <!-- 制造 -->
+    <rect x="40" y="64" width="600" height="150" rx="6" fill="#EAF3DE" stroke="#97C459" stroke-width="0.6"/>
+    <text x="56" y="88" font-size="13" font-weight="600" fill="#27500A">晶圆制造（Foundry）</text>
+    <text x="56" y="108" font-size="11" fill="#888780">全球主导</text>
+    <rect x="56" y="116" width="120" height="30" rx="3" fill="#FBE7C6" stroke="#E0A93B" stroke-width="0.5"/>
+    <text x="116" y="135" text-anchor="middle" font-size="11" fill="#7A4E00">台积电 ~60%</text>
+    <rect x="186" y="116" width="100" height="30" rx="3" fill="#FBE7C6" stroke="#E0A93B" stroke-width="0.5"/>
+    <text x="236" y="135" text-anchor="middle" font-size="11" fill="#7A4E00">三星 ~11%</text>
+    <text x="306" y="108" font-size="11" fill="#888780">A股代表</text>
+    <rect x="306" y="116" width="100" height="30" rx="3" fill="#E1F5EE" stroke="#9FE1CB" stroke-width="0.5"/>
+    <text x="356" y="135" text-anchor="middle" font-size="11" fill="#085041">中芯国际 ~6%</text>
+    <rect x="416" y="116" width="90" height="30" rx="3" fill="#E1F5EE" stroke="#9FE1CB" stroke-width="0.5"/>
+    <text x="461" y="135" text-anchor="middle" font-size="11" fill="#085041">华虹公司</text>
+    <rect x="516" y="116" width="100" height="30" rx="3" fill="#E1F5EE" stroke="#9FE1CB" stroke-width="0.5"/>
+    <text x="566" y="135" text-anchor="middle" font-size="11" fill="#085041">晶合集成</text>
+    <text x="56" y="178" font-size="10.5" fill="#5F5E5A">核心认知：台积电一家独大，中芯国际是大陆自主化战略载体；先进制程受 EUV 管制受限。</text>
+
+    <!-- 设备 -->
+    <rect x="40" y="234" width="600" height="150" rx="6" fill="#E6F1FB" stroke="#85B7EB" stroke-width="0.6"/>
+    <text x="56" y="258" font-size="13" font-weight="600" fill="#0C447C">半导体设备</text>
+    <text x="56" y="278" font-size="11" fill="#888780">全球垄断</text>
+    <rect x="56" y="286" width="120" height="30" rx="3" fill="#FBE7C6" stroke="#E0A93B" stroke-width="0.5"/>
+    <text x="116" y="305" text-anchor="middle" font-size="10.5" fill="#7A4E00">ASML(EUV独家)</text>
+    <rect x="186" y="286" width="100" height="30" rx="3" fill="#FBE7C6" stroke="#E0A93B" stroke-width="0.5"/>
+    <text x="236" y="305" text-anchor="middle" font-size="10.5" fill="#7A4E00">应用材料</text>
+    <rect x="296" y="286" width="90" height="30" rx="3" fill="#FBE7C6" stroke="#E0A93B" stroke-width="0.5"/>
+    <text x="341" y="305" text-anchor="middle" font-size="10.5" fill="#7A4E00">拉姆/科磊</text>
+    <text x="406" y="278" font-size="11" fill="#888780">A股代表</text>
+    <rect x="406" y="286" width="100" height="30" rx="3" fill="#E1F5EE" stroke="#9FE1CB" stroke-width="0.5"/>
+    <text x="456" y="305" text-anchor="middle" font-size="10.5" fill="#085041">北方华创</text>
+    <rect x="516" y="286" width="100" height="30" rx="3" fill="#E1F5EE" stroke="#9FE1CB" stroke-width="0.5"/>
+    <text x="566" y="305" text-anchor="middle" font-size="10.5" fill="#085041">中微/拓荆等</text>
+    <text x="56" y="348" font-size="10.5" fill="#5F5E5A">核心认知：美日荷垄断全品类；除光刻机外，其余七类 A 股均已突破并导入主流产线。</text>
+
+    <!-- 材料 -->
+    <rect x="40" y="404" width="600" height="150" rx="6" fill="#EEEDFE" stroke="#AFA9EC" stroke-width="0.6"/>
+    <text x="56" y="428" font-size="13" font-weight="600" fill="#3C3489">半导体材料</text>
+    <text x="56" y="448" font-size="11" fill="#888780">全球主导</text>
+    <rect x="56" y="456" width="120" height="30" rx="3" fill="#FBE7C6" stroke="#E0A93B" stroke-width="0.5"/>
+    <text x="116" y="475" text-anchor="middle" font-size="10.5" fill="#7A4E00">信越/SUMCO(硅片)</text>
+    <rect x="186" y="456" width="100" height="30" rx="3" fill="#FBE7C6" stroke="#E0A93B" stroke-width="0.5"/>
+    <text x="236" y="475" text-anchor="middle" font-size="10.5" fill="#7A4E00">JSR(光刻胶)</text>
+    <text x="306" y="448" font-size="11" fill="#888780">A股代表</text>
+    <rect x="306" y="456" width="90" height="30" rx="3" fill="#E1F5EE" stroke="#9FE1CB" stroke-width="0.5"/>
+    <text x="351" y="475" text-anchor="middle" font-size="10.5" fill="#085041">沪硅产业</text>
+    <rect x="406" y="456" width="90" height="30" rx="3" fill="#E1F5EE" stroke="#9FE1CB" stroke-width="0.5"/>
+    <text x="451" y="475" text-anchor="middle" font-size="10.5" fill="#085041">鼎龙/安集</text>
+    <rect x="516" y="456" width="100" height="30" rx="3" fill="#E1F5EE" stroke="#9FE1CB" stroke-width="0.5"/>
+    <text x="566" y="475" text-anchor="middle" font-size="10.5" fill="#085041">雅克/江丰</text>
+    <text x="56" y="518" font-size="10.5" fill="#5F5E5A">核心认知：日本主导前道材料；硅片/光刻胶/抛光垫等国产化率普遍低于 20%，替代空间最大。</text>
+  </g>
+
+  <rect x="40" y="540" width="600" height="30" rx="6" fill="#F1EFE8" stroke="none"/>
+  <text x="350" y="560" text-anchor="middle" font-size="11.5" fill="#2C2C2A" font-family="sans-serif">橙=全球垄断方 · 绿=A 股国产代表 · 国产替代是确定性最强主线</text>
+</svg>

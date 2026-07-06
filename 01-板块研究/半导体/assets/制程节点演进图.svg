@@ -1,0 +1,68 @@
+<svg width="100%" viewBox="0 0 680 360" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>制程节点演进与晶体管结构变化</title>
+  <desc>从 28nm 到 2nm，晶体管结构从平面 Planar 走向 FinFET 再走向 GAA 全环绕栅极</desc>
+
+  <text x="40" y="36" font-size="14" font-weight="600" fill="#0C447C" font-family="sans-serif">制程节点演进：线宽越小，晶体管结构越立体</text>
+
+  <!-- 演进主轴 -->
+  <line x1="70" y1="120" x2="610" y2="120" stroke="#9AA0A6" stroke-width="2"/>
+  <polygon points="610,120 600,115 600,125" fill="#9AA0A6"/>
+
+  <g font-family="sans-serif" text-anchor="middle">
+    <!-- 节点 1: 28nm Planar -->
+    <circle cx="90" cy="120" r="6" fill="#5B8DB8"/>
+    <text x="90" y="100" font-size="13" font-weight="600" fill="#2C2C2A">28nm</text>
+    <text x="90" y="148" font-size="11" fill="#5F5E5A">平面 Planar</text>
+    <rect x="70" y="170" width="40" height="8" rx="1" fill="#B7C4D0"/>
+    <rect x="86" y="164" width="8" height="20" rx="1" fill="#5B8DB8"/>
+    <text x="90" y="205" font-size="10" fill="#888780">平房式</text>
+
+    <!-- 节点 2: 14nm FinFET -->
+    <circle cx="234" cy="120" r="6" fill="#3E8E5A"/>
+    <text x="234" y="100" font-size="13" font-weight="600" fill="#2C2C2A">14nm</text>
+    <text x="234" y="148" font-size="11" fill="#5F5E5A">FinFET 鳍式</text>
+    <rect x="226" y="172" width="16" height="28" rx="1" fill="#3E8E5A"/>
+    <rect x="218" y="178" width="32" height="12" rx="2" fill="none" stroke="#27613B" stroke-width="1.5"/>
+    <text x="234" y="222" font-size="10" fill="#888780">围墙式</text>
+
+    <!-- 节点 3: 7nm FinFET -->
+    <circle cx="338" cy="120" r="6" fill="#3E8E5A"/>
+    <text x="338" y="100" font-size="13" font-weight="600" fill="#2C2C2A">7nm</text>
+    <text x="338" y="148" font-size="11" fill="#5F5E5A">FinFET</text>
+    <rect x="330" y="172" width="16" height="28" rx="1" fill="#3E8E5A"/>
+    <rect x="322" y="178" width="32" height="12" rx="2" fill="none" stroke="#27613B" stroke-width="1.5"/>
+    <text x="338" y="222" font-size="10" fill="#888780">围墙式</text>
+
+    <!-- 节点 4: 5nm FinFET -->
+    <circle cx="442" cy="120" r="6" fill="#3E8E5A"/>
+    <text x="442" y="100" font-size="13" font-weight="600" fill="#2C2C2A">5nm</text>
+    <text x="442" y="148" font-size="11" fill="#5F5E5A">FinFET</text>
+    <rect x="434" y="172" width="16" height="28" rx="1" fill="#3E8E5A"/>
+    <rect x="426" y="178" width="32" height="12" rx="2" fill="none" stroke="#27613B" stroke-width="1.5"/>
+    <text x="442" y="222" font-size="10" fill="#888780">围墙式</text>
+
+    <!-- 节点 5: 3nm GAA -->
+    <circle cx="546" cy="120" r="6" fill="#7A52B3"/>
+    <text x="546" y="100" font-size="13" font-weight="600" fill="#2C2C2A">3nm</text>
+    <text x="546" y="148" font-size="11" fill="#5F5E5A">GAA 全环绕</text>
+    <rect x="528" y="172" width="36" height="6" rx="1" fill="#7A52B3"/>
+    <rect x="528" y="182" width="36" height="6" rx="1" fill="#7A52B3"/>
+    <rect x="528" y="192" width="36" height="6" rx="1" fill="#7A52B3"/>
+    <rect x="522" y="170" width="48" height="30" rx="2" fill="none" stroke="#512E86" stroke-width="1.5"/>
+    <text x="546" y="222" font-size="10" fill="#888780">管道包裹式</text>
+
+    <!-- 节点 6: 2nm GAA -->
+    <circle cx="610" cy="120" r="6" fill="#7A52B3"/>
+    <text x="610" y="100" font-size="12" font-weight="600" fill="#2C2C2A">2nm</text>
+    <text x="610" y="148" font-size="10" fill="#5F5E5A">GAA</text>
+    <rect x="592" y="172" width="36" height="6" rx="1" fill="#7A52B3"/>
+    <rect x="592" y="182" width="36" height="6" rx="1" fill="#7A52B3"/>
+    <rect x="592" y="192" width="36" height="6" rx="1" fill="#7A52B3"/>
+    <rect x="586" y="170" width="48" height="30" rx="2" fill="none" stroke="#512E86" stroke-width="1.5"/>
+    <text x="610" y="222" font-size="9" fill="#888780">管道包裹式</text>
+  </g>
+
+  <rect x="40" y="270" width="600" height="64" rx="6" fill="#F1EFE8" stroke="none"/>
+  <text x="60" y="294" font-size="12" font-weight="500" fill="#2C2C2A" font-family="sans-serif">结构跃迁的投资含义</text>
+  <text x="60" y="318" font-size="11.5" fill="#5F5E5A" font-family="sans-serif">每一次结构升级都对设备/材料提出全新要求（EUV 仅 7nm 以下需要，GAA 需全新沉积/刻蚀工艺）——是国产替代最难、价值最高的战场。</text>
+</svg>

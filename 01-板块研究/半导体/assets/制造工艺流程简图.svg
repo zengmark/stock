@@ -1,0 +1,71 @@
+<svg width="100%" viewBox="0 0 680 560" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>半导体制造工艺流程简图</title>
+  <desc>从设计到测试封装的八大前道核心工序，逐步循环堆叠出立体电路</desc>
+  <defs>
+    <marker id="arrow2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <text x="40" y="40" font-size="14" font-weight="600" fill="#0C447C" font-family="sans-serif">一颗芯片的诞生：前道八大核心工序（循环成百上千次）</text>
+
+  <g font-family="sans-serif">
+    <!-- 1 -->
+    <rect x="240" y="70" width="200" height="42" rx="5" fill="#E6F1FB" stroke="#85B7EB" stroke-width="0.6"/>
+    <text x="340" y="92" text-anchor="middle" font-size="13" font-weight="500" fill="#0C447C">1 · 设计（EDA + 掩膜版）</text>
+    <text x="340" y="106" text-anchor="middle" font-size="10" fill="#5F5E5A">画电路图纸，生成光刻底片</text>
+    <path d="M340 112L340 126" stroke="#888780" stroke-width="1" marker-end="url(#arrow2)"/>
+
+    <!-- 2 -->
+    <rect x="240" y="128" width="200" height="42" rx="5" fill="#EAF3DE" stroke="#97C459" stroke-width="0.6"/>
+    <text x="340" y="150" text-anchor="middle" font-size="13" font-weight="500" fill="#27500A">2 · 光刻（Photolithography）</text>
+    <text x="340" y="164" text-anchor="middle" font-size="10" fill="#5F5E5A">用光把图案印到涂胶晶圆</text>
+    <path d="M340 170L340 184" stroke="#888780" stroke-width="1" marker-end="url(#arrow2)"/>
+
+    <!-- 3 -->
+    <rect x="240" y="186" width="200" height="42" rx="5" fill="#EAF3DE" stroke="#97C459" stroke-width="0.6"/>
+    <text x="340" y="208" text-anchor="middle" font-size="13" font-weight="500" fill="#27500A">3 · 刻蚀（Etch）</text>
+    <text x="340" y="222" text-anchor="middle" font-size="10" fill="#5F5E5A">切除未被保护的多余材料</text>
+    <path d="M340 228L340 242" stroke="#888780" stroke-width="1" marker-end="url(#arrow2)"/>
+
+    <!-- 4 -->
+    <rect x="240" y="244" width="200" height="42" rx="5" fill="#EAF3DE" stroke="#97C459" stroke-width="0.6"/>
+    <text x="340" y="266" text-anchor="middle" font-size="13" font-weight="500" fill="#27500A">4 · 沉积（CVD/PVD/ALD）</text>
+    <text x="340" y="280" text-anchor="middle" font-size="10" fill="#5F5E5A">镀上绝缘膜或金属膜</text>
+    <path d="M340 286L340 300" stroke="#888780" stroke-width="1" marker-end="url(#arrow2)"/>
+
+    <!-- 5 -->
+    <rect x="240" y="302" width="200" height="42" rx="5" fill="#EAF3DE" stroke="#97C459" stroke-width="0.6"/>
+    <text x="340" y="324" text-anchor="middle" font-size="13" font-weight="500" fill="#27500A">5 · 离子注入（Implant）</text>
+    <text x="340" y="338" text-anchor="middle" font-size="10" fill="#5F5E5A">打入杂质改变导电性质</text>
+    <path d="M340 344L340 358" stroke="#888780" stroke-width="1" marker-end="url(#arrow2)"/>
+
+    <!-- 6 -->
+    <rect x="240" y="360" width="200" height="42" rx="5" fill="#EAF3DE" stroke="#97C459" stroke-width="0.6"/>
+    <text x="340" y="382" text-anchor="middle" font-size="13" font-weight="500" fill="#27500A">6 · 抛光（CMP）</text>
+    <text x="340" y="396" text-anchor="middle" font-size="10" fill="#5F5E5A">磨平表面，准备下一层</text>
+    <path d="M340 402L340 416" stroke="#888780" stroke-width="1" marker-end="url(#arrow2)"/>
+
+    <!-- 7 循环 -->
+    <rect x="240" y="418" width="200" height="42" rx="5" fill="#FBE7C6" stroke="#E0A93B" stroke-width="0.6"/>
+    <text x="340" y="440" text-anchor="middle" font-size="13" font-weight="500" fill="#7A4E00">7 · 循环（重复 2-6）</text>
+    <text x="340" y="454" text-anchor="middle" font-size="10" fill="#5F5E5A">成百上千次，叠出多层立体电路</text>
+
+    <!-- 8 -->
+    <rect x="240" y="486" width="200" height="42" rx="5" fill="#EEEDFE" stroke="#AFA9EC" stroke-width="0.6"/>
+    <text x="340" y="508" text-anchor="middle" font-size="13" font-weight="500" fill="#3C3489">8 · 测试 / 封装交付</text>
+    <text x="340" y="522" text-anchor="middle" font-size="10" fill="#5F5E5A">切粒、测试、封装成成品芯片</text>
+  </g>
+
+  <rect x="470" y="128" width="180" height="332" rx="6" fill="#F1EFE8" stroke="none"/>
+  <text x="560" y="152" text-anchor="middle" font-size="12" font-weight="500" fill="#2C2C2A" font-family="sans-serif">关键设备 / 材料</text>
+  <text x="490" y="180" font-size="11" fill="#5F5E5A" font-family="sans-serif">· 光刻机、光刻胶</text>
+  <text x="490" y="206" font-size="11" fill="#5F5E5A" font-family="sans-serif">· 刻蚀机</text>
+  <text x="490" y="232" font-size="11" fill="#5F5E5A" font-family="sans-serif">· 薄膜沉积设备</text>
+  <text x="490" y="258" font-size="11" fill="#5F5E5A" font-family="sans-serif">· 离子注入机</text>
+  <text x="490" y="284" font-size="11" fill="#5F5E5A" font-family="sans-serif">· CMP 设备、抛光液/垫</text>
+  <text x="490" y="310" font-size="11" fill="#5F5E5A" font-family="sans-serif">· 清洗机、电子特气</text>
+  <text x="490" y="336" font-size="11" fill="#5F5E5A" font-family="sans-serif">· 量测、检测设备</text>
+  <text x="490" y="362" font-size="11" fill="#5F5E5A" font-family="sans-serif">· 测试机、分选机</text>
+  <text x="490" y="392" font-size="11" fill="#3C3489" font-family="sans-serif">设备+材料消耗最密集</text>
+</svg>
