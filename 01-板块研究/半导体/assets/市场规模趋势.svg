@@ -1,6 +1,6 @@
 <svg width="100%" viewBox="0 0 680 380" xmlns="http://www.w3.org/2000/svg" role="img">
   <title>全球半导体市场规模趋势</title>
-  <desc>2022-2025E 全球半导体市场规模（亿美元），2023 年回调、2024 强势复苏</desc>
+  <desc>2022-2025 全球半导体市场规模（亿美元），2023 回调、2024-2025 强势复苏，2025 创历史新高</desc>
 
   <text x="40" y="36" font-size="14" font-weight="600" fill="#0C447C" font-family="sans-serif">全球半导体市场规模（亿美元）</text>
   <text x="40" y="56" font-size="11" fill="#5F5E5A" font-family="sans-serif">涨（复苏/增长）标红，跌（回调）标绿，符合 A 股习惯</text>
@@ -31,18 +31,18 @@
     <text x="280" y="340" font-size="11" fill="#2C2C2A">2023</text>
     <text x="280" y="356" font-size="9.5" fill="#27AE60">-8.2%</text>
 
-    <!-- 2024 6260 -->
-    <rect x="380" y="105" width="80" height="215" rx="3" fill="#C0392B"/>
-    <text x="420" y="95" font-size="12" font-weight="600" fill="#C0392B">6260</text>
+    <!-- 2024 6305 -->
+    <rect x="380" y="104" width="80" height="216" rx="3" fill="#C0392B"/>
+    <text x="420" y="94" font-size="12" font-weight="600" fill="#C0392B">6305</text>
     <text x="420" y="340" font-size="11" fill="#2C2C2A">2024</text>
-    <text x="420" y="356" font-size="9.5" fill="#C0392B">+19.0%</text>
+    <text x="420" y="356" font-size="9.5" fill="#C0392B">+19.6%</text>
 
-    <!-- 2025E 6970 -->
-    <rect x="520" y="81" width="80" height="239" rx="3" fill="#C0392B" fill-opacity="0.7"/>
-    <text x="560" y="71" font-size="12" font-weight="600" fill="#C0392B">6970</text>
-    <text x="560" y="340" font-size="11" fill="#2C2C2A">2025E</text>
-    <text x="560" y="356" font-size="9.5" fill="#C0392B">+11%</text>
+    <!-- 2025 7917 实际 -->
+    <rect x="520" y="48" width="80" height="272" rx="3" fill="#C0392B"/>
+    <text x="560" y="38" font-size="12" font-weight="600" fill="#C0392B">7917</text>
+    <text x="560" y="340" font-size="11" fill="#2C2C2A">2025</text>
+    <text x="560" y="356" font-size="9.5" fill="#C0392B">+25.6%</text>
   </g>
 
-  <text x="350" y="378" text-anchor="middle" font-size="10" fill="#888780" font-family="sans-serif">数据来源：SIA / WSTS（2025E 为预测）</text>
+  <text x="350" y="378" text-anchor="middle" font-size="10" fill="#888780" font-family="sans-serif">数据来源：SIA / WSTS（2025 为实际值，约 7917 亿美元，+25.6%）</text>
 </svg>
