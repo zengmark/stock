@@ -1,0 +1,127 @@
+<svg role="img" width="100%" viewBox="0 0 820 560" xmlns="http://www.w3.org/2000/svg">
+  <title>HBM 高带宽内存堆叠结构示意</title>
+  <desc>上图展示 HBM 内部多层 DRAM 经 TSV 硅通孔垂直堆叠的结构；下图展示 GPU die 与两侧 HBM 通过硅中介层互联的整体封装截面</desc>
+  <style>
+    .t  { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 16px; fill: #3C3489; font-weight: 600; }
+    .th { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 13px; fill: #3C3489; font-weight: 600; }
+    .ts { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 12px; fill: #5F5E5A; font-weight: 400; }
+    .tx { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 11px; fill: #5F5E5A; font-weight: 400; }
+    .note { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 10px; fill: #888780; font-weight: 400; }
+    .em { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 12px; fill: #C0392B; font-weight: 600; }
+  </style>
+
+  <!-- ============ TOP: HBM stack detail ============ -->
+  <text class="t" x="410" y="26" text-anchor="middle">HBM 内部结构：多层 DRAM 垂直堆叠 + TSV 硅通孔</text>
+
+  <!-- HBM stack: 8 layers + logic base, on the left-center -->
+  <!-- Logic base -->
+  <rect x="150" y="240" width="240" height="26" rx="2" fill="#FDEFCB" stroke="#C99A2E" stroke-width="0.7"/>
+  <text class="th" x="270" y="253" text-anchor="middle" dominant-baseline="central">逻辑控制层（Logic Die）</text>
+
+  <!-- 8 DRAM layers stacked -->
+  <g>
+    <rect x="150" y="218" width="240" height="22" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.6"/>
+    <rect x="150" y="196" width="240" height="22" fill="#E4E1FB" stroke="#534AB7" stroke-width="0.6"/>
+    <rect x="150" y="174" width="240" height="22" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.6"/>
+    <rect x="150" y="152" width="240" height="22" fill="#E4E1FB" stroke="#534AB7" stroke-width="0.6"/>
+    <rect x="150" y="130" width="240" height="22" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.6"/>
+    <rect x="150" y="108" width="240" height="22" fill="#E4E1FB" stroke="#534AB7" stroke-width="0.6"/>
+    <rect x="150" y="86"  width="240" height="22" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.6"/>
+    <rect x="150" y="64"  width="240" height="22" fill="#E4E1FB" stroke="#534AB7" stroke-width="0.6"/>
+  </g>
+  <!-- layer labels on left -->
+  <text class="tx" x="140" y="75" text-anchor="end" dominant-baseline="central">DRAM 层 8</text>
+  <text class="tx" x="140" y="97" text-anchor="end" dominant-baseline="central">DRAM 层 7</text>
+  <text class="tx" x="140" y="119" text-anchor="end" dominant-baseline="central">DRAM 层 6</text>
+  <text class="tx" x="140" y="141" text-anchor="end" dominant-baseline="central">DRAM 层 5</text>
+  <text class="tx" x="140" y="163" text-anchor="end" dominant-baseline="central">DRAM 层 4</text>
+  <text class="tx" x="140" y="185" text-anchor="end" dominant-baseline="central">DRAM 层 3</text>
+  <text class="tx" x="140" y="207" text-anchor="end" dominant-baseline="central">DRAM 层 2</text>
+  <text class="tx" x="140" y="229" text-anchor="end" dominant-baseline="central">DRAM 层 1</text>
+
+  <!-- TSV vertical copper columns piercing through layers -->
+  <g fill="#C0392B" opacity="0.8">
+    <rect x="180" y="64" width="3.5" height="202"/>
+    <rect x="220" y="64" width="3.5" height="202"/>
+    <rect x="260" y="64" width="3.5" height="202"/>
+    <rect x="300" y="64" width="3.5" height="202"/>
+    <rect x="340" y="64" width="3.5" height="202"/>
+  </g>
+  <!-- TSV label with arrow -->
+  <line x1="375" y1="120" x2="445" y2="120" stroke="#C0392B" stroke-width="0.8"/>
+  <text class="em" x="450" y="116" dominant-baseline="central">TSV 硅通孔</text>
+  <text class="tx" x="450" y="132" dominant-baseline="central">（小铜柱贯穿每层，</text>
+  <text class="tx" x="450" y="146" dominant-baseline="central">  实现垂直高速互联）</text>
+
+  <!-- micro-bumps between layers -->
+  <g fill="#888780">
+    <circle cx="200" cy="86" r="1.2"/><circle cx="240" cy="86" r="1.2"/><circle cx="280" cy="86" r="1.2"/><circle cx="320" cy="86" r="1.2"/>
+    <circle cx="200" cy="130" r="1.2"/><circle cx="240" cy="130" r="1.2"/><circle cx="280" cy="130" r="1.2"/><circle cx="320" cy="130" r="1.2"/>
+    <circle cx="200" cy="174" r="1.2"/><circle cx="240" cy="174" r="1.2"/><circle cx="280" cy="174" r="1.2"/><circle cx="320" cy="174" r="1.2"/>
+  </g>
+
+  <!-- stack bracket & summary -->
+  <line x1="120" y1="64" x2="120" y2="240" stroke="#534AB7" stroke-width="1.2"/>
+  <line x1="116" y1="64" x2="124" y2="64" stroke="#534AB7" stroke-width="1.2"/>
+  <line x1="116" y1="240" x2="124" y2="240" stroke="#534AB7" stroke-width="1.2"/>
+  <text class="th" x="108" y="152" text-anchor="end" dominant-baseline="central" fill="#534AB7">8 层堆叠</text>
+
+  <!-- bottom substrate of HBM -->
+  <rect x="150" y="266" width="240" height="14" fill="#E8E6DD" stroke="#8A8678" stroke-width="0.6"/>
+  <text class="note" x="270" y="296" text-anchor="middle">↓ 通过硅中介层与 GPU 高速互联（带宽 1–4+ TB/s）</text>
+
+  <!-- ============ BOTTOM: GPU + HBM package cross-section ============ -->
+  <line x1="40" y1="320" x2="780" y2="320" stroke="#D3D1C7" stroke-width="0.6" stroke-dasharray="5 4"/>
+  <text class="t" x="410" y="345" text-anchor="middle">整体封装截面：GPU die + 两侧 HBM（2.5D / CoWoS）</text>
+
+  <!-- PCB substrate -->
+  <rect x="60" y="470" width="700" height="34" rx="2" fill="#EDEAE0" stroke="#8A8678" stroke-width="0.8"/>
+  <text class="ts" x="410" y="488" text-anchor="middle" dominant-baseline="central">封装基板（Substrate / PCB）</text>
+  <!-- solder balls -->
+  <g fill="#A8A498">
+    <circle cx="90" cy="510" r="4"/><circle cx="140" cy="510" r="4"/><circle cx="190" cy="510" r="4"/><circle cx="240" cy="510" r="4"/><circle cx="290" cy="510" r="4"/><circle cx="340" cy="510" r="4"/><circle cx="390" cy="510" r="4"/><circle cx="440" cy="510" r="4"/><circle cx="490" cy="510" r="4"/><circle cx="540" cy="510" r="4"/><circle cx="590" cy="510" r="4"/><circle cx="640" cy="510" r="4"/><circle cx="690" cy="510" r="4"/><circle cx="730" cy="510" r="4"/>
+  </g>
+
+  <!-- Silicon Interposer -->
+  <rect x="80" y="424" width="660" height="44" rx="2" fill="#F4F1FB" stroke="#534AB7" stroke-width="0.8"/>
+  <text class="th" x="410" y="440" text-anchor="middle" dominant-baseline="central">硅中介层（Silicon Interposer）</text>
+  <text class="tx" x="410" y="458" text-anchor="middle" dominant-baseline="central">微米级布线 + TSV，连接 GPU 与 HBM（带宽极高）</text>
+
+  <!-- micro-bumps between interposer and dies -->
+  <g fill="#888780">
+    <circle cx="150" cy="420" r="1.6"/><circle cx="190" cy="420" r="1.6"/><circle cx="230" cy="420" r="1.6"/><circle cx="270" cy="420" r="1.6"/>
+    <circle cx="400" cy="420" r="1.6"/><circle cx="440" cy="420" r="1.6"/><circle cx="480" cy="420" r="1.6"/>
+    <circle cx="560" cy="420" r="1.6"/><circle cx="600" cy="420" r="1.6"/><circle cx="640" cy="420" r="1.6"/><circle cx="680" cy="420" r="1.6"/>
+  </g>
+
+  <!-- HBM left (stacked, simplified) -->
+  <g>
+    <rect x="120" y="360" width="180" height="18" fill="#E4E1FB" stroke="#534AB7" stroke-width="0.5"/>
+    <rect x="120" y="378" width="180" height="18" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
+    <rect x="120" y="396" width="180" height="18" fill="#E4E1FB" stroke="#534AB7" stroke-width="0.5"/>
+  </g>
+  <text class="th" x="210" y="372" text-anchor="middle" dominant-baseline="central">HBM</text>
+  <text class="tx" x="210" y="350" text-anchor="middle">8 层堆叠 · ~3 TB/s</text>
+
+  <!-- GPU die center -->
+  <rect x="330" y="358" width="200" height="56" rx="3" fill="#E6F1FB" stroke="#185FA5" stroke-width="1"/>
+  <text class="th" x="430" y="380" text-anchor="middle" dominant-baseline="central">GPU 计算芯片</text>
+  <text class="tx" x="430" y="398" text-anchor="middle" dominant-baseline="central">（Logic Die，含 Tensor Core）</text>
+
+  <!-- HBM right -->
+  <g>
+    <rect x="560" y="360" width="180" height="18" fill="#E4E1FB" stroke="#534AB7" stroke-width="0.5"/>
+    <rect x="560" y="378" width="180" height="18" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
+    <rect x="560" y="396" width="180" height="18" fill="#E4E1FB" stroke="#534AB7" stroke-width="0.5"/>
+  </g>
+  <text class="th" x="650" y="372" text-anchor="middle" dominant-baseline="central">HBM</text>
+  <text class="tx" x="650" y="350" text-anchor="middle">8 层堆叠 · ~3 TB/s</text>
+
+  <!-- bandwidth arrows GPU<->HBM -->
+  <line x1="300" y1="388" x2="330" y2="388" stroke="#C0392B" stroke-width="1.4"/>
+  <line x1="530" y1="388" x2="560" y2="388" stroke="#C0392B" stroke-width="1.4"/>
+  <text class="em" x="410" y="335" text-anchor="middle">超高带宽互联（TB/s 级）— 这是 HBM 解决「喂料瓶颈」的关键</text>
+
+  <!-- legend note -->
+  <text class="note" x="410" y="538" text-anchor="middle">HBM = 多层 DRAM 垂直堆叠 + TSV 贯穿 + 紧贴 GPU 经硅中介层互联；与传统平铺内存相比带宽提升 5–10 倍</text>
+</svg>

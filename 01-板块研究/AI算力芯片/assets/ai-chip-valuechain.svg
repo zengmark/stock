@@ -1,0 +1,79 @@
+<svg role="img" width="100%" viewBox="0 0 820 460" xmlns="http://www.w3.org/2000/svg">
+  <title>AI 算力芯片产业链全景</title>
+  <desc>从设计到软件生态的五个环节纵向链条，标注各环节核心厂商与 A 股标的</desc>
+  <style>
+    .t  { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 16px; fill: #3C3489; font-weight: 600; }
+    .th { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 13px; fill: #3C3489; font-weight: 600; }
+    .ts { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 12px; fill: #5F5E5A; font-weight: 400; }
+    .tx { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 11px; fill: #5F5E5A; font-weight: 400; }
+    .a  { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 11px; fill: #C0392B; font-weight: 600; }
+    .note { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 10px; fill: #888780; font-weight: 400; }
+  </style>
+
+  <text class="t" x="410" y="26" text-anchor="middle">AI 算力芯片产业链：五环节价值分布</text>
+
+  <!-- 5 horizontal layers from top (design, high margin) to bottom (software) -->
+  <!-- Layer 1: Design -->
+  <rect x="60" y="50" width="700" height="62" rx="6" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.8"/>
+  <text class="th" x="80" y="74">① 设计（Fabless）</text>
+  <text class="ts" x="80" y="94">画芯片图纸：架构 + 电路</text>
+  <text class="tx" x="430" y="74">全球：英伟达（霸主）、AMD、博通、Marvell、Google(TPU)、华为(昇腾)</text>
+  <text class="a"  x="430" y="96">A 股：寒武纪 688256 · 海光信息 688041 · 景嘉微 300474 · 龙芯中科 688047</text>
+  <text class="note" x="730" y="74" text-anchor="end">毛利率 50–75%</text>
+  <text class="note" x="730" y="96" text-anchor="end">最高</text>
+
+  <!-- arrow down -->
+  <path d="M410,112 L410,124" stroke="#8A8678" stroke-width="1.4" fill="none" marker-end="url(#arr)"/>
+
+  <!-- Layer 2: Manufacturing -->
+  <rect x="60" y="126" width="700" height="58" rx="6" fill="#FBF7EE" stroke="#C99A2E" stroke-width="0.8"/>
+  <text class="th" x="80" y="148">② 制造（代工 Foundry）</text>
+  <text class="ts" x="80" y="168">把图纸变成晶圆：3nm/2nm 先进制程</text>
+  <text class="tx" x="430" y="148">全球：台积电（垄断 ~60%）、三星、英特尔 Foundry</text>
+  <text class="a"  x="430" y="170">A 股/港股：中芯国际 00981（7nm，受光刻机限制）· 华虹</text>
+  <text class="note" x="730" y="148" text-anchor="end">毛利率 40–55%</text>
+
+  <path d="M410,184 L410,196" stroke="#8A8678" stroke-width="1.4" fill="none" marker-end="url(#arr)"/>
+
+  <!-- Layer 3: HBM Memory -->
+  <rect x="60" y="198" width="700" height="58" rx="6" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.8"/>
+  <text class="th" x="80" y="220">③ 内存（HBM 高带宽内存）</text>
+  <text class="ts" x="80" y="240">多层 DRAM 垂直堆叠 + TSV，紧贴 GPU</text>
+  <text class="tx" x="430" y="220">全球三寡头：SK 海力士(~50%) · 三星(~30%) · 美光 MU(~20%)</text>
+  <text class="a"  x="430" y="242">A 股切入点：澜起科技 688008（HBM 接口 IP，全球前三）</text>
+  <text class="note" x="730" y="220" text-anchor="end">毛利率 40%+</text>
+  <text class="note" x="730" y="242" text-anchor="end">命门</text>
+
+  <path d="M410,256 L410,268" stroke="#8A8678" stroke-width="1.4" fill="none" marker-end="url(#arr)"/>
+
+  <!-- Layer 4: Packaging -->
+  <rect x="60" y="270" width="700" height="58" rx="6" fill="#FDEFCB" stroke="#C99A2E" stroke-width="0.8"/>
+  <text class="th" x="80" y="292">④ 封测（先进封装 2.5D/3D）</text>
+  <text class="ts" x="80" y="312">GPU + HBM 集成：CoWoS / 堆叠</text>
+  <text class="tx" x="430" y="292">全球：台积电 CoWoS（独占 ~90%）· 日月光 · 长电/通富/华天</text>
+  <text class="a"  x="430" y="314">A 股：长电科技 · 通富微电 · 华天科技（详见先进封装板块）</text>
+  <text class="note" x="730" y="292" text-anchor="end">毛利率 15–30%</text>
+  <text class="note" x="730" y="314" text-anchor="end">产能瓶颈</text>
+
+  <path d="M410,328 L410,340" stroke="#8A8678" stroke-width="1.4" fill="none" marker-end="url(#arr)"/>
+
+  <!-- Layer 5: Software -->
+  <rect x="60" y="342" width="700" height="58" rx="6" fill="#FCE8E6" stroke="#C0392B" stroke-width="0.8"/>
+  <text class="th" x="80" y="364">⑤ 软件生态（让芯片能用）</text>
+  <text class="ts" x="80" y="384">并行计算框架 + AI 库：决定开发者用谁的芯片</text>
+  <text class="tx" x="430" y="364">全球：英伟达 CUDA（垄断，400 万开发者）· AMD ROCm（开源）</text>
+  <text class="a"  x="430" y="386">A 股：寒武纪 NeuWare · 海光 DTK（类 CUDA 兼容）· 华为 CANN</text>
+  <text class="note" x="730" y="364" text-anchor="end">生态锁定</text>
+  <text class="note" x="730" y="386" text-anchor="end">隐性利润</text>
+
+  <!-- arrow marker def -->
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 z" fill="#8A8678"/>
+    </marker>
+  </defs>
+
+  <!-- bottom takeaway -->
+  <rect x="60" y="412" width="700" height="38" rx="6" fill="#F4F1FB" stroke="#534AB7" stroke-width="0.6"/>
+  <text class="ts" x="410" y="431" text-anchor="middle" dominant-baseline="central">利润呈「微笑曲线」：设计 + 软件最赚，封测最薄；但封测（CoWoS）是产能阀门，HBM 是命门</text>
+</svg>

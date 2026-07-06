@@ -1,0 +1,100 @@
+<svg role="img" width="100%" viewBox="0 0 820 520" xmlns="http://www.w3.org/2000/svg">
+  <title>CPU 与 GPU 架构对比</title>
+  <desc>左侧 CPU 少量大核心配大量控制逻辑与缓存；右侧 GPU 密集排列上千小核心，适合大规模并行计算</desc>
+  <style>
+    .t  { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 17px; fill: #3C3489; font-weight: 600; }
+    .th { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 13px; fill: #3C3489; font-weight: 600; }
+    .ts { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 12px; fill: #5F5E5A; font-weight: 400; }
+    .tx { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 11px; fill: #5F5E5A; font-weight: 400; }
+    .note { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 11px; fill: #888780; font-weight: 400; }
+    .em { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 12px; fill: #C0392B; font-weight: 600; }
+  </style>
+
+  <!-- Divider -->
+  <line x1="410" y1="30" x2="410" y2="430" stroke="#D3D1C7" stroke-width="0.6" stroke-dasharray="5 4"/>
+
+  <!-- Titles -->
+  <text class="t" x="205" y="32" text-anchor="middle">CPU — 少数精锐大厨</text>
+  <text class="t" x="615" y="32" text-anchor="middle">GPU — 上万并行小哥</text>
+
+  <!-- ========== CPU SIDE ========== -->
+  <!-- CPU die outline -->
+  <rect x="50" y="50" width="310" height="300" rx="6" fill="#FBF7EE" stroke="#8A8678" stroke-width="1"/>
+
+  <!-- Control / Cache area -->
+  <rect x="62" y="62" width="286" height="46" rx="3" fill="#FDEFCB" stroke="#C99A2E" stroke-width="0.6"/>
+  <text class="th" x="205" y="80" text-anchor="middle" dominant-baseline="central">控制逻辑 + 大缓存（L3 Cache）</text>
+  <text class="tx" x="205" y="98" text-anchor="middle" dominant-baseline="central">复杂任务调度、分支预测</text>
+
+  <!-- 8 big cores -->
+  <g>
+    <rect x="70"  y="120" width="62" height="100" rx="4" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.8"/>
+    <rect x="142" y="120" width="62" height="100" rx="4" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.8"/>
+    <rect x="214" y="120" width="62" height="100" rx="4" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.8"/>
+    <rect x="286" y="120" width="62" height="100" rx="4" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.8"/>
+    <rect x="70"  y="232" width="62" height="100" rx="4" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.8"/>
+    <rect x="142" y="232" width="62" height="100" rx="4" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.8"/>
+    <rect x="214" y="232" width="62" height="100" rx="4" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.8"/>
+    <rect x="286" y="232" width="62" height="100" rx="4" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.8"/>
+  </g>
+  <g font-family="-apple-system, sans-serif" font-size="11" fill="#185FA5" text-anchor="middle">
+    <text x="101" y="175" dominant-baseline="central">核心</text>
+    <text x="173" y="175" dominant-baseline="central">核心</text>
+    <text x="245" y="175" dominant-baseline="central">核心</text>
+    <text x="317" y="175" dominant-baseline="central">核心</text>
+    <text x="101" y="287" dominant-baseline="central">核心</text>
+    <text x="173" y="287" dominant-baseline="central">核心</text>
+    <text x="245" y="287" dominant-baseline="central">核心</text>
+    <text x="317" y="287" dominant-baseline="central">核心</text>
+  </g>
+
+  <!-- CPU caption -->
+  <text class="ts" x="205" y="372" text-anchor="middle">4–64 个核心，每个强大、会复杂判断</text>
+  <text class="tx" x="205" y="390" text-anchor="middle">适合：操作系统、数据库、串行逻辑</text>
+  <text class="em"  x="205" y="410" text-anchor="middle">❌ 不适合：海量简单并行运算（AI）</text>
+
+  <!-- ========== GPU SIDE ========== -->
+  <!-- GPU die outline -->
+  <rect x="460" y="50" width="310" height="300" rx="6" fill="#FBF7EE" stroke="#8A8678" stroke-width="1"/>
+
+  <!-- SM grid: 16 cols x 10 rows = 160 small cores -->
+  <g>
+    <!-- generate grid -->
+    <!-- row by row -->
+  </g>
+  <!-- 160 cores as a grid 16 x 10 -->
+  <g fill="#EEEDFE" stroke="#534AB7" stroke-width="0.4">
+    <!-- We'll draw 160 rects in a 16x10 grid, each 16x24, start x=470 y=60 -->
+    <g>
+      <rect x="470" y="60" width="16" height="24"/><rect x="488" y="60" width="16" height="24"/><rect x="506" y="60" width="16" height="24"/><rect x="524" y="60" width="16" height="24"/><rect x="542" y="60" width="16" height="24"/><rect x="560" y="60" width="16" height="24"/><rect x="578" y="60" width="16" height="24"/><rect x="596" y="60" width="16" height="24"/><rect x="614" y="60" width="16" height="24"/><rect x="632" y="60" width="16" height="24"/><rect x="650" y="60" width="16" height="24"/><rect x="668" y="60" width="16" height="24"/><rect x="686" y="60" width="16" height="24"/><rect x="704" y="60" width="16" height="24"/><rect x="722" y="60" width="16" height="24"/><rect x="740" y="60" width="16" height="24"/>
+      <rect x="470" y="86" width="16" height="24"/><rect x="488" y="86" width="16" height="24"/><rect x="506" y="86" width="16" height="24"/><rect x="524" y="86" width="16" height="24"/><rect x="542" y="86" width="16" height="24"/><rect x="560" y="86" width="16" height="24"/><rect x="578" y="86" width="16" height="24"/><rect x="596" y="86" width="16" height="24"/><rect x="614" y="86" width="16" height="24"/><rect x="632" y="86" width="16" height="24"/><rect x="650" y="86" width="16" height="24"/><rect x="668" y="86" width="16" height="24"/><rect x="686" y="86" width="16" height="24"/><rect x="704" y="86" width="16" height="24"/><rect x="722" y="86" width="16" height="24"/><rect x="740" y="86" width="16" height="24"/>
+      <rect x="470" y="112" width="16" height="24"/><rect x="488" y="112" width="16" height="24"/><rect x="506" y="112" width="16" height="24"/><rect x="524" y="112" width="16" height="24"/><rect x="542" y="112" width="16" height="24"/><rect x="560" y="112" width="16" height="24"/><rect x="578" y="112" width="16" height="24"/><rect x="596" y="112" width="16" height="24"/><rect x="614" y="112" width="16" height="24"/><rect x="632" y="112" width="16" height="24"/><rect x="650" y="112" width="16" height="24"/><rect x="668" y="112" width="16" height="24"/><rect x="686" y="112" width="16" height="24"/><rect x="704" y="112" width="16" height="24"/><rect x="722" y="112" width="16" height="24"/><rect x="740" y="112" width="16" height="24"/>
+      <rect x="470" y="138" width="16" height="24"/><rect x="488" y="138" width="16" height="24"/><rect x="506" y="138" width="16" height="24"/><rect x="524" y="138" width="16" height="24"/><rect x="542" y="138" width="16" height="24"/><rect x="560" y="138" width="16" height="24"/><rect x="578" y="138" width="16" height="24"/><rect x="596" y="138" width="16" height="24"/><rect x="614" y="138" width="16" height="24"/><rect x="632" y="138" width="16" height="24"/><rect x="650" y="138" width="16" height="24"/><rect x="668" y="138" width="16" height="24"/><rect x="686" y="138" width="16" height="24"/><rect x="704" y="138" width="16" height="24"/><rect x="722" y="138" width="16" height="24"/><rect x="740" y="138" width="16" height="24"/>
+      <rect x="470" y="164" width="16" height="24"/><rect x="488" y="164" width="16" height="24"/><rect x="506" y="164" width="16" height="24"/><rect x="524" y="164" width="16" height="24"/><rect x="542" y="164" width="16" height="24"/><rect x="560" y="164" width="16" height="24"/><rect x="578" y="164" width="16" height="24"/><rect x="596" y="164" width="16" height="24"/><rect x="614" y="164" width="16" height="24"/><rect x="632" y="164" width="16" height="24"/><rect x="650" y="164" width="16" height="24"/><rect x="668" y="164" width="16" height="24"/><rect x="686" y="164" width="16" height="24"/><rect x="704" y="164" width="16" height="24"/><rect x="722" y="164" width="16" height="24"/><rect x="740" y="164" width="16" height="24"/>
+      <rect x="470" y="190" width="16" height="24"/><rect x="488" y="190" width="16" height="24"/><rect x="506" y="190" width="16" height="24"/><rect x="524" y="190" width="16" height="24"/><rect x="542" y="190" width="16" height="24"/><rect x="560" y="190" width="16" height="24"/><rect x="578" y="190" width="16" height="24"/><rect x="596" y="190" width="16" height="24"/><rect x="614" y="190" width="16" height="24"/><rect x="632" y="190" width="16" height="24"/><rect x="650" y="190" width="16" height="24"/><rect x="668" y="190" width="16" height="24"/><rect x="686" y="190" width="16" height="24"/><rect x="704" y="190" width="16" height="24"/><rect x="722" y="190" width="16" height="24"/><rect x="740" y="190" width="16" height="24"/>
+      <rect x="470" y="216" width="16" height="24"/><rect x="488" y="216" width="16" height="24"/><rect x="506" y="216" width="16" height="24"/><rect x="524" y="216" width="16" height="24"/><rect x="542" y="216" width="16" height="24"/><rect x="560" y="216" width="16" height="24"/><rect x="578" y="216" width="16" height="24"/><rect x="596" y="216" width="16" height="24"/><rect x="614" y="216" width="16" height="24"/><rect x="632" y="216" width="16" height="24"/><rect x="650" y="216" width="16" height="24"/><rect x="668" y="216" width="16" height="24"/><rect x="686" y="216" width="16" height="24"/><rect x="704" y="216" width="16" height="24"/><rect x="722" y="216" width="16" height="24"/><rect x="740" y="216" width="16" height="24"/>
+      <rect x="470" y="242" width="16" height="24"/><rect x="488" y="242" width="16" height="24"/><rect x="506" y="242" width="16" height="24"/><rect x="524" y="242" width="16" height="24"/><rect x="542" y="242" width="16" height="24"/><rect x="560" y="242" width="16" height="24"/><rect x="578" y="242" width="16" height="24"/><rect x="596" y="242" width="16" height="24"/><rect x="614" y="242" width="16" height="24"/><rect x="632" y="242" width="16" height="24"/><rect x="650" y="242" width="16" height="24"/><rect x="668" y="242" width="16" height="24"/><rect x="686" y="242" width="16" height="24"/><rect x="704" y="242" width="16" height="24"/><rect x="722" y="242" width="16" height="24"/><rect x="740" y="242" width="16" height="24"/>
+      <rect x="470" y="268" width="16" height="24"/><rect x="488" y="268" width="16" height="24"/><rect x="506" y="268" width="16" height="24"/><rect x="524" y="268" width="16" height="24"/><rect x="542" y="268" width="16" height="24"/><rect x="560" y="268" width="16" height="24"/><rect x="578" y="268" width="16" height="24"/><rect x="596" y="268" width="16" height="24"/><rect x="614" y="268" width="16" height="24"/><rect x="632" y="268" width="16" height="24"/><rect x="650" y="268" width="16" height="24"/><rect x="668" y="268" width="16" height="24"/><rect x="686" y="268" width="16" height="24"/><rect x="704" y="268" width="16" height="24"/><rect x="722" y="268" width="16" height="24"/><rect x="740" y="268" width="16" height="24"/>
+      <rect x="470" y="294" width="16" height="24"/><rect x="488" y="294" width="16" height="24"/><rect x="506" y="294" width="16" height="24"/><rect x="524" y="294" width="16" height="24"/><rect x="542" y="294" width="16" height="24"/><rect x="560" y="294" width="16" height="24"/><rect x="578" y="294" width="16" height="24"/><rect x="596" y="294" width="16" height="24"/><rect x="614" y="294" width="16" height="24"/><rect x="632" y="294" width="16" height="24"/><rect x="650" y="294" width="16" height="24"/><rect x="668" y="294" width="16" height="24"/><rect x="686" y="294" width="16" height="24"/><rect x="704" y="294" width="16" height="24"/><rect x="722" y="294" width="16" height="24"/><rect x="740" y="294" width="16" height="24"/>
+    </g>
+  </g>
+  <!-- highlight a few cores as Tensor Core -->
+  <g fill="#C0392B" opacity="0.85">
+    <rect x="524" y="138" width="16" height="24"/>
+    <rect x="614" y="164" width="16" height="24"/>
+    <rect x="686" y="112" width="16" height="24"/>
+    <rect x="560" y="242" width="16" height="24"/>
+  </g>
+  <text class="tx" x="755" y="120" fill="#C0392B">■ Tensor Core</text>
+  <text class="tx" x="755" y="135" fill="#C0392B">（矩阵加速单元）</text>
+
+  <!-- GPU caption -->
+  <text class="ts" x="615" y="372" text-anchor="middle">上千～上万个核心，每个简单、只会并行算</text>
+  <text class="tx" x="615" y="390" text-anchor="middle">适合：AI 训练/推理、图形渲染、科学计算</text>
+  <text class="em"  x="615" y="410" text-anchor="middle">✅ 天生适合：海量矩阵乘法（AI 的本质）</text>
+
+  <!-- Bottom takeaway -->
+  <rect x="40" y="448" width="740" height="56" rx="6" fill="#F4F1Fb" stroke="#534AB7" stroke-width="0.6"/>
+  <text class="th" x="410" y="470" text-anchor="middle">核心区别</text>
+  <text class="ts" x="410" y="492" text-anchor="middle">CPU 追求「单核强、能判断」→ 擅长复杂串行任务；GPU 追求「核心多、能并行」→ 擅长海量简单运算（AI 矩阵乘法）</text>
+</svg>
