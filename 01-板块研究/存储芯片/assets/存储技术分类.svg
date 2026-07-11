@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" font-family="-apple-system, PingFang SC, Microsoft YaHei, sans-serif">
+  <rect width="680" height="380" fill="#FBFBF9"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#2C2C2A">存储芯片技术分类：易失性 vs 非易失性</text>
+
+  <!-- root -->
+  <rect x="290" y="50" width="100" height="44" rx="8" fill="#2C2C2A"/>
+  <text x="340" y="78" text-anchor="middle" font-size="14" font-weight="600" fill="#fff">存储芯片</text>
+
+  <!-- left: volatile -->
+  <rect x="40" y="130" width="190" height="44" rx="8" fill="#EAF1FB" stroke="#3B6FB5"/>
+  <text x="135" y="158" text-anchor="middle" font-size="13" font-weight="600" fill="#1F3A5F">易失性（断电丢失）</text>
+
+  <rect x="60" y="200" width="150" height="40" rx="6" fill="#fff" stroke="#3B6FB5"/>
+  <text x="135" y="225" text-anchor="middle" font-size="12" fill="#1F3A5F">DRAM（主存）</text>
+  <rect x="60" y="250" width="150" height="40" rx="6" fill="#fff" stroke="#3B6FB5"/>
+  <text x="135" y="275" text-anchor="middle" font-size="12" fill="#1F3A5F">├ DDR / LPDDR</text>
+  <rect x="60" y="300" width="150" height="40" rx="6" fill="#FFE9C7" stroke="#E0962A"/>
+  <text x="135" y="325" text-anchor="middle" font-size="12" fill="#9A5B00">└ HBM（AI 内存）</text>
+  <rect x="230" y="200" width="110" height="40" rx="6" fill="#fff" stroke="#3B6FB5"/>
+  <text x="285" y="225" text-anchor="middle" font-size="12" fill="#1F3A5F">SRAM（缓存）</text>
+
+  <!-- right: non-volatile -->
+  <rect x="450" y="130" width="190" height="44" rx="8" fill="#EAF7EE" stroke="#3C9D5B"/>
+  <text x="545" y="158" text-anchor="middle" font-size="13" font-weight="600" fill="#1F5E34">非易失性（断电保留）</text>
+
+  <rect x="450" y="200" width="190" height="40" rx="6" fill="#fff" stroke="#3C9D5B"/>
+  <text x="545" y="225" text-anchor="middle" font-size="12" fill="#1F5E34">NAND（大容量）</text>
+  <rect x="470" y="250" width="150" height="34" rx="6" fill="#fff" stroke="#3C9D5B"/>
+  <text x="545" y="272" text-anchor="middle" font-size="11" fill="#1F5E34">TLC/QLC · 3D 堆叠 300+层</text>
+  <rect x="450" y="296" width="190" height="34" rx="6" fill="#fff" stroke="#3C9D5B"/>
+  <text x="545" y="318" text-anchor="middle" font-size="11" fill="#1F5E34">NOR（代码存储）</text>
+  <rect x="450" y="338" width="190" height="30" rx="6" fill="#fff" stroke="#3C9D5B"/>
+  <text x="545" y="358" text-anchor="middle" font-size="11" fill="#1F5E34">EEPROM（参数存储）</text>
+
+  <!-- connectors -->
+  <g stroke="#999" stroke-width="2" fill="none">
+    <path d="M340 94 L135 130"/>
+    <path d="M340 94 L545 130"/>
+    <path d="M135 174 L135 200"/>
+    <path d="M135 240 L135 250"/>
+    <path d="M135 290 L135 300"/>
+    <path d="M545 174 L545 200"/>
+    <path d="M545 240 L545 250"/>
+    <path d="M545 284 L545 296"/>
+    <path d="M545 330 L545 338"/>
+  </g>
+</svg>

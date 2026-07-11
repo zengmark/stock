@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360" font-family="-apple-system, PingFang SC, Microsoft YaHei, sans-serif">
+  <rect width="680" height="360" fill="#FBFBF9"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#2C2C2A">HBM 代际演进：带宽与堆叠层数逐代跃升</text>
+
+  <!-- bars: bandwidth -->
+  <g font-size="12">
+    <text x="24" y="64" font-weight="600" fill="#2C2C2A">单栈带宽（示意）</text>
+    <!-- HBM2E -->
+    <text x="40" y="92" fill="#555">HBM2E</text>
+    <rect x="110" y="80" width="120" height="22" rx="4" fill="#9DB8D8"/>
+    <text x="238" y="96" fill="#555">~460 GB/s · 8层</text>
+    <!-- HBM3 -->
+    <text x="40" y="126" fill="#555">HBM3</text>
+    <rect x="110" y="114" width="170" height="22" rx="4" fill="#6E97C4"/>
+    <text x="288" y="130" fill="#555">~665 GB/s · 8层</text>
+    <!-- HBM3E -->
+    <text x="36" y="160" fill="#555">HBM3E</text>
+    <rect x="110" y="148" width="300" height="22" rx="4" fill="#E0962A"/>
+    <text x="418" y="164" fill="#9A5B00">~1.2 TB/s · 8/12层（当前主流）</text>
+    <!-- HBM4 -->
+    <text x="40" y="194" fill="#555">HBM4</text>
+    <rect x="110" y="182" width="380" height="22" rx="4" fill="#C0392B"/>
+    <text x="498" y="198" fill="#8A2B2B">~1.5+ TB/s · 12/16层（2026起导入）</text>
+  </g>
+
+  <!-- timeline -->
+  <g>
+    <text x="24" y="240" font-weight="600" fill="#2C2C2A">导入时间线</text>
+    <line x1="110" y1="262" x2="600" y2="262" stroke="#ccc" stroke-width="2"/>
+    <circle cx="170" cy="262" r="6" fill="#6E97C4"/><text x="150" y="282" font-size="11" fill="#555">2020</text>
+    <circle cx="300" cy="262" r="6" fill="#6E97C4"/><text x="282" y="282" font-size="11" fill="#555">2022</text>
+    <circle cx="420" cy="262" r="6" fill="#E0962A"/><text x="402" y="282" font-size="11" fill="#9A5B00">2024</text>
+    <circle cx="540" cy="262" r="6" fill="#C0392B"/><text x="522" y="282" font-size="11" fill="#8A2B2B">2026</text>
+    <text x="110" y="306" font-size="11.5" fill="#555">HBM2E ─── HBM3 ─── HBM3E（英伟达 H100/H200/B200）─── HBM4</text>
+  </g>
+
+  <g>
+    <rect x="24" y="322" width="632" height="26" rx="6" fill="#FFF4E5" stroke="#E0962A"/>
+    <text x="40" y="340" font-size="12" fill="#7A4B05">供给垄断：SK 海力士 / 三星 / 美光三家；产能同时受台积电 CoWoS 封装制约 → 持续紧缺</text>
+  </g>
+</svg>

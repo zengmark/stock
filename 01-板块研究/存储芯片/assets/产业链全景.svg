@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 420" font-family="-apple-system, PingFang SC, Microsoft YaHei, sans-serif">
+  <rect width="680" height="420" fill="#FBFBF9"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#2C2C2A">存储芯片产业链全景（设计 → 制造 → 封测 → 模组 → 终端）</text>
+
+  <!-- flow boxes -->
+  <g font-size="13">
+    <rect x="24" y="70" width="110" height="54" rx="8" fill="#E8F0FE" stroke="#3B6FB5"/>
+    <text x="79" y="92" text-anchor="middle" font-weight="600" fill="#1F3A5F">设计</text>
+    <text x="79" y="110" text-anchor="middle" font-size="11" fill="#555">NOR/NAND/DRAM</text>
+
+    <rect x="158" y="70" width="110" height="54" rx="8" fill="#E8F0FE" stroke="#3B6FB5"/>
+    <text x="213" y="92" text-anchor="middle" font-weight="600" fill="#1F3A5F">晶圆制造</text>
+    <text x="213" y="110" text-anchor="middle" font-size="11" fill="#555">原厂 IDM 自建</text>
+
+    <rect x="292" y="70" width="110" height="54" rx="8" fill="#E8F0FE" stroke="#3B6FB5"/>
+    <text x="347" y="92" text-anchor="middle" font-weight="600" fill="#1F3A5F">封装测试</text>
+    <text x="347" y="110" text-anchor="middle" font-size="11" fill="#555">HBM TSV 堆叠</text>
+
+    <rect x="426" y="70" width="110" height="54" rx="8" fill="#E8F0FE" stroke="#3B6FB5"/>
+    <text x="481" y="92" text-anchor="middle" font-weight="600" fill="#1F3A5F">模组</text>
+    <text x="481" y="110" text-anchor="middle" font-size="11" fill="#555">SSD/内存条/ePOP</text>
+
+    <rect x="560" y="70" width="96" height="54" rx="8" fill="#E8F0FE" stroke="#3B6FB5"/>
+    <text x="608" y="92" text-anchor="middle" font-weight="600" fill="#1F3A5F">终端</text>
+    <text x="608" y="110" text-anchor="middle" font-size="11" fill="#555">AI服务器/手机</text>
+  </g>
+
+  <!-- arrows -->
+  <g stroke="#888" stroke-width="2" fill="none">
+    <path d="M134 97 L156 97"/>
+    <path d="M268 97 L290 97"/>
+    <path d="M402 97 L424 97"/>
+    <path d="M536 97 L558 97"/>
+  </g>
+
+  <!-- A股 mapping -->
+  <g font-size="12">
+    <text x="24" y="160" font-weight="600" fill="#2C2C2A">A 股可投环节</text>
+    <rect x="24" y="172" width="150" height="40" rx="6" fill="#FFF4E5" stroke="#E0962A"/>
+    <text x="99" y="189" text-anchor="middle" fill="#7A4B05">设计：兆易/君正/聚辰</text>
+    <text x="99" y="205" text-anchor="middle" fill="#7A4B05">东芯/普冉（利基）</text>
+
+    <rect x="190" y="172" width="150" height="40" rx="6" fill="#FDECEC" stroke="#D9534F"/>
+    <text x="265" y="189" text-anchor="middle" fill="#8A2B2B">制造：长鑫（未上市）</text>
+    <text x="265" y="205" text-anchor="middle" fill="#8A2B2B">A股无纯原厂</text>
+
+    <rect x="356" y="172" width="150" height="40" rx="6" fill="#EAF7EE" stroke="#3C9D5B"/>
+    <text x="431" y="189" text-anchor="middle" fill="#1F5E34">封测：深科技/太极</text>
+    <text x="431" y="205" text-anchor="middle" fill="#1F5E34">HBM 后道增量</text>
+
+    <rect x="522" y="172" width="150" height="40" rx="6" fill="#EAF1FB" stroke="#3B6FB5"/>
+    <text x="597" y="189" text-anchor="middle" fill="#1F3A5F">模组/分销：江波龙</text>
+    <text x="597" y="205" text-anchor="middle" fill="#1F3A5F">佰维/德明利/香农</text>
+  </g>
+
+  <!-- HBM callout -->
+  <g>
+    <rect x="24" y="246" width="632" height="120" rx="10" fill="#FFF9F0" stroke="#E0962A" stroke-dasharray="5 4"/>
+    <text x="44" y="272" font-size="14" font-weight="600" fill="#9A5B00">⚡ HBM：AI 芯片的「内存命门」（全球仅三家能量产）</text>
+    <text x="44" y="296" font-size="12.5" fill="#5A3A00">SK 海力士（韩股·约50%+） ｜ 三星电子（韩股·约40%） ｜ 美光（美股·追赶中）</text>
+    <text x="44" y="320" font-size="12.5" fill="#5A3A00">HBM = 多颗 DRAM 裸片用 TSV 垂直堆叠 + 与 GPU 的 CoWoS 合封，带宽达 DDR5 的 5–10 倍</text>
+    <text x="44" y="344" font-size="12.5" fill="#5A3A00">A 股无 HBM 原厂 → 只能「蹭」封测（深科技/太极）与模组（江波龙/佰维）增量</text>
+  </g>
+
+  <text x="24" y="400" font-size="10" fill="#999">注：本图为环节结构示意，非规模比例。涨红跌绿为 A 股配色习惯。</text>
+</svg>

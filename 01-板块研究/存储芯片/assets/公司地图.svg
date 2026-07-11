@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" font-family="-apple-system, PingFang SC, Microsoft YaHei, sans-serif">
+  <rect width="680" height="400" fill="#FBFBF9"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#2C2C2A">存储芯片公司地图（A股 11 / 港股 0 / 美股 2）</text>
+
+  <!-- A股 -->
+  <text x="24" y="62" font-size="13" font-weight="600" fill="#C0392B">A 股（11 家，2025 年报）</text>
+  <g font-size="12">
+    <rect x="24" y="74" width="200" height="34" rx="6" fill="#FDECEC" stroke="#D9534F"/><text x="124" y="95" text-anchor="middle" fill="#8A2B2B">设计：兆易/君正/东芯/普冉/聚辰</text>
+    <rect x="240" y="74" width="190" height="34" rx="6" fill="#EAF1FB" stroke="#3B6FB5"/><text x="335" y="95" text-anchor="middle" fill="#1F3A5F">模组：佰维/江波龙/德明利</text>
+    <rect x="446" y="74" width="210" height="34" rx="6" fill="#EAF7EE" stroke="#3C9D5B"/><text x="551" y="95" text-anchor="middle" fill="#1F5E34">封测：深科技/太极 · 分销：香农</text>
+  </g>
+
+  <!-- 港股 -->
+  <text x="24" y="148" font-size="13" font-weight="600" fill="#888">港股（0 家纯存储标的）</text>
+  <rect x="24" y="160" width="632" height="40" rx="6" fill="#F2F4F7" stroke="#bbb"/>
+  <text x="40" y="185" font-size="12" fill="#555">HBM 双雄（SK海力士/三星）为韩股，美光为美股 → 港股暂无独立存储上市公司（详见港股子文件）</text>
+
+  <!-- 美股 -->
+  <text x="24" y="234" font-size="13" font-weight="600" fill="#2C3E90">美股（2 家，FY2025）</text>
+  <g font-size="12">
+    <rect x="24" y="246" width="310" height="40" rx="6" fill="#FFF4E5" stroke="#E0962A"/><text x="40" y="271" fill="#9A5B00">美光 MU　$373.78亿 <tspan fill="#C0392B">+48.85%</tspan>　HBM三寡头唯一美股</text>
+    <rect x="350" y="246" width="306" height="40" rx="6" fill="#EAF1FB" stroke="#3B6FB5"/><text x="366" y="271" fill="#1F3A5F">西部数据 WDC　$95.20亿 <tspan fill="#1F5E34">-26.78%</tspan>　NAND+HDD</text>
+  </g>
+
+  <!-- 核心认知 -->
+  <g>
+    <rect x="24" y="312" width="632" height="64" rx="8" fill="#FFF9F0" stroke="#E0962A"/>
+    <text x="40" y="338" font-size="13" font-weight="600" fill="#9A5B00">核心认知</text>
+    <text x="40" y="360" font-size="12.5" fill="#5A3A00">美股买美光的 HBM 稀缺性；A股买模组/封测/利基设计的「周期 + 替代」弹性；港股需跨市场配置</text>
+  </g>
+</svg>

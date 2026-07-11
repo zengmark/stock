@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" font-family="-apple-system, PingFang SC, Microsoft YaHei, sans-serif">
+  <rect width="680" height="380" fill="#FBFBF9"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#2C2C2A">存储市场格局：DRAM / HBM 均呈三寡头</text>
+
+  <!-- DRAM share -->
+  <g>
+    <text x="24" y="64" font-size="13" font-weight="600" fill="#2C2C2A">全球 DRAM 份额（约）</text>
+    <rect x="24" y="76" width="268" height="26" rx="4" fill="#3B6FB5"/><text x="34" y="94" font-size="12" fill="#fff">三星 ~42%</text>
+    <rect x="296" y="76" width="200" height="26" rx="4" fill="#6E97C4"/><text x="306" y="94" font-size="12" fill="#fff">SK海力士 ~30%</text>
+    <rect x="500" y="76" width="140" height="26" rx="4" fill="#9DB8D8"/><text x="510" y="94" font-size="12" fill="#1F3A5F">美光 ~22%</text>
+    <rect x="644" y="76" width="20" height="26" rx="4" fill="#ccc"/><text x="640" y="94" font-size="11" fill="#555">其他</text>
+  </g>
+
+  <!-- HBM share -->
+  <g>
+    <text x="24" y="138" font-size="13" font-weight="600" fill="#2C2C2A">HBM 份额（约，AI 内存命门）</text>
+    <rect x="24" y="150" width="320" height="26" rx="4" fill="#C0392B"/><text x="34" y="168" font-size="12" fill="#fff">SK海力士 ~50%+</text>
+    <rect x="348" y="150" width="256" height="26" rx="4" fill="#E0962A"/><text x="358" y="168" font-size="12" fill="#fff">三星 ~40%</text>
+    <rect x="608" y="150" width="52" height="26" rx="4" fill="#9DB8D8"/><text x="614" y="168" font-size="11" fill="#1F3A5F">美光 ~10%</text>
+  </g>
+
+  <!--集中度结论 -->
+  <g>
+    <rect x="24" y="200" width="636" height="84" rx="8" fill="#F2F4F7" stroke="#bbb"/>
+    <text x="40" y="226" font-size="13" font-weight="600" fill="#2C2C2A">三寡头合计 &gt;95% → 定价权极强</text>
+    <text x="40" y="250" font-size="12.5" fill="#444">• 原厂控产 → 价格与利润迅速修复（如 2023 底起的本轮复苏）</text>
+    <text x="40" y="272" font-size="12.5" fill="#444">• A 股在 HBM 原厂层无直接标的，只能「蹭」封测（深科技/太极）与模组（江波龙/佰维）</text>
+  </g>
+
+  <!-- 利基 A股舒适区 -->
+  <g>
+    <text x="24" y="316" font-size="13" font-weight="600" fill="#2C2C2A">A 股舒适区（利基高壁垒）</text>
+    <rect x="24" y="326" width="200" height="34" rx="6" fill="#EAF7EE" stroke="#3C9D5B"/>
+    <text x="124" y="348" text-anchor="middle" font-size="12" fill="#1F5E34">NOR：兆易（全球第二）</text>
+    <rect x="240" y="326" width="200" height="34" rx="6" fill="#EAF7EE" stroke="#3C9D5B"/>
+    <text x="340" y="348" text-anchor="middle" font-size="12" fill="#1F5E34">EEPROM：聚辰（全球第二）</text>
+    <rect x="456" y="326" width="204" height="34" rx="6" fill="#EAF7EE" stroke="#3C9D5B"/>
+    <text x="558" y="348" text-anchor="middle" font-size="12" fill="#1F5E34">车规DRAM：北京君正（ISSI）</text>
+  </g>
+
+  <text x="24" y="376" font-size="10" fill="#999">注：份额为行业研究（TrendForce 等）共识性估算，非精确值。</text>
+</svg>
