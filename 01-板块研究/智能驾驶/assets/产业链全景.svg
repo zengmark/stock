@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 460" font-family="-apple-system, PingFang SC, Microsoft YaHei, sans-serif">
+  <rect width="680" height="460" fill="#FBFBF9"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#2C2C2A">智能驾驶产业链全景（芯片/传感器 → 域控/Tier1 → 整车）</text>
+
+  <!-- three stage boxes -->
+  <g font-size="13">
+    <rect x="24" y="56" width="190" height="74" rx="8" fill="#E8F0FE" stroke="#3B6FB5"/>
+    <text x="119" y="84" text-anchor="middle" font-weight="600" fill="#1F3A5F">上游 · 芯片与传感器</text>
+    <text x="119" y="104" text-anchor="middle" font-size="11" fill="#555">智驾芯片/激光雷达</text>
+    <text x="119" y="120" text-anchor="middle" font-size="11" fill="#555">摄像头/毫米波/线控</text>
+
+    <rect x="245" y="56" width="190" height="74" rx="8" fill="#E8F0FE" stroke="#3B6FB5"/>
+    <text x="340" y="84" text-anchor="middle" font-weight="600" fill="#1F3A5F">中游 · 域控与 Tier1</text>
+    <text x="340" y="104" text-anchor="middle" font-size="11" fill="#555">域控制器/座舱</text>
+    <text x="340" y="120" text-anchor="middle" font-size="11" fill="#555">安全电子/线控集成</text>
+
+    <rect x="466" y="56" width="190" height="74" rx="8" fill="#E8F0FE" stroke="#3B6FB5"/>
+    <text x="561" y="84" text-anchor="middle" font-weight="600" fill="#1F3A5F">下游 · 整车厂</text>
+    <text x="561" y="104" text-anchor="middle" font-size="11" fill="#555">小鹏/理想/蔚来</text>
+    <text x="561" y="120" text-anchor="middle" font-size="11" fill="#555">特斯拉（智驾落地）</text>
+  </g>
+
+  <!-- arrows -->
+  <g stroke="#888" stroke-width="2" fill="none">
+    <path d="M214 93 L243 93"/>
+    <path d="M435 93 L464 93"/>
+  </g>
+
+  <!-- A股 component label -->
+  <text x="24" y="166" font-size="13" font-weight="600" fill="#2C2C2A">A 股可投环节（域控/线控/座舱/感知，业绩已兑现）</text>
+  <g font-size="12">
+    <rect x="24" y="178" width="153" height="48" rx="6" fill="#FFF4E5" stroke="#E0962A"/>
+    <text x="100" y="198" text-anchor="middle" font-weight="600" fill="#7A4B05">域控制器</text>
+    <text x="100" y="215" text-anchor="middle" fill="#7A4B05">德赛西威/科博达</text>
+    <text x="100" y="230" text-anchor="middle" fill="#7A4B05">经纬恒润</text>
+
+    <rect x="190" y="178" width="153" height="48" rx="6" fill="#EAF7EE" stroke="#3C9D5B"/>
+    <text x="266" y="198" text-anchor="middle" font-weight="600" fill="#1F5E34">线控底盘</text>
+    <text x="266" y="215" text-anchor="middle" fill="#1F5E34">伯特利（制动）</text>
+    <text x="266" y="230" text-anchor="middle" fill="#1F5E34">Aptiv（美）</text>
+
+    <rect x="356" y="178" width="153" height="48" rx="6" fill="#E8F0FE" stroke="#3B6FB5"/>
+    <text x="432" y="198" text-anchor="middle" font-weight="600" fill="#1F3A5F">座舱/软件</text>
+    <text x="432" y="215" text-anchor="middle" fill="#1F3A5F">华阳/均胜/中科创达</text>
+    <text x="432" y="230" text-anchor="middle" fill="#1F3A5F">HUD/OS</text>
+
+    <rect x="522" y="178" width="134" height="48" rx="6" fill="#F3ECFB" stroke="#7A52A8"/>
+    <text x="589" y="198" text-anchor="middle" font-weight="600" fill="#4A2E6E">感知硬件</text>
+    <text x="589" y="215" text-anchor="middle" fill="#4A2E6E">永新/联创/炬光</text>
+    <text x="589" y="230" text-anchor="middle" fill="#4A2E6E">光学/镜头</text>
+  </g>
+
+  <!-- 港美核心 tech -->
+  <text x="24" y="262" font-size="13" font-weight="600" fill="#2C2C2A">港 / 美核心科技（芯片 / 激光雷达 / 整车）</text>
+  <g font-size="12">
+    <rect x="24" y="274" width="312" height="44" rx="6" fill="#FDECEC" stroke="#D9534F"/>
+    <text x="40" y="294" font-weight="600" fill="#8A2B2B">智驾芯片：地平线 9660 / 黑芝麻 2533（港）</text>
+    <text x="40" y="311" fill="#8A2B2B">Mobileye MBLY（美）· 英伟达（算力标杆）</text>
+
+    <rect x="352" y="274" width="304" height="44" rx="6" fill="#FDECEC" stroke="#D9534F"/>
+    <text x="368" y="294" font-weight="600" fill="#8A2B2B">激光雷达：禾赛 HSAI（美）/ 速腾 2498（港）</text>
+    <text x="368" y="311" fill="#8A2B2B">整车：小鹏/理想/蔚来（港）· 特斯拉（美）</text>
+  </g>
+
+  <!-- callout -->
+  <g>
+    <rect x="24" y="338" width="632" height="104" rx="10" fill="#FFF9F0" stroke="#E0962A" stroke-dasharray="5 4"/>
+    <text x="44" y="364" font-size="14" font-weight="600" fill="#9A5B00">⚡ 板块「分层」：核心科技在港/美，A 股赚域控/线控/座舱/感知放量 + 国产替代</text>
+    <text x="44" y="388" font-size="12.5" fill="#5A3A00">· 域控+线控价值量最高、业绩最确定（德赛西威/伯特利），是底仓</text>
+    <text x="44" y="410" font-size="12.5" fill="#5A3A00">· 激光雷达/芯片放量最快、弹性最大但盈利待兑（禾赛/速腾/地平线）</text>
+    <text x="44" y="432" font-size="12.5" fill="#5A3A00">· 整车（小鹏/理想/蔚来/特斯拉）提供场景与期权，周期波动大</text>
+  </g>
+
+  <text x="24" y="452" font-size="10" fill="#999">注：本图为环节结构示意，非规模比例。涨红跌绿为 A 股配色习惯。</text>
+</svg>

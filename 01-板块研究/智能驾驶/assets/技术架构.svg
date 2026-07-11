@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 460" font-family="-apple-system, PingFang SC, Microsoft YaHei, sans-serif">
+  <rect width="680" height="460" fill="#FBFBF9"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#2C2C2A">一辆智驾车的系统构成（感知 → 决策 → 执行 → 软件）</text>
+
+  <!-- car schematic (center) -->
+  <g>
+    <!-- body -->
+    <path d="M150 250 Q150 210 200 205 L250 180 Q300 165 380 168 L440 195 Q480 200 490 250 L490 290 Q490 300 480 300 L160 300 Q150 300 150 290 Z" fill="#EAF1FB" stroke="#3B6FB5" stroke-width="2"/>
+    <!-- windows -->
+    <path d="M255 182 L300 170 L370 172 L425 195 L255 195 Z" fill="#CFE0F5" stroke="#3B6FB5" stroke-width="1.5"/>
+    <!-- wheels -->
+    <circle cx="215" cy="302" r="22" fill="#2C2C2A"/>
+    <circle cx="215" cy="302" r="9" fill="#AAA"/>
+    <circle cx="425" cy="302" r="22" fill="#2C2C2A"/>
+    <circle cx="425" cy="302" r="9" fill="#AAA"/>
+    <!-- sensor dots -->
+    <circle cx="445" cy="200" r="6" fill="#E0962A"/>
+    <circle cx="320" cy="168" r="5" fill="#E0962A"/>
+    <circle cx="180" cy="225" r="5" fill="#E0962A"/>
+    <text x="320" y="340" text-anchor="middle" font-size="11" fill="#777">示意图：车顶激光雷达+前视摄像头=感知，中央域控=决策，轮边线控=执行</text>
+  </g>
+
+  <!-- left cards -->
+  <g font-size="11.5">
+    <rect x="24" y="70" width="218" height="62" rx="8" fill="#F3ECFB" stroke="#7A52A8"/>
+    <text x="40" y="92" font-weight="600" fill="#4A2E6E">① 感知（看的眼睛）</text>
+    <text x="40" y="110" fill="#4A2E6E">激光雷达/摄像头/毫米波</text>
+    <text x="40" y="125" fill="#4A2E6E">禾赛/速腾/永新/联创</text>
+
+    <rect x="24" y="186" width="218" height="62" rx="8" fill="#FFF4E5" stroke="#E0962A"/>
+    <text x="40" y="208" font-weight="600" fill="#7A4B05">② 决策（大脑）</text>
+    <text x="40" y="226" fill="#7A4B05">智驾芯片 SoC + 域控</text>
+    <text x="40" y="241" fill="#7A4B05">地平线/德赛西威/科博达</text>
+
+    <rect x="24" y="302" width="218" height="62" rx="8" fill="#EAF7EE" stroke="#3C9D5B"/>
+    <text x="40" y="324" font-weight="600" fill="#1F5E34">③ 执行（手脚）</text>
+    <text x="40" y="342" fill="#1F5E34">线控转向/制动</text>
+    <text x="40" y="357" fill="#1F5E34">伯特利/Aptiv</text>
+  </g>
+
+  <!-- right cards -->
+  <g font-size="11.5">
+    <rect x="438" y="70" width="218" height="62" rx="8" fill="#E8F0FE" stroke="#3B6FB5"/>
+    <text x="454" y="92" font-weight="600" fill="#1F3A5F">④ 软件（灵魂）</text>
+    <text x="454" y="110" fill="#1F3A5F">端到端大模型/OS</text>
+    <text x="454" y="125" fill="#1F3A5F">特斯拉 FSD/中科创达</text>
+
+    <rect x="438" y="186" width="218" height="62" rx="8" fill="#FDECEC" stroke="#D9534F"/>
+    <text x="454" y="208" font-weight="600" fill="#8A2B2B">⑤ 整车集成</text>
+    <text x="454" y="226" fill="#8A2B2B">电子电气架构/标定</text>
+    <text x="454" y="241" fill="#8A2B2B">小鹏/理想/蔚来/特斯拉</text>
+
+    <rect x="438" y="302" width="218" height="62" rx="8" fill="#FFF9F0" stroke="#E0962A" stroke-dasharray="5 4"/>
+    <text x="454" y="324" font-weight="600" fill="#9A5B00">⚠️ 范式切换</text>
+    <text x="454" y="342" fill="#5A3A00">2024–2025：模块→端到端</text>
+    <text x="454" y="357" fill="#5A3A00">数据+算力成护城河</text>
+  </g>
+
+  <!-- connectors -->
+  <g stroke="#BBB" stroke-width="1.5" stroke-dasharray="4 3">
+    <path d="M242 101 L320 200"/>
+    <path d="M242 217 L300 230"/>
+    <path d="M242 333 L260 270"/>
+    <path d="M438 101 L420 200"/>
+    <path d="M438 217 L440 230"/>
+    <path d="M438 333 L420 270"/>
+  </g>
+
+  <text x="24" y="448" font-size="10" fill="#999">注：示意布局，非真实解剖比例。价值量最高的决策（芯片+域控）是 A 股核心机会所在。</text>
+</svg>

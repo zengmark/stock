@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 500" font-family="-apple-system, PingFang SC, Microsoft YaHei, sans-serif">
+  <rect width="680" height="500" fill="#FBFBF9"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#2C2C2A">智能驾驶公司地图（21 家：A 股 11 + 港股 6 + 美股 4）</text>
+
+  <!-- 1 域控/座舱 -->
+  <g font-size="11">
+    <rect x="24" y="48" width="120" height="68" rx="8" fill="#E0962A"/>
+    <text x="84" y="76" text-anchor="middle" font-weight="600" fill="#FFF">域控 / 座舱</text>
+    <text x="84" y="94" text-anchor="middle" fill="#FFF">（A股，业绩兑现）</text>
+    <rect x="156" y="48" width="156" height="26" rx="6" fill="#FFF4E5" stroke="#E0962A"/><text x="234" y="65" text-anchor="middle" fill="#7A4B05">德赛西威 002920 · A</text>
+    <rect x="324" y="48" width="156" height="26" rx="6" fill="#FFF4E5" stroke="#E0962A"/><text x="402" y="65" text-anchor="middle" fill="#7A4B05">科博达 603786 · A</text>
+    <rect x="492" y="48" width="164" height="26" rx="6" fill="#FFF4E5" stroke="#E0962A"/><text x="574" y="65" text-anchor="middle" fill="#7A4B05">经纬恒润 688326 · A</text>
+    <rect x="156" y="80" width="156" height="26" rx="6" fill="#FFF4E5" stroke="#E0962A"/><text x="234" y="97" text-anchor="middle" fill="#7A4B05">华阳集团 002906 · A</text>
+    <rect x="324" y="80" width="156" height="26" rx="6" fill="#FFF4E5" stroke="#E0962A"/><text x="402" y="97" text-anchor="middle" fill="#7A4B05">均胜电子 600699 · A</text>
+    <rect x="492" y="80" width="164" height="26" rx="6" fill="#FFF4E5" stroke="#E0962A"/><text x="574" y="97" text-anchor="middle" fill="#7A4B05">中科创达 300496 · A</text>
+  </g>
+
+  <!-- 2 线控底盘 -->
+  <g font-size="11">
+    <rect x="24" y="134" width="120" height="44" rx="8" fill="#3C9D5B"/>
+    <text x="84" y="161" text-anchor="middle" font-weight="600" fill="#FFF">线控底盘</text>
+    <rect x="156" y="134" width="240" height="26" rx="6" fill="#EAF7EE" stroke="#3C9D5B"/><text x="276" y="151" text-anchor="middle" fill="#1F5E34">伯特利 603596 · A（WCBS）</text>
+    <rect x="408" y="134" width="248" height="26" rx="6" fill="#EAF7EE" stroke="#3C9D5B"/><text x="532" y="151" text-anchor="middle" fill="#1F5E34">Aptiv APTV · 美（全球 Tier1）</text>
+  </g>
+
+  <!-- 3 感知硬件 -->
+  <g font-size="11">
+    <rect x="24" y="194" width="120" height="44" rx="8" fill="#7A52A8"/>
+    <text x="84" y="221" text-anchor="middle" font-weight="600" fill="#FFF">感知硬件</text>
+    <rect x="156" y="194" width="156" height="26" rx="6" fill="#F3ECFB" stroke="#7A52A8"/><text x="234" y="211" text-anchor="middle" fill="#4A2E6E">永新光学 603297 · A</text>
+    <rect x="324" y="194" width="156" height="26" rx="6" fill="#F3ECFB" stroke="#7A52A8"/><text x="402" y="211" text-anchor="middle" fill="#4A2E6E">联创电子 002036 · A</text>
+    <rect x="492" y="194" width="164" height="26" rx="6" fill="#F3ECFB" stroke="#7A52A8"/><text x="574" y="211" text-anchor="middle" fill="#4A2E6E">炬光科技 688167 · A</text>
+    <rect x="156" y="224" width="156" height="26" rx="6" fill="#F3ECFB" stroke="#7A52A8"/><text x="234" y="241" text-anchor="middle" fill="#4A2E6E">保隆科技 603197 · A</text>
+  </g>
+
+  <!-- 4 智驾芯片 + 激光雷达 -->
+  <g font-size="11">
+    <rect x="24" y="274" width="120" height="44" rx="8" fill="#D9534F"/>
+    <text x="84" y="293" text-anchor="middle" font-weight="600" fill="#FFF">芯片 / 激光雷达</text>
+    <text x="84" y="309" text-anchor="middle" fill="#FFF">（港 / 美）</text>
+    <rect x="156" y="274" width="156" height="26" rx="6" fill="#FDECEC" stroke="#D9534F"/><text x="234" y="291" text-anchor="middle" fill="#8A2B2B">地平线 9660 · 港</text>
+    <rect x="324" y="274" width="156" height="26" rx="6" fill="#FDECEC" stroke="#D9534F"/><text x="402" y="291" text-anchor="middle" fill="#8A2B2B">黑芝麻 2533 · 港</text>
+    <rect x="492" y="274" width="164" height="26" rx="6" fill="#FDECEC" stroke="#D9534F"/><text x="574" y="291" text-anchor="middle" fill="#8A2B2B">速腾聚创 2498 · 港</text>
+    <rect x="156" y="304" width="156" height="26" rx="6" fill="#FDECEC" stroke="#D9534F"/><text x="234" y="321" text-anchor="middle" fill="#8A2B2B">禾赛 HSAI · 美</text>
+  </g>
+
+  <!-- 5 方案 / 整车 -->
+  <g font-size="11">
+    <rect x="24" y="354" width="120" height="68" rx="8" fill="#3B6FB5"/>
+    <text x="84" y="382" text-anchor="middle" font-weight="600" fill="#FFF">方案 / 整车</text>
+    <text x="84" y="400" text-anchor="middle" fill="#FFF">（港 / 美）</text>
+    <rect x="156" y="354" width="156" height="26" rx="6" fill="#E8F0FE" stroke="#3B6FB5"/><text x="234" y="371" text-anchor="middle" fill="#1F3A5F">Mobileye MBLY · 美</text>
+    <rect x="324" y="354" width="156" height="26" rx="6" fill="#E8F0FE" stroke="#3B6FB5"/><text x="402" y="371" text-anchor="middle" fill="#1F3A5F">小鹏 9868 · 港</text>
+    <rect x="492" y="354" width="164" height="26" rx="6" fill="#E8F0FE" stroke="#3B6FB5"/><text x="574" y="371" text-anchor="middle" fill="#1F3A5F">理想 2015 · 港</text>
+    <rect x="156" y="386" width="156" height="26" rx="6" fill="#E8F0FE" stroke="#3B6FB5"/><text x="234" y="403" text-anchor="middle" fill="#1F3A5F">蔚来 9866 · 港</text>
+    <rect x="324" y="386" width="156" height="26" rx="6" fill="#E8F0FE" stroke="#3B6FB5"/><text x="402" y="403" text-anchor="middle" fill="#1F3A5F">Tesla TSLA · 美</text>
+  </g>
+
+  <!-- legend -->
+  <g font-size="11" fill="#666">
+    <rect x="24" y="442" width="14" height="14" rx="3" fill="#E0962A"/><text x="44" y="453">域控/座舱</text>
+    <rect x="130" y="442" width="14" height="14" rx="3" fill="#3C9D5B"/><text x="150" y="453">线控</text>
+    <rect x="206" y="442" width="14" height="14" rx="3" fill="#7A52A8"/><text x="226" y="453">感知硬件</text>
+    <rect x="312" y="442" width="14" height="14" rx="3" fill="#D9534F"/><text x="332" y="453">芯片/激光雷达</text>
+    <rect x="448" y="442" width="14" height="14" rx="3" fill="#3B6FB5"/><text x="468" y="453">方案/整车</text>
+  </g>
+
+  <text x="24" y="482" font-size="10" fill="#999">注：·A=A股，·港股=中国香港，·美股=美国。涨红跌绿为 A 股配色习惯；芯片/激光雷达厂报表净利受优先股等干扰，看经调整口径。</text>
+</svg>
