@@ -1,0 +1,45 @@
+<svg viewBox="0 0 680 380" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>算力基础设施竞争格局</title>
+  <desc>按环节(服务器/IDC/液冷/PCB/电源)的全球与中国竞争者</desc>
+  <text x="24" y="30" style="font-size:15px;font-weight:500;fill:#2C2C2A">竞争格局：按环节拆解</text>
+
+  <!-- 服务器 -->
+  <rect x="40" y="52" width="120" height="52" rx="8" fill="#FAEEDA" stroke="#BA7517" stroke-width="1.4"/>
+  <text x="100" y="72" text-anchor="middle" style="font-size:13px;font-weight:500;fill:#1f2329">AI 服务器</text>
+  <text x="100" y="92" text-anchor="middle" style="font-size:10px;fill:#5a6573">全球</text>
+  <text x="180" y="68" style="font-size:11px;fill:#1f2329">超微 SMCI · 戴尔 · HPE</text>
+  <text x="180" y="88" style="font-size:11px;fill:#1f2329">中国：工业富联 · 浪潮 · 华为昇腾系</text>
+
+  <!-- IDC -->
+  <rect x="40" y="120" width="120" height="52" rx="8" fill="#FAEEDA" stroke="#BA7517" stroke-width="1.4"/>
+  <text x="100" y="140" text-anchor="middle" style="font-size:13px;font-weight:500;fill:#1f2329">数据中心</text>
+  <text x="100" y="160" text-anchor="middle" style="font-size:10px;fill:#5a6573">IDC</text>
+  <text x="180" y="136" style="font-size:11px;fill:#1f2329">全球：Equinix · Digital Realty（REIT）</text>
+  <text x="180" y="156" style="font-size:11px;fill:#1f2329">中国：润泽 · 万国数据 · 数据港</text>
+
+  <!-- 液冷 -->
+  <rect x="40" y="188" width="120" height="52" rx="8" fill="#FAEEDA" stroke="#BA7517" stroke-width="1.4"/>
+  <text x="100" y="208" text-anchor="middle" style="font-size:13px;font-weight:500;fill:#1f2329">液冷</text>
+  <text x="100" y="228" text-anchor="middle" style="font-size:10px;fill:#5a6573">壁垒最高</text>
+  <text x="180" y="204" style="font-size:11px;fill:#1f2329">全球：Vertiv · nVent · 施耐德</text>
+  <text x="180" y="224" style="font-size:11px;fill:#1f2329">中国：英维克 · 高澜 · 申菱</text>
+
+  <!-- PCB -->
+  <rect x="40" y="256" width="120" height="52" rx="8" fill="#FAEEDA" stroke="#BA7517" stroke-width="1.4"/>
+  <text x="100" y="276" text-anchor="middle" style="font-size:13px;font-weight:500;fill:#1f2329">高阶 PCB</text>
+  <text x="100" y="296" text-anchor="middle" style="font-size:10px;fill:#5a6573">国产主导</text>
+  <text x="180" y="272" style="font-size:11px;fill:#1f2329">中国：沪电 · 深南 · 胜宏 · 鹏鼎</text>
+  <text x="180" y="292" style="font-size:11px;fill:#1f2329">台系：欣兴 · 臻鼎</text>
+
+  <!-- 电源 -->
+  <rect x="40" y="324" width="120" height="44" rx="8" fill="#FAEEDA" stroke="#BA7517" stroke-width="1.4"/>
+  <text x="100" y="342" text-anchor="middle" style="font-size:13px;font-weight:500;fill:#1f2329">电源</text>
+  <text x="100" y="360" text-anchor="middle" style="font-size:10px;fill:#5a6573">卖水人</text>
+  <text x="180" y="348" style="font-size:11px;fill:#1f2329">全球：Vertiv · Eaton · 施耐德</text>
+  <text x="180" y="366" style="font-size:11px;fill:#1f2329">中国：欧陆通 · 麦格米特</text>
+
+  <text x="430" y="200" style="font-size:11px;fill:#854F0B">投资含义：</text>
+  <text x="430" y="222" style="font-size:11px;fill:#1f2329">· 服务器：份额看大客户绑定</text>
+  <text x="430" y="244" style="font-size:11px;fill:#1f2329">· 液冷/PCB/电源：壁垒高、利润厚</text>
+  <text x="430" y="266" style="font-size:11px;fill:#1f2329">· IDC：重资产收租，看上架率</text>
+</svg>

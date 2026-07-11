@@ -1,0 +1,60 @@
+<svg viewBox="0 0 680 360" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>算力基础设施玩家矩阵</title>
+  <desc>环节(行) × 市场(A股/港股/美股) 的玩家分布</desc>
+  <text x="24" y="30" style="font-size:15px;font-weight:500;fill:#2C2C2A">玩家矩阵：环节 × 市场</text>
+
+  <!-- 表头 -->
+  <rect x="200" y="50" width="150" height="34" rx="6" fill="#E6F1FB" stroke="#378ADD" stroke-width="1"/>
+  <text x="275" y="72" text-anchor="middle" style="font-size:12px;font-weight:500;fill:#1f2329">A 股</text>
+  <rect x="360" y="50" width="150" height="34" rx="6" fill="#FBEAF0" stroke="#D4537E" stroke-width="1"/>
+  <text x="435" y="72" text-anchor="middle" style="font-size:12px;font-weight:500;fill:#1f2329">港 股</text>
+  <rect x="520" y="50" width="140" height="34" rx="6" fill="#E1F5EE" stroke="#1D9E75" stroke-width="1"/>
+  <text x="590" y="72" text-anchor="middle" style="font-size:12px;font-weight:500;fill:#1f2329">美 股</text>
+
+  <!-- 行：服务器 -->
+  <text x="40" y="112" style="font-size:12px;font-weight:500;fill:#1f2329">服务器</text>
+  <rect x="200" y="92" width="150" height="34" rx="6" fill="#FAEEDA" stroke="#BA7517" stroke-width="0.8"/>
+  <text x="275" y="114" text-anchor="middle" style="font-size:10px;fill:#1f2329">工业富联/浪潮</text>
+  <rect x="360" y="92" width="150" height="34" rx="6" fill="#FAEEDA" stroke="#BA7517" stroke-width="0.8"/>
+  <text x="435" y="114" text-anchor="middle" style="font-size:10px;fill:#1f2329">联想集团</text>
+  <rect x="520" y="92" width="140" height="34" rx="6" fill="#FAEEDA" stroke="#BA7517" stroke-width="0.8"/>
+  <text x="590" y="114" text-anchor="middle" style="font-size:10px;fill:#1f2329">SMCI/戴尔</text>
+
+  <!-- 行：IDC -->
+  <text x="40" y="162" style="font-size:12px;font-weight:500;fill:#1f2329">IDC</text>
+  <rect x="200" y="142" width="150" height="34" rx="6" fill="#FAEEDA" stroke="#BA7517" stroke-width="0.8"/>
+  <text x="275" y="164" text-anchor="middle" style="font-size:10px;fill:#1f2329">润泽/数据港</text>
+  <rect x="360" y="142" width="150" height="34" rx="6" fill="#FAEEDA" stroke="#BA7517" stroke-width="0.8"/>
+  <text x="435" y="164" text-anchor="middle" style="font-size:10px;fill:#1f2329">万国数据</text>
+  <rect x="520" y="142" width="140" height="34" rx="6" fill="#FAEEDA" stroke="#BA7517" stroke-width="0.8"/>
+  <text x="590" y="164" text-anchor="middle" style="font-size:10px;fill:#1f2329">EQIX/DLR/VNET</text>
+
+  <!-- 行：液冷 -->
+  <text x="40" y="212" style="font-size:12px;font-weight:500;fill:#1f2329">液冷</text>
+  <rect x="200" y="192" width="150" height="34" rx="6" fill="#FAEEDA" stroke="#BA7517" stroke-width="0.8"/>
+  <text x="275" y="214" text-anchor="middle" style="font-size:10px;fill:#1f2329">英维克/高澜</text>
+  <rect x="360" y="192" width="150" height="34" rx="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="0.8"/>
+  <text x="435" y="214" text-anchor="middle" style="font-size:10px;fill:#888780">—</text>
+  <rect x="520" y="192" width="140" height="34" rx="6" fill="#FAEEDA" stroke="#BA7517" stroke-width="0.8"/>
+  <text x="590" y="214" text-anchor="middle" style="font-size:10px;fill:#1f2329">Vertiv/nVent</text>
+
+  <!-- 行：PCB -->
+  <text x="40" y="262" style="font-size:12px;font-weight:500;fill:#1f2329">高阶PCB</text>
+  <rect x="200" y="242" width="150" height="34" rx="6" fill="#FAEEDA" stroke="#BA7517" stroke-width="0.8"/>
+  <text x="275" y="264" text-anchor="middle" style="font-size:10px;fill:#1f2329">沪电/深南/胜宏</text>
+  <rect x="360" y="242" width="150" height="34" rx="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="0.8"/>
+  <text x="435" y="264" text-anchor="middle" style="font-size:10px;fill:#888780">—</text>
+  <rect x="520" y="242" width="140" height="34" rx="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="0.8"/>
+  <text x="590" y="264" text-anchor="middle" style="font-size:10px;fill:#888780">—</text>
+
+  <!-- 行：电源 -->
+  <text x="40" y="312" style="font-size:12px;font-weight:500;fill:#1f2329">电源</text>
+  <rect x="200" y="292" width="150" height="34" rx="6" fill="#FAEEDA" stroke="#BA7517" stroke-width="0.8"/>
+  <text x="275" y="314" text-anchor="middle" style="font-size:10px;fill:#1f2329">欧陆通/麦格米特</text>
+  <rect x="360" y="292" width="150" height="34" rx="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="0.8"/>
+  <text x="435" y="314" text-anchor="middle" style="font-size:10px;fill:#888780">—</text>
+  <rect x="520" y="292" width="140" height="34" rx="6" fill="#FAEEDA" stroke="#BA7517" stroke-width="0.8"/>
+  <text x="590" y="314" text-anchor="middle" style="font-size:10px;fill:#1f2329">Vertiv/Eaton</text>
+
+  <text x="40" y="350" style="font-size:10px;fill:#854F0B">美股利润池在供配电/IDC REIT；A 股弹性在服务器/液冷/PCB；港股居中（联想/万国）。</text>
+</svg>

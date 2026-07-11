@@ -1,0 +1,42 @@
+<svg viewBox="0 0 680 380" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>算力基础设施在 AI 主线中的位置</title>
+  <desc>芯片(L2)→封装(L3)→互联(L4 光模块)→算力基础设施(本模块:服务器/IDC/液冷/PCB/电源)→应用(L5)</desc>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#888780" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <text x="24" y="30" style="font-size:15px;font-weight:500;fill:#2C2C2A">算力基础设施：产业链中的「部署层」定位</text>
+
+  <!-- L2 芯片 -->
+  <rect x="40" y="56" width="600" height="46" rx="10" fill="#EAF3DE" stroke="#639922" stroke-width="1.2"/>
+  <text x="56" y="74" style="font-size:13px;font-weight:500;fill:#1f2329">L2 芯片层</text>
+  <text x="56" y="93" style="font-size:11px;fill:#5a6573">GPU / ASIC / HBM —— 算力的源头（发动机）</text>
+
+  <!-- L3 封装 -->
+  <rect x="40" y="112" width="600" height="46" rx="10" fill="#EAF3DE" stroke="#639922" stroke-width="1.2"/>
+  <text x="56" y="130" style="font-size:13px;font-weight:500;fill:#1f2329">L3 封装层</text>
+  <text x="56" y="149" style="font-size:11px;fill:#5a6573">先进封装（CoWoS 等）—— 把 GPU+HBM 铸成完整芯片</text>
+
+  <!-- L4 互联 -->
+  <rect x="40" y="168" width="600" height="46" rx="10" fill="#E6F1FB" stroke="#378ADD" stroke-width="1.2"/>
+  <text x="56" y="186" style="font-size:13px;font-weight:500;fill:#1f2329">L4 互联层</text>
+  <text x="56" y="205" style="font-size:11px;fill:#5a6573">光模块 / 高速互联 —— 把芯片之间、服务器之间连起来（传动轴）</text>
+
+  <!-- 本模块 算力基础设施 -->
+  <rect x="40" y="224" width="600" height="58" rx="10" fill="#FAEEDA" stroke="#BA7517" stroke-width="2" stroke-dasharray="7 4"/>
+  <text x="56" y="246" style="font-size:13px;font-weight:500;fill:#1f2329">⚠ 本模块 · 算力基础设施（部署层）</text>
+  <text x="56" y="266" style="font-size:11px;fill:#5a6573">AI 服务器 + 数据中心(IDC) + 液冷 + 高阶 PCB + 电源供配电 —— 把零件变成能用的算力</text>
+
+  <!-- L5 应用 -->
+  <rect x="40" y="292" width="600" height="46" rx="10" fill="#EAF3DE" stroke="#639922" stroke-width="1.2"/>
+  <text x="56" y="310" style="font-size:13px;font-weight:500;fill:#1f2329">L5 应用层</text>
+  <text x="56" y="329" style="font-size:11px;fill:#5a6573">软件 / SaaS / Agent —— 用算力干活的终端（开车的人）</text>
+
+  <!-- 箭头 -->
+  <line x1="340" y1="102" x2="340" y2="110" stroke="#888780" stroke-width="1.5" marker-end="url(#ar)"/>
+  <line x1="340" y1="158" x2="340" y2="166" stroke="#888780" stroke-width="1.5" marker-end="url(#ar)"/>
+  <line x1="340" y1="214" x2="340" y2="222" stroke="#888780" stroke-width="1.5" marker-end="url(#ar)"/>
+  <line x1="340" y1="282" x2="340" y2="290" stroke="#BA7517" stroke-width="1.5" stroke-dasharray="5 3" marker-end="url(#ar)"/>
+</svg>

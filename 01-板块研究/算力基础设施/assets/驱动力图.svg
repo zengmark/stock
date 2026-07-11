@@ -1,0 +1,35 @@
+<svg viewBox="0 0 680 340" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>算力基础设施四大驱动力</title>
+  <desc>云厂商capex / 液冷渗透 / 国产算力 / 推理爆发</desc>
+  <text x="24" y="30" style="font-size:15px;font-weight:500;fill:#2C2C2A">四大驱动力（为什么这一层还在涨）</text>
+
+  <!-- 卡片1 -->
+  <rect x="40" y="56" width="290" height="110" rx="12" fill="#E6F1FB" stroke="#378ADD" stroke-width="1.2"/>
+  <text x="60" y="86" style="font-size:14px;font-weight:500;fill:#0c447c">① 云厂商 AI capex 超预期</text>
+  <text x="60" y="110" style="font-size:11px;fill:#5a6573">微软/谷歌/亚马逊/阿里/腾讯</text>
+  <text x="60" y="128" style="font-size:11px;fill:#5a6573">资本开支连续上修，直接变</text>
+  <text x="60" y="146" style="font-size:11px;fill:#5a6573">成中游订单（总开关）</text>
+
+  <!-- 卡片2 -->
+  <rect x="350" y="56" width="290" height="110" rx="12" fill="#FAEEDA" stroke="#BA7517" stroke-width="1.2"/>
+  <text x="370" y="86" style="font-size:14px;font-weight:500;fill:#633806">② 液冷渗透率拐点</text>
+  <text x="370" y="110" style="font-size:11px;fill:#5a6573">5% → 20%+，量价齐升</text>
+  <text x="370" y="128" style="font-size:11px;fill:#5a6573">单机柜破 100kW，风冷失效</text>
+  <text x="370" y="146" style="font-size:11px;fill:#5a6573">确定性最高的增量</text>
+
+  <!-- 卡片3 -->
+  <rect x="40" y="184" width="290" height="110" rx="12" fill="#EAF3DE" stroke="#639922" stroke-width="1.2"/>
+  <text x="60" y="214" style="font-size:14px;font-weight:500;fill:#27500a">③ 国产算力崛起</text>
+  <text x="60" y="238" style="font-size:11px;fill:#5a6573">华为昇腾等国产芯片放量</text>
+  <text x="60" y="256" style="font-size:11px;fill:#5a6573">催生独立服务器/PCB/电源</text>
+  <text x="60" y="274" style="font-size:11px;fill:#5a6573">链，国产替代双击</text>
+
+  <!-- 卡片4 -->
+  <rect x="350" y="184" width="290" height="110" rx="12" fill="#FBEAF0" stroke="#D4537E" stroke-width="1.2"/>
+  <text x="370" y="214" style="font-size:14px;font-weight:500;fill:#72243e">④ 推理爆发放大需求</text>
+  <text x="370" y="238" style="font-size:11px;fill:#5a6573">Agent/端侧普及，推理算力</text>
+  <text x="370" y="256" style="font-size:11px;fill:#5a6573">消耗指数级放大，拉动服务器</text>
+  <text x="370" y="274" style="font-size:11px;fill:#5a6573">/IDC/供配电长期需求</text>
+
+  <text x="24" y="324" style="font-size:10px;fill:#854F0B">核心：只要云厂商 capex 还在上修，这一层的订单就在。稀缺部件（液冷/PCB/电源）抗周期能力强于纯整机。</text>
+</svg>

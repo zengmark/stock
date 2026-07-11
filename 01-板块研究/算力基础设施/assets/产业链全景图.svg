@@ -1,0 +1,52 @@
+<svg viewBox="0 0 680 360" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>算力基础设施产业链全景</title>
+  <desc>上游零件(芯片/光模块/内存) → 中游部署(本模块:服务器/IDC/液冷/PCB/电源) → 下游使用(云厂商/企业)</desc>
+  <text x="24" y="30" style="font-size:15px;font-weight:500;fill:#2C2C2A">算力基础设施产业链全景（本模块聚焦中游）</text>
+
+  <!-- 上游 -->
+  <text x="40" y="66" style="font-size:12px;font-weight:500;fill:#3B6D11">上游 · 零件（见 L2/L3/L4 模块）</text>
+  <rect x="40" y="76" width="180" height="44" rx="8" fill="#EAF3DE" stroke="#639922" stroke-width="1"/>
+  <text x="130" y="95" text-anchor="middle" style="font-size:12px;fill:#1f2329">AI 芯片 (GPU/ASIC)</text>
+  <text x="130" y="112" text-anchor="middle" style="font-size:10px;fill:#5a6573">英伟达/华为昇腾</text>
+  <rect x="232" y="76" width="180" height="44" rx="8" fill="#EAF3DE" stroke="#639922" stroke-width="1"/>
+  <text x="322" y="95" text-anchor="middle" style="font-size:12px;fill:#1f2329">光模块 / 互联</text>
+  <text x="322" y="112" text-anchor="middle" style="font-size:10px;fill:#5a6573">中际旭创等</text>
+  <rect x="424" y="76" width="180" height="44" rx="8" fill="#EAF3DE" stroke="#639922" stroke-width="1"/>
+  <text x="514" y="95" text-anchor="middle" style="font-size:12px;fill:#1f2329">内存 / HBM</text>
+  <text x="514" y="112" text-anchor="middle" style="font-size:10px;fill:#5a6573">海力士/三星/美光</text>
+
+  <!-- 中游 本模块 -->
+  <text x="40" y="158" style="font-size:12px;font-weight:500;fill:#854F0B">中游 · 部署（本模块核心）</text>
+  <rect x="40" y="168" width="180" height="44" rx="8" fill="#FAEEDA" stroke="#BA7517" stroke-width="1.6"/>
+  <text x="130" y="187" text-anchor="middle" style="font-size:12px;font-weight:500;fill:#1f2329">AI 服务器 / 整机</text>
+  <text x="130" y="204" text-anchor="middle" style="font-size:10px;fill:#5a6573">工业富联/超微/戴尔</text>
+  <rect x="232" y="168" width="180" height="44" rx="8" fill="#FAEEDA" stroke="#BA7517" stroke-width="1.6"/>
+  <text x="322" y="187" text-anchor="middle" style="font-size:12px;font-weight:500;fill:#1f2329">数据中心 IDC</text>
+  <text x="322" y="204" text-anchor="middle" style="font-size:10px;fill:#5a6573">润泽/Equinix</text>
+  <rect x="424" y="168" width="180" height="44" rx="8" fill="#FAEEDA" stroke="#BA7517" stroke-width="1.6"/>
+  <text x="514" y="187" text-anchor="middle" style="font-size:12px;font-weight:500;fill:#1f2329">液冷 / PCB / 电源</text>
+  <text x="514" y="204" text-anchor="middle" style="font-size:10px;fill:#5a6573">英维克/沪电/Vertiv</text>
+
+  <!-- 下游 -->
+  <text x="40" y="250" style="font-size:12px;font-weight:500;fill:#185FA5">下游 · 使用（金主）</text>
+  <rect x="40" y="260" width="180" height="44" rx="8" fill="#E6F1FB" stroke="#378ADD" stroke-width="1"/>
+  <text x="130" y="279" text-anchor="middle" style="font-size:12px;fill:#1f2329">云厂商</text>
+  <text x="130" y="296" text-anchor="middle" style="font-size:10px;fill:#5a6573">微软/谷歌/阿里/腾讯</text>
+  <rect x="232" y="260" width="180" height="44" rx="8" fill="#E6F1FB" stroke="#378ADD" stroke-width="1"/>
+  <text x="322" y="279" text-anchor="middle" style="font-size:12px;fill:#1f2329">互联网 / 政企</text>
+  <text x="322" y="296" text-anchor="middle" style="font-size:10px;fill:#5a6573">自建算力</text>
+  <rect x="424" y="260" width="180" height="44" rx="8" fill="#E6F1FB" stroke="#378ADD" stroke-width="1"/>
+  <text x="514" y="279" text-anchor="middle" style="font-size:12px;fill:#1f2329">AI 应用</text>
+  <text x="514" y="296" text-anchor="middle" style="font-size:10px;fill:#5a6573">软件/SaaS/Agent</text>
+
+  <!-- 连接箭头 -->
+  <line x1="340" y1="120" x2="340" y2="166" stroke="#BA7517" stroke-width="1.6" marker-end="url(#ar2)"/>
+  <line x1="340" y1="212" x2="340" y2="258" stroke="#378ADD" stroke-width="1.6" marker-end="url(#ar2)"/>
+  <defs>
+    <marker id="ar2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#888780" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <text x="350" y="148" style="font-size:10px;fill:#854F0B">零件 → 部署</text>
+  <text x="350" y="240" style="font-size:10px;fill:#185FA5">部署 → 使用（订单来源）</text>
+</svg>
