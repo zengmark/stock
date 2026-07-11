@@ -1,0 +1,52 @@
+<svg width="100%" viewBox="0 0 680 460" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>AI应用产业链全景</title>
+  <desc>上游基础模型 → 中游AI中间件 → 下游应用场景，附变现模式</desc>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <rect x="40" y="40" width="180" height="34" rx="4" fill="#EEEDFE" stroke="#AFA9EC" stroke-width="0.5"/>
+  <text x="130" y="62" text-anchor="middle" font-size="13" font-weight="500" fill="#3C3489" font-family="sans-serif">上游 · 基础模型</text>
+  <rect x="45" y="88" width="170" height="26" rx="3" fill="#F1EFE8" stroke="#D3D1C7" stroke-width="0.5"/>
+  <text x="130" y="105" text-anchor="middle" font-size="10.5" fill="#5F5E5A" font-family="sans-serif">OpenAI/百度/阿里/讯飞/DeepSeek</text>
+
+  <rect x="250" y="40" width="180" height="34" rx="4" fill="#E6F1FB" stroke="#85B7EB" stroke-width="0.5"/>
+  <text x="340" y="62" text-anchor="middle" font-size="13" font-weight="500" fill="#0C447C" font-family="sans-serif">中游 · AI 中间件</text>
+  <rect x="255" y="88" width="170" height="26" rx="3" fill="#F1EFE8" stroke="#D3D1C7" stroke-width="0.5"/>
+  <text x="340" y="105" text-anchor="middle" font-size="10.5" fill="#5F5E5A" font-family="sans-serif">Agent框架/RAG/向量库/MLOps</text>
+
+  <rect x="460" y="40" width="180" height="34" rx="4" fill="#EAF3DE" stroke="#97C459" stroke-width="0.5"/>
+  <text x="550" y="62" text-anchor="middle" font-size="13" font-weight="500" fill="#27500A" font-family="sans-serif">下游 · 应用场景</text>
+  <rect x="465" y="88" width="170" height="26" rx="3" fill="#F1EFE8" stroke="#D3D1C7" stroke-width="0.5"/>
+  <text x="550" y="105" text-anchor="middle" font-size="10.5" fill="#5F5E5A" font-family="sans-serif">办公/金融/医疗/营销/电商</text>
+
+  <path d="M220 57L248 57" fill="none" stroke="#888780" stroke-width="1" marker-end="url(#a)"/>
+  <path d="M430 57L458 57" fill="none" stroke="#888780" stroke-width="1" marker-end="url(#a)"/>
+
+  <!-- 变现模式 -->
+  <text x="40" y="160" font-size="13" font-weight="600" fill="#2C2C2A" font-family="sans-serif">变现模式（财务质量由高到低）</text>
+  <rect x="40" y="175" width="135" height="40" rx="4" fill="#EAF3DE" stroke="#97C459" stroke-width="0.5"/>
+  <text x="107" y="195" text-anchor="middle" font-size="11" font-weight="600" fill="#27500A" font-family="sans-serif">订阅制 SaaS</text>
+  <text x="107" y="210" text-anchor="middle" font-size="9.5" fill="#5F5E5A" font-family="sans-serif">收入可预测·毛利高</text>
+
+  <rect x="185" y="175" width="135" height="40" rx="4" fill="#E6F1FB" stroke="#85B7EB" stroke-width="0.5"/>
+  <text x="252" y="195" text-anchor="middle" font-size="11" font-weight="600" fill="#0C447C" font-family="sans-serif">按量计费 API</text>
+  <text x="252" y="210" text-anchor="middle" font-size="9.5" fill="#5F5E5A" font-family="sans-serif">随用量增·单价降</text>
+
+  <rect x="330" y="175" width="135" height="40" rx="4" fill="#EEEDFE" stroke="#AFA9EC" stroke-width="0.5"/>
+  <text x="397" y="195" text-anchor="middle" font-size="11" font-weight="600" fill="#3C3489" font-family="sans-serif">广告分成</text>
+  <text x="397" y="210" text-anchor="middle" font-size="9.5" fill="#5F5E5A" font-family="sans-serif">规模大·受宏观影响</text>
+
+  <rect x="475" y="175" width="135" height="40" rx="4" fill="#F1EFE8" stroke="#D3D1C7" stroke-width="0.5"/>
+  <text x="542" y="195" text-anchor="middle" font-size="11" font-weight="600" fill="#2C2C2A" font-family="sans-serif">项目制交付</text>
+  <text x="542" y="210" text-anchor="middle" font-size="9.5" fill="#5F5E5A" font-family="sans-serif">收入波动·难复利</text>
+
+  <rect x="40" y="260" width="600" height="150" rx="6" fill="#F1EFE8" stroke="none"/>
+  <text x="60" y="288" font-size="13" font-weight="600" fill="#2C2C2A" font-family="sans-serif">投资要点</text>
+  <text x="60" y="315" font-size="11.5" fill="#5F5E5A" font-family="sans-serif">① 基础模型多数未上市，二级市场能投的九成在中游 + 下游</text>
+  <text x="60" y="340" font-size="11.5" fill="#5F5E5A" font-family="sans-serif">② 中游是美股利润区（微软/Palantir/Snowflake），A股基本缺位</text>
+  <text x="60" y="365" font-size="11.5" fill="#5F5E5A" font-family="sans-serif">③ 下游看「钱怎么收」：订阅制 > 按量 > 广告 > 项目制</text>
+  <text x="60" y="390" font-size="11.5" fill="#5F5E5A" font-family="sans-serif">④ 开源平权（DeepSeek/Qwen）利好下游应用方，利空纯卖模型 API</text>
+</svg>

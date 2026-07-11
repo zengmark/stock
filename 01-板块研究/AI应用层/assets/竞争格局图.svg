@@ -1,0 +1,31 @@
+<svg width="100%" viewBox="0 0 680 360" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>AI应用竞争格局</title>
+  <desc>四个阵营：云+模型一体巨头 / AI原生SaaS / 传统软件AI化 / 纯模型应用创业</desc>
+
+  <text x="40" y="36" font-size="13" font-weight="600" fill="#2C2C2A" font-family="sans-serif">全球竞争格局：四类玩家</text>
+
+  <rect x="40" y="55" width="290" height="70" rx="5" fill="#E6F1FB" stroke="#85B7EB" stroke-width="0.6"/>
+  <text x="55" y="80" font-size="12.5" font-weight="600" fill="#0C447C" font-family="sans-serif">① 云 + 模型一体巨头</text>
+  <text x="55" y="100" font-size="10.5" fill="#5F5E5A" font-family="sans-serif">全栈通吃 · 确定性最高</text>
+  <text x="55" y="116" font-size="10.5" fill="#5F5E5A" font-family="sans-serif">微软 · 谷歌 · 阿里 · 腾讯</text>
+
+  <rect x="350" y="55" width="290" height="70" rx="5" fill="#EAF3DE" stroke="#97C459" stroke-width="0.6"/>
+  <text x="365" y="80" font-size="12.5" font-weight="600" fill="#27500A" font-family="sans-serif">② AI 原生 SaaS</text>
+  <text x="365" y="100" font-size="10.5" fill="#5F5E5A" font-family="sans-serif">生于 AI · 高成长高估值</text>
+  <text x="365" y="116" font-size="10.5" fill="#5F5E5A" font-family="sans-serif">Salesforce · ServiceNow · Palantir · Snowflake · AppLovin</text>
+
+  <rect x="40" y="145" width="290" height="70" rx="5" fill="#EEEDFE" stroke="#AFA9EC" stroke-width="0.6"/>
+  <text x="55" y="170" font-size="12.5" font-weight="600" fill="#3C3489" font-family="sans-serif">③ 传统软件 AI 化</text>
+  <text x="55" y="190" font-size="10.5" fill="#5F5E5A" font-family="sans-serif">老牌软件加 AI 提客单</text>
+  <text x="55" y="206" font-size="10.5" fill="#5F5E5A" font-family="sans-serif">Adobe · 金山办公 · 用友(未覆盖)</text>
+
+  <rect x="350" y="145" width="290" height="70" rx="5" fill="#F1EFE8" stroke="#D3D1C7" stroke-width="0.6"/>
+  <text x="365" y="170" font-size="12.5" font-weight="600" fill="#2C2C2A" font-family="sans-serif">④ 纯模型 / 应用创业</text>
+  <text x="365" y="190" font-size="10.5" fill="#5F5E5A" font-family="sans-serif">未上市为主 · 散户买不到</text>
+  <text x="365" y="206" font-size="10.5" fill="#5F5E5A" font-family="sans-serif">OpenAI · Anthropic · DeepSeek · 月之暗面</text>
+
+  <rect x="40" y="240" width="600" height="90" rx="6" fill="#F1EFE8" stroke="none"/>
+  <text x="60" y="268" font-size="12.5" font-weight="600" fill="#2C2C2A" font-family="sans-serif">谁在真正赚到钱（2025 年报）</text>
+  <text x="60" y="293" font-size="11" fill="#5F5E5A" font-family="sans-serif">✅ 确定性现金流：腾讯 / 阿里 / 微软 / Alphabet / Palantir — 双位数增、高毛利</text>
+  <text x="60" y="315" font-size="11" fill="#5F5E5A" font-family="sans-serif">⚠️ 增收不增利：万兴 / 昆仑 / 拓尔思 / 汉王仍亏；商汤 / 第四范式 / 微盟亏损收窄</text>
+</svg>

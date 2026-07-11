@@ -1,0 +1,34 @@
+<svg width="100%" viewBox="0 0 680 380" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>AI软件市场规模趋势</title>
+  <desc>全球AI软件与平台市场2023-2025实际值(亿美元)，及2025中国占比</desc>
+
+  <line x1="70" y1="40" x2="70" y2="320" stroke="#888780" stroke-width="1"/>
+  <line x1="70" y1="320" x2="620" y2="320" stroke="#888780" stroke-width="1"/>
+
+  <!-- 2023 5150 -->
+  <rect x="110" y="185" width="90" height="135" rx="3" fill="#85B7EB"/>
+  <text x="155" y="175" text-anchor="middle" font-size="12" font-weight="600" fill="#0C447C">5150</text>
+  <text x="155" y="338" text-anchor="middle" font-size="11" fill="#2C2C2A" font-family="sans-serif">2023</text>
+  <text x="155" y="354" text-anchor="middle" font-size="9.5" fill="#27AE60">+19%</text>
+
+  <!-- 2024 6160 -->
+  <rect x="260" y="150" width="90" height="170" rx="3" fill="#85B7EB"/>
+  <text x="305" y="140" text-anchor="middle" font-size="12" font-weight="600" fill="#0C447C">6160</text>
+  <text x="305" y="338" text-anchor="middle" font-size="11" fill="#2C2C2A" font-family="sans-serif">2024</text>
+  <text x="305" y="354" text-anchor="middle" font-size="9.5" fill="#27AE60">+19.6%</text>
+
+  <!-- 2025 7850 -->
+  <rect x="410" y="88" width="90" height="232" rx="3" fill="#C0392B"/>
+  <text x="455" y="78" text-anchor="middle" font-size="12" font-weight="700" fill="#C0392B">7850</text>
+  <text x="455" y="338" text-anchor="middle" font-size="11" fill="#2C2C2A" font-family="sans-serif">2025</text>
+  <text x="455" y="354" text-anchor="middle" font-size="9.5" fill="#C0392B">+27.3%</text>
+
+  <!-- 中国2025 2180 -->
+  <rect x="540" y="225" width="60" height="95" rx="3" fill="#C0392B" fill-opacity="0.75"/>
+  <text x="570" y="215" text-anchor="middle" font-size="11" font-weight="600" fill="#C0392B">2180</text>
+  <text x="570" y="338" text-anchor="middle" font-size="10.5" fill="#2C2C2A" font-family="sans-serif">中国25</text>
+  <text x="570" y="354" text-anchor="middle" font-size="9.5" fill="#C0392B">+31.2%</text>
+
+  <text x="350" y="30" text-anchor="middle" font-size="12.5" font-weight="600" fill="#2C2C2A" font-family="sans-serif">全球 AI 软件与平台市场规模（亿美元）</text>
+  <text x="350" y="372" text-anchor="middle" font-size="10" fill="#888780" font-family="sans-serif">数据来源：2026 年产业链研究报告（IDC/行业口径）。中国 2025 占全球 27.8%。</text>
+</svg>

@@ -1,0 +1,32 @@
+<svg width="100%" viewBox="0 0 680 380" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>AI应用五大驱动力</title>
+  <desc>推理算力爆发 / Agent落地 / 端侧AI / 行业模型+开源平权 / 政策加码</desc>
+
+  <text x="40" y="36" font-size="13" font-weight="600" fill="#2C2C2A" font-family="sans-serif">五大驱动力（需求侧闭环）</text>
+
+  <g font-family="sans-serif">
+    <rect x="40" y="55" width="290" height="60" rx="5" fill="#C0392B" fill-opacity="0.10" stroke="#C0392B" stroke-width="0.6"/>
+    <text x="55" y="80" font-size="12.5" font-weight="700" fill="#C0392B">1 · 推理算力爆发</text>
+    <text x="55" y="100" font-size="10.5" fill="#5F5E5A">Agent 让单次任务调用模型几十上百次</text>
+
+    <rect x="350" y="55" width="290" height="60" rx="5" fill="#C0392B" fill-opacity="0.10" stroke="#C0392B" stroke-width="0.6"/>
+    <text x="365" y="80" font-size="12.5" font-weight="700" fill="#C0392B">2 · Agent 从概念到落地</text>
+    <text x="365" y="100" font-size="10.5" fill="#5F5E5A">2025 Agent 元年，企业愿付平台费</text>
+
+    <rect x="40" y="135" width="290" height="60" rx="5" fill="#0C447C" fill-opacity="0.10" stroke="#0C447C" stroke-width="0.6"/>
+    <text x="55" y="160" font-size="12.5" font-weight="700" fill="#0C447C">3 · 端侧 AI 普及</text>
+    <text x="55" y="180" font-size="10.5" fill="#5F5E5A">AI PC/手机本地跑小模型</text>
+
+    <rect x="350" y="135" width="290" height="60" rx="5" fill="#0C447C" fill-opacity="0.10" stroke="#0C447C" stroke-width="0.6"/>
+    <text x="365" y="160" font-size="12.5" font-weight="700" fill="#0C447C">4 · 行业模型 + 开源平权</text>
+    <text x="365" y="180" font-size="10.5" fill="#5F5E5A">DeepSeek/Qwen 压低模型价，利好应用方</text>
+
+    <rect x="195" y="215" width="290" height="60" rx="5" fill="#27500A" fill-opacity="0.12" stroke="#27500A" stroke-width="0.6"/>
+    <text x="340" y="240" text-anchor="middle" font-size="12.5" font-weight="700" fill="#27500A">5 · 政策加码</text>
+    <text x="340" y="260" text-anchor="middle" font-size="10.5" fill="#5F5E5A">「人工智能+」：2027 应用普及率超 70%</text>
+  </g>
+
+  <rect x="40" y="300" width="600" height="55" rx="6" fill="#F1EFE8" stroke="none"/>
+  <text x="60" y="324" font-size="11.5" fill="#5F5E5A" font-family="sans-serif">核心闭环：应用越普及 → Token 消耗越大 → 反向拉动 L1–L4 硬件需求</text>
+  <text x="60" y="345" font-size="11.5" fill="#5F5E5A" font-family="sans-serif">应用层是整条 AI 主线的「点火开关」——需求验证环节</text>
+</svg>

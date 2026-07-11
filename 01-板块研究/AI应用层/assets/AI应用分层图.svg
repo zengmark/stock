@@ -1,0 +1,29 @@
+<svg width="100%" viewBox="0 0 680 360" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>AI应用三层结构</title>
+  <desc>基础模型层 → 中间层(AI Infra) → 应用层，自下而上价值落点</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <!-- 应用层 -->
+  <rect x="60" y="50" width="560" height="64" rx="6" fill="#EAF3DE" stroke="#97C459" stroke-width="0.8"/>
+  <text x="80" y="78" font-size="15" font-weight="600" fill="#27500A" font-family="sans-serif">应用层（本模块核心）</text>
+  <text x="80" y="100" font-size="12" fill="#5F5E5A" font-family="sans-serif">办公 / 金融 / 医疗 / 营销 / 电商 / 游戏 · 腾讯 · 金山办公 · 同花顺 · Salesforce</text>
+
+  <!-- 中间层 -->
+  <rect x="60" y="150" width="560" height="64" rx="6" fill="#E6F1FB" stroke="#85B7EB" stroke-width="0.8"/>
+  <text x="80" y="178" font-size="15" font-weight="600" fill="#0C447C" font-family="sans-serif">中间层（AI Infra）</text>
+  <text x="80" y="200" font-size="12" fill="#5F5E5A" font-family="sans-serif">Agent 框架 / RAG / 向量数据库 / MLOps / 推理云 · 微软 · Palantir · Snowflake</text>
+
+  <!-- 基础模型层 -->
+  <rect x="60" y="250" width="560" height="64" rx="6" fill="#EEEDFE" stroke="#AFA9EC" stroke-width="0.8"/>
+  <text x="80" y="278" font-size="15" font-weight="600" fill="#3C3489" font-family="sans-serif">基础模型层（LLM）</text>
+  <text x="80" y="300" font-size="12" fill="#5F5E5A" font-family="sans-serif">通用大模型训练 · OpenAI / Anthropic / 百度 / 阿里 / 讯飞 / DeepSeek（多未上市）</text>
+
+  <path d="M340 114L340 148" fill="none" stroke="#888780" stroke-width="1.2" marker-end="url(#arrow)"/>
+  <path d="M340 214L340 248" fill="none" stroke="#888780" stroke-width="1.2" marker-end="url(#arrow)"/>
+
+  <text x="340" y="335" text-anchor="middle" font-size="11" fill="#888780" font-family="sans-serif">价值落点：基础模型多数未上市，二级市场九成在「中间层 + 应用层」</text>
+</svg>
