@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 470" font-family="-apple-system, PingFang SC, Microsoft YaHei, sans-serif">
+  <rect width="680" height="470" fill="#FBFBF9"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#2C2C2A">人形机器人公司地图（14 家：A 股 12 + 港股 1 + 美股 1）</text>
+
+  <!-- section 1 丝杠/执行器总成 -->
+  <g font-size="12">
+    <rect x="24" y="52" width="120" height="56" rx="8" fill="#E0962A"/>
+    <text x="84" y="76" text-anchor="middle" font-weight="600" fill="#FFF">丝杠 / 执行器</text>
+    <text x="84" y="94" text-anchor="middle" fill="#FFF">总成（价值量最高）</text>
+
+    <rect x="156" y="52" width="156" height="26" rx="6" fill="#FFF4E5" stroke="#E0962A"/>
+    <text x="234" y="69" text-anchor="middle" fill="#7A4B05">三花智控 002050 · A</text>
+    <rect x="324" y="52" width="156" height="26" rx="6" fill="#FFF4E5" stroke="#E0962A"/>
+    <text x="402" y="69" text-anchor="middle" fill="#7A4B05">拓普集团 601689 · A</text>
+    <rect x="492" y="52" width="156" height="26" rx="6" fill="#FFF4E5" stroke="#E0962A"/>
+    <text x="570" y="69" text-anchor="middle" fill="#7A4B05">北特科技 603009 · A</text>
+
+    <rect x="156" y="82" width="156" height="26" rx="6" fill="#FFF4E5" stroke="#E0962A"/>
+    <text x="234" y="99" text-anchor="middle" fill="#7A4B05">贝斯特 300580 · A</text>
+    <rect x="324" y="82" width="156" height="26" rx="6" fill="#FFF4E5" stroke="#E0962A"/>
+    <text x="402" y="99" text-anchor="middle" fill="#7A4B05">五洲新春 603667 · A</text>
+  </g>
+
+  <!-- section 2 减速器 -->
+  <g font-size="12">
+    <rect x="24" y="120" width="120" height="56" rx="8" fill="#3C9D5B"/>
+    <text x="84" y="144" text-anchor="middle" font-weight="600" fill="#FFF">减速器</text>
+    <text x="84" y="162" text-anchor="middle" fill="#FFF">谐波 / RV</text>
+
+    <rect x="156" y="120" width="156" height="26" rx="6" fill="#EAF7EE" stroke="#3C9D5B"/>
+    <text x="234" y="137" text-anchor="middle" fill="#1F5E34">绿的谐波 688017 · A</text>
+    <rect x="324" y="120" width="156" height="26" rx="6" fill="#EAF7EE" stroke="#3C9D5B"/>
+    <text x="402" y="137" text-anchor="middle" fill="#1F5E34">双环传动 002472 · A</text>
+    <rect x="492" y="120" width="156" height="26" rx="6" fill="#EAF7EE" stroke="#3C9D5B"/>
+    <text x="570" y="137" text-anchor="middle" fill="#1F5E34">中大力德 002896 · A</text>
+  </g>
+
+  <!-- section 3 电机 -->
+  <g font-size="12">
+    <rect x="24" y="188" width="120" height="56" rx="8" fill="#3B6FB5"/>
+    <text x="84" y="212" text-anchor="middle" font-weight="600" fill="#FFF">电机</text>
+    <text x="84" y="230" text-anchor="middle" fill="#FFF">空心杯/力矩</text>
+
+    <rect x="156" y="188" width="156" height="26" rx="6" fill="#E8F0FE" stroke="#3B6FB5"/>
+    <text x="234" y="205" text-anchor="middle" fill="#1F3A5F">鸣志电器 603728 · A</text>
+    <rect x="324" y="188" width="156" height="26" rx="6" fill="#E8F0FE" stroke="#3B6FB5"/>
+    <text x="402" y="205" text-anchor="middle" fill="#1F3A5F">江苏雷利 300660 · A</text>
+  </g>
+
+  <!-- section 4 传感器 -->
+  <g font-size="12">
+    <rect x="24" y="256" width="120" height="56" rx="8" fill="#7A52A8"/>
+    <text x="84" y="280" text-anchor="middle" font-weight="600" fill="#FFF">传感器</text>
+    <text x="84" y="298" text-anchor="middle" fill="#FFF">力矩 / 3D视觉</text>
+
+    <rect x="156" y="256" width="156" height="26" rx="6" fill="#F3ECFB" stroke="#7A52A8"/>
+    <text x="234" y="273" text-anchor="middle" fill="#4A2E6E">柯力传感 603662 · A</text>
+    <rect x="324" y="256" width="156" height="26" rx="6" fill="#F3ECFB" stroke="#7A52A8"/>
+    <text x="402" y="273" text-anchor="middle" fill="#4A2E6E">奥比中光 688322 · A</text>
+  </g>
+
+  <!-- section 5 整机 海外 -->
+  <g font-size="12">
+    <rect x="24" y="324" width="120" height="56" rx="8" fill="#D9534F"/>
+    <text x="84" y="348" text-anchor="middle" font-weight="600" fill="#FFF">整机（海外）</text>
+    <text x="84" y="366" text-anchor="middle" fill="#FFF">期权性变量</text>
+
+    <rect x="156" y="324" width="240" height="26" rx="6" fill="#FDECEC" stroke="#D9534F"/>
+    <text x="276" y="341" text-anchor="middle" fill="#8A2B2B">优必选 9880 · 港股（Walker S）</text>
+    <rect x="408" y="324" width="240" height="26" rx="6" fill="#FDECEC" stroke="#D9534F"/>
+    <text x="528" y="341" text-anchor="middle" fill="#8A2B2B">Tesla TSLA · 美股（Optimus）</text>
+
+    <rect x="156" y="354" width="492" height="26" rx="6" fill="#F5F5F5" stroke="#AAA" stroke-dasharray="5 4"/>
+    <text x="402" y="371" text-anchor="middle" fill="#666">未上市整机：Figure / 宇树 / Agility 等（演示为主，无公开财务）</text>
+  </g>
+
+  <!-- legend -->
+  <g font-size="11" fill="#666">
+    <rect x="24" y="398" width="14" height="14" rx="3" fill="#E0962A"/><text x="44" y="409">丝杠/执行器</text>
+    <rect x="150" y="398" width="14" height="14" rx="3" fill="#3C9D5B"/><text x="170" y="409">减速器</text>
+    <rect x="256" y="398" width="14" height="14" rx="3" fill="#3B6FB5"/><text x="276" y="409">电机</text>
+    <rect x="342" y="398" width="14" height="14" rx="3" fill="#7A52A8"/><text x="362" y="409">传感器</text>
+    <rect x="448" y="398" width="14" height="14" rx="3" fill="#D9534F"/><text x="468" y="409">整机（海外）</text>
+  </g>
+
+  <text x="24" y="456" font-size="10" fill="#999">注：·A=A股，·港股=中国香港，·美股=美国。涨红跌绿为 A 股配色习惯；整机收入未单列者属期权性。</text>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 460" font-family="-apple-system, PingFang SC, Microsoft YaHei, sans-serif">
+  <rect width="680" height="460" fill="#FBFBF9"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#2C2C2A">人形机器人市场格局——「整机在海外，零部件在 A 股」的错位</text>
+
+  <!-- left panel: 整机 -->
+  <g>
+    <rect x="24" y="52" width="306" height="320" rx="10" fill="#FDECEC" stroke="#D9534F"/>
+    <text x="44" y="80" font-size="14" font-weight="600" fill="#8A2B2B">整机 · 高度集中且多在海外</text>
+
+    <rect x="44" y="98" width="266" height="60" rx="8" fill="#FFFFFF" stroke="#D9534F"/>
+    <text x="60" y="122" font-weight="600" fill="#8A2B2B">港股 优必选 9880 ⚠️</text>
+    <text x="60" y="142" fill="#8A2B2B">Walker S 工业版，港股唯一纯标的</text>
+
+    <rect x="44" y="170" width="266" height="60" rx="8" fill="#FFFFFF" stroke="#D9534F"/>
+    <text x="60" y="194" font-weight="600" fill="#8A2B2B">美股 Tesla TSLA</text>
+    <text x="60" y="214" fill="#8A2B2B">Optimus 研发方，收入未单列</text>
+
+    <rect x="44" y="242" width="266" height="60" rx="8" fill="#F5F5F5" stroke="#AAA" stroke-dasharray="5 4"/>
+    <text x="60" y="266" font-weight="600" fill="#666">未上市：Figure / 宇树 / Agility</text>
+    <text x="60" y="286" fill="#666">演示/试点为主，暂无公开财务</text>
+
+    <text x="44" y="334" font-size="11.5" fill="#8A2B2B">特点：稀缺 + 集中 → 是行业「期权性变量」</text>
+    <text x="44" y="354" font-size="11.5" fill="#8A2B2B">A 股几乎无纯整机上市公司</text>
+  </g>
+
+  <!-- right panel: 零部件 -->
+  <g>
+    <rect x="350" y="52" width="306" height="320" rx="10" fill="#EAF7EE" stroke="#3C9D5B"/>
+    <text x="370" y="80" font-size="14" font-weight="600" fill="#1F5E34">零部件 · A 股百花齐放</text>
+
+    <rect x="370" y="98" width="266" height="56" rx="8" fill="#FFF4E5" stroke="#E0962A"/>
+    <text x="386" y="120" font-weight="600" fill="#7A4B05">丝杠 / 执行器总成</text>
+    <text x="386" y="138" fill="#7A4B05">北特 / 贝斯特 / 五洲新春 / 三花 / 拓普</text>
+
+    <rect x="370" y="162" width="266" height="56" rx="8" fill="#EAF7EE" stroke="#3C9D5B"/>
+    <text x="386" y="184" font-weight="600" fill="#1F5E34">减速器</text>
+    <text x="386" y="202" fill="#1F5E34">绿的(谐波) / 双环 / 中大力德(RV)</text>
+
+    <rect x="370" y="226" width="266" height="56" rx="8" fill="#E8F0FE" stroke="#3B6FB5"/>
+    <text x="386" y="248" font-weight="600" fill="#1F3A5F">电机</text>
+    <text x="386" y="266" fill="#1F3A5F">鸣志(空心杯) / 江苏雷利</text>
+
+    <rect x="370" y="290" width="266" height="56" rx="8" fill="#F3ECFB" stroke="#7A52A8"/>
+    <text x="386" y="312" font-weight="600" fill="#4A2E6E">传感器</text>
+    <text x="386" y="330" fill="#4A2E6E">柯力(力矩) / 奥比中光(3D视觉)</text>
+
+    <text x="370" y="364" font-size="11.5" fill="#1F5E34">特点：内卷但弹性大，绑定大客户者确定性高</text>
+  </g>
+
+  <!-- bottom callout -->
+  <g>
+    <rect x="24" y="388" width="632" height="58" rx="10" fill="#FFF9F0" stroke="#E0962A" stroke-dasharray="5 4"/>
+    <text x="44" y="412" font-size="13" font-weight="600" fill="#9A5B00">⚡ 投资含义：A 股赚「零部件放量 + 国产替代」双击；整机在海外是期权性变量</text>
+    <text x="44" y="432" font-size="12" fill="#5A3A00">丝杠 / 减速器 = 价值量最高、壁垒最强、弹性最大 → 板块核心矛盾点</text>
+  </g>
+
+  <text x="24" y="456" font-size="10" fill="#999">注：份额为行业研究共识性估算，非精确市占。涨红跌绿为 A 股配色习惯。</text>
+</svg>
