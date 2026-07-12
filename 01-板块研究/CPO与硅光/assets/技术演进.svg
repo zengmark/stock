@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" font-family="-apple-system, PingFang SC, Microsoft YaHei, sans-serif">
+  <rect width="680" height="380" fill="#FBFBF9"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#2C2C2A">CPO 与硅光 · 技术演进（电退光进）</text>
+
+  <!-- 三阶段 -->
+  <g font-size="12">
+    <!-- 可插拔 -->
+    <rect x="24" y="70" width="190" height="150" rx="8" fill="#EAF1FB" stroke="#3B6FB5"/>
+    <text x="119" y="96" text-anchor="middle" font-weight="600" fill="#1F3A5F">① 可插拔光模块</text>
+    <text x="119" y="120" text-anchor="middle" fill="#1F3A5F">（now，主流 800G/1.6T）</text>
+    <text x="119" y="160" text-anchor="middle" fill="#1F3A5F">类比：员工桌上</text>
+    <text x="119" y="178" text-anchor="middle" fill="#1F3A5F">独立传真机</text>
+    <text x="119" y="206" text-anchor="middle" fill="#1F5E34">占空间·耗电·密度到顶</text>
+
+    <!-- 硅光 -->
+    <rect x="245" y="70" width="190" height="150" rx="8" fill="#FFF4E5" stroke="#E0962A"/>
+    <text x="340" y="96" text-anchor="middle" font-weight="600" fill="#9A5B00">② 硅光集成</text>
+    <text x="340" y="120" text-anchor="middle" fill="#9A5B00">（工艺路线）</text>
+    <text x="340" y="160" text-anchor="middle" fill="#9A5B00">类比：传真机做成</text>
+    <text x="340" y="178" text-anchor="middle" fill="#9A5B00">小芯片焊进桌里</text>
+    <text x="340" y="206" text-anchor="middle" fill="#1F5E34">降成本·可集成</text>
+
+    <!-- CPO -->
+    <rect x="466" y="70" width="190" height="150" rx="8" fill="#EAF7EE" stroke="#3C9D5B"/>
+    <text x="561" y="96" text-anchor="middle" font-weight="600" fill="#1F5E34">③ CPO 共封装</text>
+    <text x="561" y="120" text-anchor="middle" fill="#1F5E34">（next，机柜级光互联）</text>
+    <text x="561" y="160" text-anchor="middle" fill="#1F5E34">类比：光收发器直接</text>
+    <text x="561" y="178" text-anchor="middle" fill="#1F5E34">焊进办公桌(封装)</text>
+    <text x="561" y="206" text-anchor="middle" fill="#1F5E34">低功耗·高密度·低延迟</text>
+  </g>
+
+  <!-- 箭头 -->
+  <g stroke="#888" stroke-width="2.5" fill="none">
+    <path d="M216 145 H241"/>
+    <path d="M437 145 H461"/>
+  </g>
+
+  <!-- 时间线 -->
+  <g>
+    <rect x="24" y="248" width="632" height="100" rx="8" fill="#F3ECF8" stroke="#7A52A8"/>
+    <text x="40" y="274" font-size="13" font-weight="600" fill="#4A2E63">时间线（投资节奏）</text>
+    <text x="40" y="298" font-size="12" fill="#4A2E63">2024–2025：800G 量产、1.6T 导入；硅光渗透率提升</text>
+    <text x="40" y="318" font-size="12" fill="#4A2E63">2026–2027：1.6T 成主力，CPO 样机→量产（博通/英伟达/台积电）</text>
+    <text x="40" y="338" font-size="12" fill="#4A2E63">2028+：机柜级光互联（CPO+光引擎+交换芯片）成十万卡集群标配</text>
+  </g>
+</svg>

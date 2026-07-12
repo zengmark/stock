@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" font-family="-apple-system, PingFang SC, Microsoft YaHei, sans-serif">
+  <rect width="680" height="380" fill="#FBFBF9"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#2C2C2A">CPO 与硅光 · 市场格局（全球三极）</text>
+
+  <!-- 美 -->
+  <text x="24" y="58" font-size="13" font-weight="600" fill="#3B6FB5">美（底层布局）</text>
+  <g font-size="11.5">
+    <rect x="24" y="70" width="200" height="84" rx="6" fill="#EAF1FB" stroke="#3B6FB5"/>
+    <text x="36" y="90" fill="#1F3A5F">博通 AVGO（CPO/3.5D+交换）</text>
+    <text x="36" y="106" fill="#1F3A5F">Coherent（InP/VCSEL 衬底）</text>
+    <text x="36" y="122" fill="#1F3A5F">Lumentum（光器件/激光器）</text>
+    <text x="36" y="138" fill="#1F3A5F">Nvidia / Arista（系统生态）</text>
+    <text x="36" y="154" fill="#1F5E34">→ 规则制定者 + 确定性</text>
+  </g>
+
+  <!-- 中 A股 -->
+  <text x="240" y="58" font-size="13" font-weight="600" fill="#E0962A">中 · A股（制造放量）</text>
+  <g font-size="11.5">
+    <rect x="240" y="70" width="210" height="84" rx="6" fill="#FFF4E5" stroke="#E0962A"/>
+    <text x="252" y="90" fill="#9A5B00">中际旭创/新易盛（光模块双雄）</text>
+    <text x="252" y="106" fill="#9A5B00">天孚/太辰光（光器件耗材）</text>
+    <text x="252" y="122" fill="#9A5B00">源杰（激光器）/光迅（光芯片）</text>
+    <text x="252" y="138" fill="#9A5B00">盛科（交换芯片国产）</text>
+    <text x="252" y="154" fill="#1F5E34">→ 制造放量 + 弹性最强</text>
+  </g>
+
+  <!-- 台 -->
+  <text x="466" y="58" font-size="13" font-weight="600" fill="#7A52A8">台（封装 / 代工）</text>
+  <g font-size="11.5">
+    <rect x="466" y="70" width="190" height="84" rx="6" fill="#F3ECF8" stroke="#7A52A8"/>
+    <text x="478" y="90" fill="#4A2E63">台积电（CPO 先进封装）</text>
+    <text x="478" y="106" fill="#4A2E63">鸿海系（代工）</text>
+    <text x="478" y="122" fill="#4A2E63">供应链配套</text>
+    <text x="478" y="138" fill="#4A2E63">—</text>
+    <text x="478" y="154" fill="#4A2E63">→ 产业链配套</text>
+  </g>
+
+  <!-- 竞争态势 -->
+  <g>
+    <rect x="24" y="280" width="632" height="70" rx="8" fill="#FFF9F0" stroke="#E0962A"/>
+    <text x="40" y="306" font-size="13" font-weight="600" fill="#9A5B00">竞争态势</text>
+    <text x="40" y="328" font-size="12" fill="#5A3A00">光模块：中际旭创 + 新易盛「双雄」全球前二；光器件：天孚一家独大（确定性高）</text>
+    <text x="40" y="344" font-size="12" fill="#5A3A00">CPO 量产开关：博通/英伟达节奏 + 云厂商 capex；2026–2027 是关键窗口</text>
+  </g>
+</svg>
