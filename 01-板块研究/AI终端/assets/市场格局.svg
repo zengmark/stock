@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 480" font-family="-apple-system, PingFang SC, Microsoft YaHei, sans-serif">
+  <rect width="680" height="480" fill="#FBFBF9"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#2C2C2A">AI 终端市场格局——「分层」：SoC/整机标杆在美·港，国产替代在 A 股</text>
+
+  <!-- three segments header -->
+  <g font-size="13" font-weight="600">
+    <text x="119" y="62" text-anchor="middle" fill="#1F3A5F">① 端侧 SoC（含 NPU）</text>
+    <text x="340" y="62" text-anchor="middle" fill="#1F5E34">② CIS 与光学</text>
+    <text x="561" y="62" text-anchor="middle" fill="#8A2B2B">③ 整机</text>
+  </g>
+
+  <!-- ① 端侧 SoC -->
+  <g font-size="11.5">
+    <rect x="24" y="74" width="190" height="118" rx="8" fill="#FDECEC" stroke="#D9534F"/>
+    <text x="38" y="96" font-weight="600" fill="#8A2B2B">海外标杆（定义者）</text>
+    <text x="38" y="116" fill="#8A2B2B">高通 QCOM：安卓端侧</text>
+    <text x="38" y="131" fill="#8A2B2B">　AI 霸主（骁龙）</text>
+    <text x="38" y="151" fill="#8A2B2B">苹果 AAPL：自研</text>
+    <text x="38" y="166" fill="#8A2B2B">　闭环（A/M 系列）</text>
+    <text x="38" y="186" fill="#8A2B2B">壁垒最高、价值量最大</text>
+
+    <rect x="24" y="200" width="190" height="92" rx="8" fill="#FFF4E5" stroke="#E0962A"/>
+    <text x="38" y="222" font-weight="600" fill="#7A4B05">国产突破（细分领先）</text>
+    <text x="38" y="242" fill="#7A4B05">瑞芯微 / 全志 / 晶晨</text>
+    <text x="38" y="257" fill="#7A4B05">　（多媒体/AIoT SoC）</text>
+    <text x="38" y="277" fill="#7A4B05">恒玄（可穿戴 SoC）</text>
+  </g>
+
+  <!-- ② CIS 与光学 -->
+  <g font-size="11.5">
+    <rect x="245" y="74" width="190" height="118" rx="8" fill="#FDECEC" stroke="#D9534F"/>
+    <text x="259" y="96" font-weight="600" fill="#8A2B2B">全球领先（国产已具竞争力）</text>
+    <text x="259" y="116" fill="#8A2B2B">韦尔（豪威）：CIS</text>
+    <text x="259" y="131" fill="#8A2B2B">　全球前三</text>
+    <text x="259" y="151" fill="#8A2B2B">舜宇：镜头+模组</text>
+    <text x="259" y="166" fill="#8A2B2B">　全球第一</text>
+    <text x="259" y="186" fill="#8A2B2B">AI 手机规格升级最直接受益</text>
+
+    <rect x="245" y="200" width="190" height="92" rx="8" fill="#EAF7EE" stroke="#3C9D5B"/>
+    <text x="259" y="222" font-weight="600" fill="#1F5E34">高弹性环节</text>
+    <text x="259" y="242" fill="#1F5E34">丘钛（摄像头模组）</text>
+    <text x="259" y="257" fill="#1F5E34">水晶光电（滤光片）</text>
+  </g>
+
+  <!-- ③ 整机 -->
+  <g font-size="11.5">
+    <rect x="466" y="74" width="190" height="118" rx="8" fill="#FDECEC" stroke="#D9534F"/>
+    <text x="480" y="96" font-weight="600" fill="#8A2B2B">标杆（全球性装机）</text>
+    <text x="480" y="116" fill="#8A2B2B">苹果：Apple Intelligence</text>
+    <text x="480" y="131" fill="#8A2B2B">　全球装机最大端侧 AI</text>
+    <text x="480" y="151" fill="#8A2B2B">小米（港）：人车家</text>
+    <text x="480" y="166" fill="#8A2B2B">　全生态，港股最纯</text>
+    <text x="480" y="186" fill="#8A2B2B">　端侧整机标的</text>
+
+    <rect x="466" y="200" width="190" height="92" rx="8" fill="#E8F0FE" stroke="#3B6FB5"/>
+    <text x="480" y="222" font-weight="600" fill="#1F3A5F">代工平台</text>
+    <text x="480" y="242" fill="#1F3A5F">歌尔（A股）：AR-VR /</text>
+    <text x="480" y="257" fill="#1F3A5F">　可穿戴整机组装</text>
+    <text x="480" y="277" fill="#1F3A5F">比亚迪电子（港）：代工</text>
+  </g>
+
+  <!-- 国产替代进度 strip -->
+  <g>
+    <rect x="24" y="312" width="632" height="150" rx="10" fill="#F7F7F4" stroke="#CCC"/>
+    <text x="44" y="338" font-size="14" font-weight="600" fill="#2C2C2A">国产替代进度（投资视角：进度越靠后，弹性越大、确定性越低）</text>
+    <g font-size="12">
+      <rect x="44" y="352" width="180" height="44" rx="6" fill="#EAF7EE" stroke="#3C9D5B"/>
+      <text x="56" y="372" font-weight="600" fill="#1F5E34">成熟</text>
+      <text x="56" y="389" fill="#1F5E34">CIS（韦尔）、光学（舜宇）</text>
+      <text x="56" y="403" fill="#1F5E34">整机/代工（小米/歌尔）</text>
+
+      <rect x="238" y="352" width="180" height="44" rx="6" fill="#FFF4E5" stroke="#E0962A"/>
+      <text x="250" y="372" font-weight="600" fill="#7A4B05">突破中</text>
+      <text x="250" y="389" fill="#7A4B05">端侧 SoC（瑞芯微等）</text>
+      <text x="250" y="403" fill="#7A4B05">射频前端（卓胜微）</text>
+
+      <rect x="432" y="352" width="180" height="44" rx="6" fill="#FDECEC" stroke="#D9534F"/>
+      <text x="444" y="372" font-weight="600" fill="#8A2B2B">追赶高端</text>
+      <text x="444" y="389" fill="#8A2B2B">高端 SoC/NPU</text>
+      <text x="444" y="403" fill="#8A2B2B">仍看高通/苹果</text>
+    </g>
+    <text x="44" y="446" font-size="11.5" fill="#555">⚠️ 联想 AI PC 见「算力基础设施」；微软 Copilot+ PC / AMD Ryzen AI / 谷歌端侧 Gemini 见其他板块，本图不重复。</text>
+  </g>
+
+  <text x="24" y="476" font-size="10" fill="#999">注：市场份额为行业研究共识性估算，非精确比例。涨红跌绿为 A 股配色习惯。</text>
+</svg>

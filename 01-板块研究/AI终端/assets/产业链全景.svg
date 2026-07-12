@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 460" font-family="-apple-system, PingFang SC, Microsoft YaHei, sans-serif">
+  <rect width="680" height="460" fill="#FBFBF9"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#2C2C2A">AI 终端产业链全景（SoC/芯片 → 光学/模组 → 整机/代工）</text>
+
+  <!-- three stage boxes -->
+  <g font-size="13">
+    <rect x="24" y="56" width="190" height="74" rx="8" fill="#E8F0FE" stroke="#3B6FB5"/>
+    <text x="119" y="84" text-anchor="middle" font-weight="600" fill="#1F3A5F">上游 · SoC 与芯片</text>
+    <text x="119" y="104" text-anchor="middle" font-size="11" fill="#555">端侧 SoC/NPU</text>
+    <text x="119" y="120" text-anchor="middle" font-size="11" fill="#555">CIS / 射频前端</text>
+
+    <rect x="245" y="56" width="190" height="74" rx="8" fill="#E8F0FE" stroke="#3B6FB5"/>
+    <text x="340" y="84" text-anchor="middle" font-weight="600" fill="#1F3A5F">中游 · 光学与模组</text>
+    <text x="340" y="104" text-anchor="middle" font-size="11" fill="#555">镜头 / 摄像头模组</text>
+    <text x="340" y="120" text-anchor="middle" font-size="11" fill="#555">滤光片 / 光波导</text>
+
+    <rect x="466" y="56" width="190" height="74" rx="8" fill="#E8F0FE" stroke="#3B6FB5"/>
+    <text x="561" y="84" text-anchor="middle" font-weight="600" fill="#1F3A5F">下游 · 整机与代工</text>
+    <text x="561" y="104" text-anchor="middle" font-size="11" fill="#555">AI 手机 / PC</text>
+    <text x="561" y="120" text-anchor="middle" font-size="11" fill="#555">可穿戴 / AR-VR</text>
+  </g>
+
+  <g stroke="#888" stroke-width="2" fill="none">
+    <path d="M214 93 L243 93"/>
+    <path d="M435 93 L464 93"/>
+  </g>
+
+  <!-- A股 component label -->
+  <text x="24" y="166" font-size="13" font-weight="600" fill="#2C2C2A">A 股可投环节（SoC/CIS/光学/射频/代工，国产替代）</text>
+  <g font-size="12">
+    <rect x="24" y="178" width="153" height="48" rx="6" fill="#FFF4E5" stroke="#E0962A"/>
+    <text x="100" y="198" text-anchor="middle" font-weight="600" fill="#7A4B05">端侧 SoC</text>
+    <text x="100" y="215" text-anchor="middle" fill="#7A4B05">瑞芯微/全志</text>
+    <text x="100" y="230" text-anchor="middle" fill="#7A4B05">晶晨/恒玄</text>
+
+    <rect x="190" y="178" width="153" height="48" rx="6" fill="#EAF7EE" stroke="#3C9D5B"/>
+    <text x="266" y="198" text-anchor="middle" font-weight="600" fill="#1F5E34">CIS / 光学</text>
+    <text x="266" y="215" text-anchor="middle" fill="#1F5E34">韦尔（豪威）</text>
+    <text x="266" y="230" text-anchor="middle" fill="#1F5E34">水晶光电</text>
+
+    <rect x="356" y="178" width="153" height="48" rx="6" fill="#E8F0FE" stroke="#3B6FB5"/>
+    <text x="432" y="198" text-anchor="middle" font-weight="600" fill="#1F3A5F">射频 / 代工</text>
+    <text x="432" y="215" text-anchor="middle" fill="#1F3A5F">卓胜微（射频）</text>
+    <text x="432" y="230" text-anchor="middle" fill="#1F3A5F">歌尔（代工）</text>
+
+    <rect x="522" y="178" width="134" height="48" rx="6" fill="#F3ECFB" stroke="#7A52A8"/>
+    <text x="589" y="198" text-anchor="middle" font-weight="600" fill="#4A2E6E">整机（新兴市场）</text>
+    <text x="589" y="215" text-anchor="middle" fill="#4A2E6E">传音控股</text>
+    <text x="589" y="230" text-anchor="middle" fill="#4A2E6E">非洲/AI 手机</text>
+  </g>
+
+  <!-- 港美 core -->
+  <text x="24" y="262" font-size="13" font-weight="600" fill="#2C2C2A">港 / 美核心（SoC 标杆 / 整机 / 光学龙头）</text>
+  <g font-size="12">
+    <rect x="24" y="274" width="312" height="44" rx="6" fill="#FDECEC" stroke="#D9534F"/>
+    <text x="40" y="294" font-weight="600" fill="#8A2B2B">SoC 标杆：高通 QCOM / 苹果 AAPL（美）</text>
+    <text x="40" y="311" fill="#8A2B2B">自研 NPU，端侧 AI 算力定义者</text>
+
+    <rect x="352" y="274" width="304" height="44" rx="6" fill="#FDECEC" stroke="#D9534F"/>
+    <text x="368" y="294" font-weight="600" fill="#8A2B2B">整机/光学：小米 1810（港）/ 苹果（美）</text>
+    <text x="368" y="311" fill="#8A2B2B">舜宇 2382 / 丘钛 1478（港）· 比亚迪电子 0285（港）</text>
+  </g>
+
+  <!-- callout -->
+  <g>
+    <rect x="24" y="338" width="632" height="104" rx="10" fill="#FFF9F0" stroke="#E0962A" stroke-dasharray="5 4"/>
+    <text x="44" y="364" font-size="14" font-weight="600" fill="#9A5B00">⚡ 板块「分层」：SoC/整机标杆在美/港，A 股赚 SoC/CIS/光学/射频/代工放量 + 国产替代</text>
+    <text x="44" y="388" font-size="12.5" fill="#5A3A00">· 端侧 SoC（含 NPU）价值量最高、壁垒最强（确定性看高通/苹果，弹性看瑞芯微/恒玄）</text>
+    <text x="44" y="410" font-size="12.5" fill="#5A3A00">· CIS/光学受益 AI 手机规格升级（韦尔/舜宇/水晶光电），弹性大</text>
+    <text x="44" y="432" font-size="12.5" fill="#5A3A00">· 整机在港/美（小米/苹果），代工 A/港（歌尔/比亚迪电子），换机周期是需求牵引</text>
+  </g>
+
+  <text x="24" y="452" font-size="10" fill="#999">注：本图为环节结构示意，非规模比例。涨红跌绿为 A 股配色习惯。</text>
+</svg>
